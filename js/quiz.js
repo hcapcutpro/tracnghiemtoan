@@ -22,7 +22,10 @@ const subjectFileMap = {
 function selectSubject(subject) {
   window.subject = subject;
   if (subject && subjectFileMap[subject]) {
-    fetch("questions/" + subjectFileMap[subject])
+    fetch(
+      "https://raw.githubusercontent.com/hcapcutpro/tracnghiemtoan/refs/heads/main/questions/" +
+        subjectFileMap[subject]
+    )
       .then((res) => res.json())
       .then((data) => {
         currentQuiz = data;
