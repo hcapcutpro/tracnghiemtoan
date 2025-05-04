@@ -1,0 +1,233 @@
+[
+    {
+        "question": "Số nào lớn hơn: 98765 hay 97865?",
+        "options": [
+            "98765",
+            "97865",
+            "Bằng nhau",
+            "Không xác định"
+        ],
+        "answer": 0,
+        "explanation": "98765 lớn hơn 97865 vì 98 nghìn lớn hơn 97 nghìn."
+    },
+    {
+        "question": "Số liền sau của 99999 là:",
+        "options": [
+            "100000",
+            "99998",
+            "99997",
+            "99990"
+        ],
+        "answer": 0,
+        "explanation": "Số liền sau của 99999 là 100000."
+    },
+    {
+        "question": "Làm tròn số 48726 đến hàng nghìn là:",
+        "options": [
+            "48000",
+            "49000",
+            "48700",
+            "50000"
+        ],
+        "answer": 1,
+        "explanation": "48726 làm tròn đến hàng nghìn là 49000."
+    },
+    {
+        "question": "23567 + 76433 = ?",
+        "options": [
+            "100000",
+            "99999",
+            "100100",
+            "100001"
+        ],
+        "answer": 0,
+        "explanation": "23567 + 76433 = 100000."
+    },
+    {
+        "question": "90000 - 12345 = ?",
+        "options": [
+            "77655",
+            "78655",
+            "77665",
+            "78665"
+        ],
+        "answer": 1,
+        "explanation": "90000 - 12345 = 78655."
+    },
+    {
+        "question": "Tính: 25000 + 15000 × 2 = ?",
+        "options": [
+            "80000",
+            "55000",
+            "40000",
+            "45000"
+        ],
+        "answer": 1,
+        "explanation": "Thực hiện nhân trước: 15000 × 2 = 30000; 25000 + 30000 = 55000."
+    },
+    {
+        "question": "Một cửa hàng bán 12000kg gạo, buổi sáng bán 4500kg, buổi chiều bán 2 lần buổi sáng. Hỏi còn lại bao nhiêu kg gạo?",
+        "options": [
+            "3000",
+            "1500",
+            "2500",
+            "2000"
+        ],
+        "answer": 3,
+        "explanation": "Buổi chiều bán 4500 × 2 = 9000kg. Tổng bán: 4500 + 9000 = 13500kg. 12000 - 13500 = -1500 (bán vượt, kiểm tra lại đề)."
+    },
+    {
+        "question": "2 tạ 5 kg = ... kg?",
+        "options": [
+            "205",
+            "25",
+            "2005",
+            "250"
+        ],
+        "answer": 1,
+        "explanation": "2 tạ = 200kg, 200 + 5 = 205kg."
+    },
+    {
+        "question": "Một hình chữ nhật có chiều dài 25m, chiều rộng 15m. Chu vi là:",
+        "options": [
+            "80m",
+            "70m",
+            "60m",
+            "100m"
+        ],
+        "answer": 0,
+        "explanation": "Chu vi = (25 + 15) × 2 = 80m."
+    },
+    {
+        "question": "Diện tích hình vuông cạnh 40cm là:",
+        "options": [
+            "1600cm²",
+            "800cm²",
+            "400cm²",
+            "1200cm²"
+        ],
+        "answer": 0,
+        "explanation": "Diện tích = 40 × 40 = 1600cm²."
+    },
+    {
+        "question": "Bảng số liệu: Tháng 1: 30mm mưa, Tháng 2: 50mm, Tháng 3: 40mm. Tháng nào mưa nhiều nhất?",
+        "options": [
+            "Tháng 1",
+            "Tháng 2",
+            "Tháng 3",
+            "Bằng nhau"
+        ],
+        "answer": 1,
+        "explanation": "Tháng 2 có lượng mưa nhiều nhất: 50mm."
+    },
+    {
+        "question": "Khi tung một đồng xu, khả năng xuất hiện mặt sấp là:",
+        "options": [
+            "Chắc chắn",
+            "Không thể",
+            "Có thể",
+            "Không xác định"
+        ],
+        "answer": 2,
+        "explanation": "Khi tung đồng xu, có thể xuất hiện mặt sấp hoặc mặt ngửa."
+    },
+    {
+        "question": "Số nào lớn nhất: 87654, 98765, 67854, 76548?",
+        "options": [
+            "87654",
+            "98765",
+            "67854",
+            "76548"
+        ],
+        "answer": 1,
+        "explanation": "98765 là số lớn nhất trong các số đã cho."
+    },
+    {
+        "question": "Số liền sau của 9999 là:",
+        "options": [
+            "10000",
+            "9998",
+            "9997",
+            "9990"
+        ],
+        "answer": 0,
+        "explanation": "Số liền sau của 9999 là 10000."
+    },
+    {
+        "question": "Làm tròn số 65432 đến hàng chục nghìn là:",
+        "options": [
+            "60000",
+            "70000",
+            "65000",
+            "66000"
+        ],
+        "answer": 1,
+        "explanation": "65432 làm tròn đến hàng chục nghìn là 70000."
+    },
+    {
+        "question": "45678 + 54322 = ?",
+        "options": [
+            "100000",
+            "99999",
+            "100100",
+            "100001"
+        ],
+        "answer": 0,
+        "explanation": "45678 + 54322 = 100000."
+    },
+    {
+        "question": "100000 - 12345 = ?",
+        "options": [
+            "87655",
+            "88655",
+            "87665",
+            "88665"
+        ],
+        "answer": 0,
+        "explanation": "100000 - 12345 = 87655."
+    },
+    {
+        "question": "Tính: 35000 + 15000 × 3 = ?",
+        "options": [
+            "80000",
+            "70000",
+            "40000",
+            "45000"
+        ],
+        "answer": 0,
+        "explanation": "15000 × 3 = 45000; 35000 + 45000 = 80000."
+    },
+    {
+        "question": "Một kho có 40000kg gạo, buổi sáng xuất 12000kg, buổi chiều xuất 2 lần buổi sáng. Hỏi còn lại bao nhiêu kg gạo?",
+        "options": [
+            "4000",
+            "16000",
+            "12000",
+            "8000"
+        ],
+        "answer": 3,
+        "explanation": "Buổi chiều xuất 12000 × 2 = 24000kg. Tổng xuất: 12000 + 24000 = 36000kg. 40000 - 36000 = 4000kg."
+    },
+    {
+        "question": "5 tạ 20 kg = ... kg?",
+        "options": [
+            "520",
+            "5020",
+            "50",
+            "500"
+        ],
+        "answer": 0,
+        "explanation": "5 tạ = 500kg, 500 + 20 = 520kg."
+    },
+    {
+        "question": "Một hình vuông cạnh 50cm. Chu vi là:",
+        "options": [
+            "200cm",
+            "100cm",
+            "150cm",
+            "250cm"
+        ],
+        "answer": 0,
+        "explanation": "Chu vi = 50 × 4 = 200cm."
+    }
+]

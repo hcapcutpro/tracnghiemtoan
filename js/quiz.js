@@ -9,24 +9,41 @@ let quizSubmitted = false;
 let countdown = null;
 let countdownSeconds = 0;
 
+const subjectFileMap = {
+  toan_cb: "questions_toan_cb.json",
+  toan_nc: "questions_toan_nc.json",
+  tinhoc: "questions_tinhoc.json",
+  congnghe: "questions_congnghe.json",
+  daoduc: "questions_daoduc.json",
+  tienganh: "questions_tienganh.json",
+  tonghop: "questions_tonghop.json",
+};
+
 function selectSubject(subject) {
-  // Xử lý chọn môn học với biến subject
-  // Ví dụ:
-  // currentSubject = subject;
-  // Hiển thị quiz-container, ẩn giao diện chọn môn, v.v.
-  window.subject = subject; // Lưu lại môn hiện tại để dùng ở các nơi khác
-  if (subject && questions[subject]) {
-    currentQuiz = questions[subject];
-    currentIndex = 0;
-    answers = Array(currentQuiz.length).fill(null);
-    quizSubmitted = false;
-    document.getElementById("quiz-container").classList.remove("hidden");
-    document.getElementById("result").classList.add("hidden");
-    document.getElementById("subject-selection-grid").classList.add("hidden");
-    document.getElementById("total-questions").textContent = currentQuiz.length;
-    document.getElementById("submit-btn").classList.add("hidden");
-    startTimer();
-    showQuestion();
+  window.subject = subject;
+  if (subject && subjectFileMap[subject]) {
+    fetch("questions/" + subjectFileMap[subject])
+      .then((res) => res.json())
+      .then((data) => {
+        currentQuiz = data;
+        currentIndex = 0;
+        answers = Array(currentQuiz.length).fill(null);
+        quizSubmitted = false;
+        document.getElementById("quiz-container").classList.remove("hidden");
+        document.getElementById("result").classList.add("hidden");
+        document
+          .getElementById("subject-selection-grid")
+          .classList.add("hidden");
+        document.getElementById("total-questions").textContent =
+          currentQuiz.length;
+        document.getElementById("submit-btn").classList.add("hidden");
+        startTimer();
+        showQuestion();
+      })
+      .catch((err) => {
+        alert("Không thể tải dữ liệu câu hỏi cho môn này!");
+        console.error(err);
+      });
   }
 }
 
@@ -46,8 +63,10 @@ function showQuestion() {
     if (answers[currentIndex] !== null) {
       // Đã trả lời
       if (idx === q.answer) option.classList.add("correct");
+
       if (answers[currentIndex] === idx && answers[currentIndex] !== q.answer)
         option.classList.add("incorrect");
+
       option.classList.add("disabled");
     } else {
       option.onclick = () => selectOption(idx);
@@ -55,7 +74,6 @@ function showQuestion() {
     optionsDiv.appendChild(option);
   });
 
-  // Hiện thông báo đúng/sai nếu đã trả lời
   const feedback = document.getElementById("feedback");
   if (!feedback) {
     const fb = document.createElement("div");
@@ -77,7 +95,6 @@ function showQuestion() {
   document.getElementById("next-btn").classList.remove("hidden");
   document.getElementById("submit-btn").classList.add("hidden");
 
-  // Nếu là câu cuối cùng và đã trả lời hết thì hiện nút Xác nhận
   if (currentIndex === currentQuiz.length - 1) {
     const allAnswered = answers.every((a) => a !== null);
     if (allAnswered && !quizSubmitted) {
@@ -88,7 +105,8 @@ function showQuestion() {
 }
 
 function selectOption(index) {
-  if (answers[currentIndex] !== null) return; // Không cho chọn lại
+  if (answers[currentIndex] !== null) return;
+
   answers[currentIndex] = index;
   answered = true;
   showQuestion();
@@ -127,7 +145,6 @@ function nextQuestion() {
 }
 
 function submitQuiz() {
-  console.log("Submit button clicked");
   quizSubmitted = true;
   showResult();
 }
@@ -174,7 +191,6 @@ function updateCountdown() {
 }
 
 function showResult() {
-  console.log("Starting showResult function");
   clearInterval(timerInterval);
   const correct = answers.filter(
     (ans, idx) => ans === currentQuiz[idx].answer
@@ -184,32 +200,18 @@ function showResult() {
   const seconds = timeDiff % 60;
   const percentage = (correct / currentQuiz.length) * 100;
 
-  console.log("Quiz results:", {
-    correct,
-    total: currentQuiz.length,
-    percentage,
-    time: `${minutes}:${seconds}`,
-  });
-
   // Hide quiz container and show result
   const quizContainer = document.getElementById("quiz-container");
   const resultDiv = document.getElementById("result");
 
-  console.log("Elements before update:", {
-    quizContainer: quizContainer ? "found" : "not found",
-    resultDiv: resultDiv ? "found" : "not found",
-  });
-
   // Đảm bảo quiz container được ẩn
   if (quizContainer) {
     quizContainer.classList.add("hidden");
-    console.log("Quiz container hidden");
   }
 
   // Đảm bảo result div được hiển thị
   if (resultDiv) {
     resultDiv.classList.remove("hidden");
-    console.log("Result div shown");
   }
 
   // Update result values
@@ -237,14 +239,10 @@ function showResult() {
       "📚 Em đã cố gắng rồi! Hãy xem lại các câu sai và luyện tập thêm nhé! Thầy/cô tin em sẽ làm tốt hơn!";
   }
 
-  console.log("Feedback to be displayed:", feedback);
-
   // Thêm phần đánh giá khích lệ vào kết quả
   let feedbackElement = document.querySelector(".feedback");
-  console.log("Feedback element:", feedbackElement ? "found" : "not found");
 
   if (!feedbackElement) {
-    console.log("Creating new feedback element");
     feedbackElement = document.createElement("p");
     feedbackElement.className = "feedback";
     resultDiv.insertBefore(
@@ -256,13 +254,9 @@ function showResult() {
 
   // Hiển thị giải thích cho từng câu
   const explanationsDiv = document.getElementById("explanations");
-  console.log("Explanations div:", explanationsDiv ? "found" : "not found");
 
   explanationsDiv.innerHTML = "<h3>Giải thích từng câu:</h3>";
-  console.log(currentQuiz);
   currentQuiz.forEach((q, idx) => {
-    console.log(q);
-
     let userAns = answers[idx];
     let correct = userAns === q.answer;
     let explain = q.explanation
@@ -278,14 +272,6 @@ function showResult() {
         <span style='color:#4a90e2'>Đáp án đúng: ${q.options[q.answer]}</span>
         ${explain}
       </div>`;
-  });
-
-  console.log("Result display completed");
-  console.log("Elements state:", {
-    quizContainer: quizContainer
-      ? quizContainer.classList.toString()
-      : "not found",
-    resultDiv: resultDiv ? resultDiv.classList.toString() : "not found",
   });
 }
 
