@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ôn tập kiến thức lớp 3</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Ôn tập kiến thức lớp 3</h1>
+      </header>
+
+      <main>
+        <div id="subject-selection-grid" class="subject-selection-grid">
+          <h2>Chọn môn học:</h2>
+          <div class="subjects-grid">
+            <button
+              class="subject-card toan_cb"
+              onclick="selectSubject('toan_cb')"
+            >
+              📐<br />Toán (Cơ bản)
+            </button>
+            <button
+              class="subject-card toan_nc"
+              onclick="selectSubject('toan_nc')"
+            >
+              🧮<br />Toán (Nâng cao)
+            </button>
+            <button
+              class="subject-card tinhoc"
+              onclick="selectSubject('tinhoc')"
+            >
+              💻<br />Tin học
+            </button>
+            <button
+              class="subject-card congnghe"
+              onclick="selectSubject('congnghe')"
+            >
+              🛠️<br />Công nghệ
+            </button>
+            <button
+              class="subject-card daoduc"
+              onclick="selectSubject('daoduc')"
+            >
+              ❤️<br />Đạo đức
+            </button>
+            <button
+              class="subject-card tienganh"
+              onclick="selectSubject('tienganh')"
+            >
+              🇬🇧<br />Tiếng Anh
+            </button>
+            <button
+              class="subject-card tonghop"
+              onclick="selectSubject('tonghop')"
+            >
+              📚<br />Tổng hợp
+            </button>
+          </div>
+        </div>
+
+        <div id="quiz-container" class="hidden">
+          <div class="quiz-header">
+            <div class="progress">
+              Câu <span id="current-question">1</span>/<span
+                id="total-questions"
+                >30</span
+              >
+            </div>
+            <div class="timer" id="timer">30:00</div>
+          </div>
+
+          <div class="question-container">
+            <h2 id="question-text"></h2>
+            <div id="options" class="options"></div>
+          </div>
+
+          <div class="navigation">
+            <button id="prev-btn" onclick="prevQuestion()">Câu trước</button>
+            <button id="next-btn" onclick="nextQuestion()">Câu tiếp</button>
+            <button id="submit-btn" class="hidden" onclick="submitQuiz()">
+              Xác nhận
+            </button>
+            <button id="cancel-btn" onclick="backToHome()">Huỷ làm bài</button>
+          </div>
+        </div>
+        <div id="result" class="result hidden">
+          <h2>Kết quả</h2>
+          <p>
+            Số câu đúng: <span id="correct-answers">0</span>/<span
+              id="total-questions-result"
+              >0</span
+            >
+          </p>
+          <p>Tỷ lệ đúng: <span id="percentage">0</span>%</p>
+          <p>Thời gian làm bài: <span id="time-taken">00:00</span></p>
+          <p class="feedback"></p>
+          <div id="explanations"></div>
+          <button onclick="resetQuiz()">Làm lại</button>
+          <button onclick="backToHome()">Quay lại chọn môn</button>
+        </div>
+      </main>
+    </div>
+    <script src="js/quiz.js"></script>
+    <script src="js/questions.js"></script>
+  </body>
+</html>
