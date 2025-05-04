@@ -277,7 +277,6 @@ function showResult() {
         </span><br>
         <span style='color:#4a90e2'>Đáp án đúng: ${q.options[q.answer]}</span>
         ${explain}
-        ${autoExplain}
       </div>`;
   });
 
