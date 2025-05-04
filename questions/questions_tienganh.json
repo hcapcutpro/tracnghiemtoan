@@ -1,91 +1,25 @@
 [
     {
-        "question": "What is the English word for 'con mèo'?",
+        "question": "What is the English word for 'con chó'?",
         "options": [
-            "Cat",
             "Dog",
+            "Cat",
             "Bird",
             "Fish"
         ],
         "answer": 0,
-        "explanation": "Từ tiếng Anh của 'con mèo' là 'cat'. Đây là một con vật nuôi phổ biến ở nông thôn, thường bắt chuột và sống gần nhà. Các từ khác là: 'dog' (con chó), 'bird' (con chim), 'fish' (con cá)."
+        "explanation": "'Dog' nghĩa là con chó. Các đáp án khác: Cat (con mèo), Bird (con chim), Fish (con cá)."
     },
     {
-        "question": "What is the English word for 'quả táo'?",
-        "options": [
-            "Apple",
-            "Orange",
-            "Banana",
-            "Mango"
-        ],
-        "answer": 0,
-        "explanation": "Từ tiếng Anh của 'quả táo' là 'apple'. Táo là một loại trái cây ngon, có màu đỏ hoặc xanh. Các từ khác là: 'orange' (quả cam), 'banana' (quả chuối), 'mango' (quả xoài)."
-    },
-    {
-        "question": "What is the English word for 'màu đỏ'?",
-        "options": [
-            "Red",
-            "Blue",
-            "Green",
-            "Yellow"
-        ],
-        "answer": 0,
-        "explanation": "Từ tiếng Anh của 'màu đỏ' là 'red'. Màu đỏ là màu của lá cờ Tổ quốc, màu của hoa phượng và màu của quả ớt. Các màu khác là: 'blue' (màu xanh dương), 'green' (màu xanh lá), 'yellow' (màu vàng)."
-    },
-    {
-        "question": "What is the English word for 'số một'?",
-        "options": [
-            "One",
-            "Two",
-            "Three",
-            "Four"
-        ],
-        "answer": 0,
-        "explanation": "Từ tiếng Anh của 'số một' là 'one'. Số một là số đầu tiên trong dãy số tự nhiên. Các số khác là: 'two' (số hai), 'three' (số ba), 'four' (số bốn)."
-    },
-    {
-        "question": "What is the English word for 'bạn'?",
-        "options": [
-            "Friend",
-            "Teacher",
-            "Student",
-            "Parent"
-        ],
-        "answer": 0,
-        "explanation": "Từ tiếng Anh của 'bạn' là 'friend'. Bạn là người cùng chơi, cùng học và giúp đỡ nhau. Các từ khác là: 'teacher' (cô giáo/thầy giáo), 'student' (học sinh), 'parent' (bố mẹ)."
-    },
-    {
-        "question": "What is the English word for 'trường học'?",
-        "options": [
-            "School",
-            "Hospital",
-            "Park",
-            "Market"
-        ],
-        "answer": 0,
-        "explanation": "Từ tiếng Anh của 'trường học' là 'school'. Trường học là nơi các em đến học tập mỗi ngày, gặp gỡ bạn bè và thầy cô. Các từ khác là: 'hospital' (bệnh viện), 'park' (công viên), 'market' (chợ)."
-    },
-    {
-        "question": "What is the English word for 'sách'?",
+        "question": "What is the English word for 'quyển sách'?",
         "options": [
             "Book",
             "Pen",
             "Pencil",
-            "Eraser"
+            "Bag"
         ],
         "answer": 0,
-        "explanation": "Từ tiếng Anh của 'sách' là 'book'. Sách là người bạn tốt, giúp các em học được nhiều điều hay. Các từ khác là: 'pen' (bút mực), 'pencil' (bút chì), 'eraser' (cục tẩy)."
-    },
-    {
-        "question": "What is the English word for 'bút'?",
-        "options": [
-            "Pen",
-            "Book",
-            "Pencil",
-            "Ruler"
-        ],
-        "answer": 0,
-        "explanation": "Từ tiếng Anh của 'bút' là 'pen'. Bút là dụng cụ học tập quan trọng để viết bài. Các từ khác là: 'book' (sách), 'pencil' (bút chì), 'ruler' (thước kẻ)."
+        "explanation": "'Book' nghĩa là quyển sách. Pen: bút mực, Pencil: bút chì, Bag: cặp sách."
     },
     {
         "question": "What is the English word for 'bàn'?",
@@ -96,10 +30,109 @@
             "Shelf"
         ],
         "answer": 0,
-        "explanation": "Từ tiếng Anh của 'bàn' là 'table'. Bàn là nơi các em ngồi học bài và ăn cơm. Các từ khác là: 'chair' (ghế), 'desk' (bàn học), 'shelf' (kệ sách)."
+        "explanation": "'Table' nghĩa là bàn. Chair: ghế, Desk: bàn học, Shelf: kệ sách."
     },
     {
-        "question": "What is the English word for 'ghế'?",
+        "question": "What is the English word for 'cửa sổ'?",
+        "options": [
+            "Window",
+            "Door",
+            "Wall",
+            "Roof"
+        ],
+        "answer": 0,
+        "explanation": "'Window' nghĩa là cửa sổ. Door: cửa ra vào, Wall: tường, Roof: mái nhà."
+    },
+    {
+        "question": "What is the English word for 'bút chì'?",
+        "options": [
+            "Pencil",
+            "Pen",
+            "Book",
+            "Ruler"
+        ],
+        "answer": 0,
+        "explanation": "'Pencil' nghĩa là bút chì. Pen: bút mực, Book: sách, Ruler: thước kẻ."
+    },
+    {
+        "question": "What is the English word for 'màu xanh lá'?",
+        "options": [
+            "Green",
+            "Red",
+            "Blue",
+            "Yellow"
+        ],
+        "answer": 0,
+        "explanation": "'Green' nghĩa là màu xanh lá. Red: đỏ, Blue: xanh dương, Yellow: vàng."
+    },
+    {
+        "question": "What is the English word for 'màu vàng'?",
+        "options": [
+            "Yellow",
+            "Green",
+            "Red",
+            "Blue"
+        ],
+        "answer": 0,
+        "explanation": "'Yellow' nghĩa là màu vàng. Green: xanh lá, Red: đỏ, Blue: xanh dương."
+    },
+    {
+        "question": "What is the English word for 'con mèo'?",
+        "options": [
+            "Cat",
+            "Dog",
+            "Bird",
+            "Fish"
+        ],
+        "answer": 0,
+        "explanation": "'Cat' nghĩa là con mèo. Dog: con chó, Bird: con chim, Fish: con cá."
+    },
+    {
+        "question": "What is the English word for 'bông hoa'?",
+        "options": [
+            "Flower",
+            "Tree",
+            "Grass",
+            "Leaf"
+        ],
+        "answer": 0,
+        "explanation": "'Flower' nghĩa là bông hoa. Tree: cây, Grass: cỏ, Leaf: lá."
+    },
+    {
+        "question": "What is the English word for 'quả chuối'?",
+        "options": [
+            "Banana",
+            "Apple",
+            "Orange",
+            "Mango"
+        ],
+        "answer": 0,
+        "explanation": "'Banana' nghĩa là quả chuối. Apple: táo, Orange: cam, Mango: xoài."
+    },
+    {
+        "question": "What is the English word for 'quả cam'?",
+        "options": [
+            "Orange",
+            "Banana",
+            "Apple",
+            "Mango"
+        ],
+        "answer": 0,
+        "explanation": "'Orange' nghĩa là quả cam. Banana: chuối, Apple: táo, Mango: xoài."
+    },
+    {
+        "question": "What is the English word for 'quả táo'?",
+        "options": [
+            "Apple",
+            "Banana",
+            "Orange",
+            "Mango"
+        ],
+        "answer": 0,
+        "explanation": "'Apple' nghĩa là quả táo. Banana: chuối, Orange: cam, Mango: xoài."
+    },
+    {
+        "question": "What is the English word for 'cái ghế'?",
         "options": [
             "Chair",
             "Table",
@@ -107,29 +140,73 @@
             "Shelf"
         ],
         "answer": 0,
-        "explanation": "Từ tiếng Anh của 'ghế' là 'chair'. Ghế là nơi các em ngồi khi học bài hoặc ăn cơm. Các từ khác là: 'table' (bàn), 'desk' (bàn học), 'shelf' (kệ sách)."
+        "explanation": "'Chair' nghĩa là cái ghế. Table: bàn, Desk: bàn học, Shelf: kệ sách."
     },
     {
-        "question": "What is the English word for 'con gà'?",
+        "question": "What is the English word for 'cái thước'?",
         "options": [
-            "Chicken",
-            "Duck",
-            "Pig",
-            "Cow"
+            "Ruler",
+            "Pen",
+            "Pencil",
+            "Book"
         ],
         "answer": 0,
-        "explanation": "Từ tiếng Anh của 'con gà' là 'chicken'. Gà là con vật nuôi quen thuộc ở nông thôn, cho trứng và thịt. Các từ khác là: 'duck' (con vịt), 'pig' (con lợn), 'cow' (con bò)."
+        "explanation": "'Ruler' nghĩa là cái thước. Pen: bút mực, Pencil: bút chì, Book: sách."
     },
     {
-        "question": "What is the English word for 'cái cây'?",
+        "question": "What is the English word for 'cái cặp'?",
         "options": [
-            "Tree",
-            "Flower",
-            "Grass",
-            "Leaf"
+            "Bag",
+            "Book",
+            "Pen",
+            "Desk"
         ],
         "answer": 0,
-        "explanation": "Từ tiếng Anh của 'cái cây' là 'tree'. Cây xanh giúp cho không khí trong lành và cho bóng mát. Các từ khác là: 'flower' (bông hoa), 'grass' (cỏ), 'leaf' (lá cây)."
+        "explanation": "'Bag' nghĩa là cái cặp. Book: sách, Pen: bút mực, Desk: bàn học."
+    },
+    {
+        "question": "What is the English word for 'cái đèn'?",
+        "options": [
+            "Lamp",
+            "Table",
+            "Chair",
+            "Shelf"
+        ],
+        "answer": 0,
+        "explanation": "'Lamp' nghĩa là cái đèn. Table: bàn, Chair: ghế, Shelf: kệ sách."
+    },
+    {
+        "question": "What is the English word for 'cái giường'?",
+        "options": [
+            "Bed",
+            "Desk",
+            "Chair",
+            "Table"
+        ],
+        "answer": 0,
+        "explanation": "'Bed' nghĩa là cái giường. Desk: bàn có ngăn kéo, Chair: ghế, Table: bàn."
+    },
+    {
+        "question": "What is the English word for 'cửa ra vào'?",
+        "options": [
+            "Door",
+            "Window",
+            "Wall",
+            "Roof"
+        ],
+        "answer": 0,
+        "explanation": "'Door' nghĩa là cửa ra vào. Window: cửa sổ, Wall: tường, Roof: mái nhà."
+    },
+    {
+        "question": "What is the English word for 'bức tường'?",
+        "options": [
+            "Wall",
+            "Roof",
+            "Door",
+            "Window"
+        ],
+        "answer": 0,
+        "explanation": "'Wall' nghĩa là bức tường. Roof: mái nhà, Door: cửa ra vào, Window: cửa sổ."
     },
     {
         "question": "What is the English word for 'mặt trời'?",
@@ -140,28 +217,1062 @@
             "Cloud"
         ],
         "answer": 0,
-        "explanation": "Từ tiếng Anh của 'mặt trời' là 'sun'. Mặt trời chiếu sáng và sưởi ấm cho chúng ta mỗi ngày. Các từ khác là: 'moon' (mặt trăng), 'star' (ngôi sao), 'cloud' (đám mây)."
+        "explanation": "'Sun' nghĩa là mặt trời. Moon: mặt trăng, Star: ngôi sao, Cloud: đám mây."
     },
     {
-        "question": "What is the English word for 'con đường'?",
+        "question": "What is the English word for 'mặt trăng'?",
         "options": [
-            "Road",
-            "Street",
-            "Path",
-            "Way"
+            "Moon",
+            "Sun",
+            "Star",
+            "Cloud"
         ],
         "answer": 0,
-        "explanation": "Từ tiếng Anh của 'con đường' là 'road'. Con đường là nơi mọi người đi lại, xe cộ di chuyển. Các từ khác là: 'street' (phố), 'path' (lối đi), 'way' (đường đi)."
+        "explanation": "'Moon' nghĩa là mặt trăng. Sun: mặt trời, Star: ngôi sao, Cloud: đám mây."
     },
     {
-        "question": "What is the English word for 'ngôi nhà'?",
+        "question": "What is the English word for 'ngôi sao'?",
         "options": [
-            "House",
-            "School",
-            "Shop",
-            "Farm"
+            "Star",
+            "Sun",
+            "Moon",
+            "Cloud"
         ],
         "answer": 0,
-        "explanation": "Từ tiếng Anh của 'ngôi nhà' là 'house'. Ngôi nhà là nơi các em sống cùng gia đình. Các từ khác là: 'school' (trường học), 'shop' (cửa hàng), 'farm' (nông trại)."
+        "explanation": "'Star' nghĩa là ngôi sao. Sun: mặt trời, Moon: mặt trăng, Cloud: đám mây."
+    },
+    {
+        "question": "What is the English word for 'đám mây'?",
+        "options": [
+            "Cloud",
+            "Sun",
+            "Moon",
+            "Star"
+        ],
+        "answer": 0,
+        "explanation": "'Cloud' nghĩa là đám mây. Sun: mặt trời, Moon: mặt trăng, Star: ngôi sao."
+    },
+    {
+        "question": "What is the English word for 'con cá'?",
+        "options": [
+            "Fish",
+            "Dog",
+            "Cat",
+            "Bird"
+        ],
+        "answer": 0,
+        "explanation": "'Fish' nghĩa là con cá. Dog: con chó, Cat: con mèo, Bird: con chim."
+    },
+    {
+        "question": "What is the English word for 'con chim'?",
+        "options": [
+            "Bird",
+            "Dog",
+            "Cat",
+            "Fish"
+        ],
+        "answer": 0,
+        "explanation": "'Bird' nghĩa là con chim. Dog: con chó, Cat: con mèo, Fish: con cá."
+    },
+    {
+        "question": "What is the English word for 'con vịt'?",
+        "options": [
+            "Duck",
+            "Chicken",
+            "Pig",
+            "Cow"
+        ],
+        "answer": 0,
+        "explanation": "'Duck' nghĩa là con vịt. Chicken: con gà, Pig: con lợn, Cow: con bò."
+    },
+    {
+        "question": "What is the English word for 'con gà'?",
+        "options": [
+            "Chicken",
+            "Duck",
+            "Pig",
+            "Cow"
+        ],
+        "answer": 0,
+        "explanation": "'Chicken' nghĩa là con gà. Duck: con vịt, Pig: con lợn, Cow: con bò."
+    },
+    {
+        "question": "What is the English word for 'con lợn'?",
+        "options": [
+            "Pig",
+            "Duck",
+            "Chicken",
+            "Cow"
+        ],
+        "answer": 0,
+        "explanation": "'Pig' nghĩa là con lợn. Duck: con vịt, Chicken: con gà, Cow: con bò."
+    },
+    {
+        "question": "What is the English word for 'con bò'?",
+        "options": [
+            "Cow",
+            "Duck",
+            "Chicken",
+            "Pig"
+        ],
+        "answer": 0,
+        "explanation": "'Cow' nghĩa là con bò. Duck: con vịt, Chicken: con gà, Pig: con lợn."
+    },
+    {
+        "question": "What is the English word for 'con thỏ'?",
+        "options": [
+            "Rabbit",
+            "Dog",
+            "Cat",
+            "Fish"
+        ],
+        "answer": 0,
+        "explanation": "'Rabbit' nghĩa là con thỏ. Dog: con chó, Cat: con mèo, Fish: con cá."
+    },
+    {
+        "question": "What is the English word for 'con vẹt'?",
+        "options": [
+            "Parrot",
+            "Dog",
+            "Cat",
+            "Fish"
+        ],
+        "answer": 0,
+        "explanation": "'Parrot' nghĩa là con vẹt. Dog: con chó, Cat: con mèo, Fish: con cá."
+    },
+    {
+        "question": "What is the English word for 'cá vàng'?",
+        "options": [
+            "Goldfish",
+            "Dog",
+            "Cat",
+            "Fish"
+        ],
+        "answer": 0,
+        "explanation": "'Goldfish' nghĩa là cá vàng. Dog: con chó, Cat: con mèo, Fish: con cá."
+    },
+    {
+        "question": "What is the English word for 'trứng'?",
+        "options": [
+            "Egg",
+            "Milk",
+            "Juice",
+            "Rice"
+        ],
+        "answer": 0,
+        "explanation": "'Egg' nghĩa là trứng. Milk: sữa, Juice: nước ép, Rice: cơm."
+    },
+    {
+        "question": "What is the English word for 'sữa'?",
+        "options": [
+            "Milk",
+            "Egg",
+            "Juice",
+            "Rice"
+        ],
+        "answer": 0,
+        "explanation": "'Milk' nghĩa là sữa. Egg: trứng, Juice: nước ép, Rice: cơm."
+    },
+    {
+        "question": "What is the English word for 'nước ép'?",
+        "options": [
+            "Juice",
+            "Milk",
+            "Egg",
+            "Rice"
+        ],
+        "answer": 0,
+        "explanation": "'Juice' nghĩa là nước ép. Milk: sữa, Egg: trứng, Rice: cơm."
+    },
+    {
+        "question": "What is the English word for 'cơm'?",
+        "options": [
+            "Rice",
+            "Milk",
+            "Egg",
+            "Juice"
+        ],
+        "answer": 0,
+        "explanation": "'Rice' nghĩa là cơm. Milk: sữa, Egg: trứng, Juice: nước ép."
+    },
+    {
+        "question": "What is the English word for 'thịt'?",
+        "options": [
+            "Meat",
+            "Fish",
+            "Egg",
+            "Rice"
+        ],
+        "answer": 0,
+        "explanation": "'Meat' nghĩa là thịt. Fish: cá, Egg: trứng, Rice: cơm."
+    },
+    {
+        "question": "What is the English word for 'đậu'?",
+        "options": [
+            "Beans",
+            "Meat",
+            "Fish",
+            "Egg"
+        ],
+        "answer": 0,
+        "explanation": "'Beans' nghĩa là đậu. Meat: thịt, Fish: cá, Egg: trứng."
+    },
+    {
+        "question": "What is the English word for 'bánh mì'?",
+        "options": [
+            "Bread",
+            "Rice",
+            "Meat",
+            "Egg"
+        ],
+        "answer": 0,
+        "explanation": "'Bread' nghĩa là bánh mì. Rice: cơm, Meat: thịt, Egg: trứng."
+    },
+    {
+        "question": "What is the English word for 'nước'?",
+        "options": [
+            "Water",
+            "Juice",
+            "Milk",
+            "Egg"
+        ],
+        "answer": 0,
+        "explanation": "'Water' nghĩa là nước. Juice: nước ép, Milk: sữa, Egg: trứng."
+    },
+    {
+        "question": "What is the English word for 'ăn'?",
+        "options": [
+            "Eat",
+            "Drink",
+            "Cook",
+            "Play"
+        ],
+        "answer": 0,
+        "explanation": "'Eat' nghĩa là ăn. Drink: uống, Cook: nấu, Play: chơi."
+    },
+    {
+        "question": "What is the English word for 'uống'?",
+        "options": [
+            "Drink",
+            "Eat",
+            "Cook",
+            "Play"
+        ],
+        "answer": 0,
+        "explanation": "'Drink' nghĩa là uống. Eat: ăn, Cook: nấu, Play: chơi."
+    },
+    {
+        "question": "What is the English word for 'nấu ăn'?",
+        "options": [
+            "Cook",
+            "Eat",
+            "Drink",
+            "Play"
+        ],
+        "answer": 0,
+        "explanation": "'Cook' nghĩa là nấu ăn. Eat: ăn, Drink: uống, Play: chơi."
+    },
+    {
+        "question": "What is the English word for 'chơi'?",
+        "options": [
+            "Play",
+            "Cook",
+            "Eat",
+            "Drink"
+        ],
+        "answer": 0,
+        "explanation": "'Play' nghĩa là chơi. Cook: nấu ăn, Eat: ăn, Drink: uống."
+    },
+    {
+        "question": "What is the English word for 'viết'?",
+        "options": [
+            "Write",
+            "Read",
+            "Draw",
+            "Sing"
+        ],
+        "answer": 0,
+        "explanation": "'Write' nghĩa là viết. Read: đọc, Draw: vẽ, Sing: hát."
+    },
+    {
+        "question": "What is the English word for 'đọc'?",
+        "options": [
+            "Read",
+            "Write",
+            "Draw",
+            "Sing"
+        ],
+        "answer": 0,
+        "explanation": "'Read' nghĩa là đọc. Write: viết, Draw: vẽ, Sing: hát."
+    },
+    {
+        "question": "What is the English word for 'vẽ'?",
+        "options": [
+            "Draw",
+            "Write",
+            "Read",
+            "Sing"
+        ],
+        "answer": 0,
+        "explanation": "'Draw' nghĩa là vẽ. Write: viết, Read: đọc, Sing: hát."
+    },
+    {
+        "question": "What is the English word for 'hát'?",
+        "options": [
+            "Sing",
+            "Write",
+            "Read",
+            "Draw"
+        ],
+        "answer": 0,
+        "explanation": "'Sing' nghĩa là hát. Write: viết, Read: đọc, Draw: vẽ."
+    },
+    {
+        "question": "What is the English word for 'nghe nhạc'?",
+        "options": [
+            "Listen to music",
+            "Watch TV",
+            "Read",
+            "Write"
+        ],
+        "answer": 0,
+        "explanation": "'Listen to music' nghĩa là nghe nhạc. Watch TV: xem tivi, Read: đọc, Write: viết."
+    },
+    {
+        "question": "What is the English word for 'xem tivi'?",
+        "options": [
+            "Watch TV",
+            "Listen to music",
+            "Read",
+            "Write"
+        ],
+        "answer": 0,
+        "explanation": "'Watch TV' nghĩa là xem tivi. Listen to music: nghe nhạc, Read: đọc, Write: viết."
+    },
+    {
+        "question": "What is the English word for 'phòng khách'?",
+        "options": [
+            "Living room",
+            "Bedroom",
+            "Bathroom",
+            "Kitchen"
+        ],
+        "answer": 0,
+        "explanation": "'Living room' nghĩa là phòng khách. Bedroom: phòng ngủ, Bathroom: phòng tắm, Kitchen: phòng bếp."
+    },
+    {
+        "question": "What is the English word for 'phòng ngủ'?",
+        "options": [
+            "Bedroom",
+            "Living room",
+            "Bathroom",
+            "Kitchen"
+        ],
+        "answer": 0,
+        "explanation": "'Bedroom' nghĩa là phòng ngủ. Living room: phòng khách, Bathroom: phòng tắm, Kitchen: phòng bếp."
+    },
+    {
+        "question": "What is the English word for 'phòng tắm'?",
+        "options": [
+            "Bathroom",
+            "Living room",
+            "Bedroom",
+            "Kitchen"
+        ],
+        "answer": 0,
+        "explanation": "'Bathroom' nghĩa là phòng tắm. Living room: phòng khách, Bedroom: phòng ngủ, Kitchen: phòng bếp."
+    },
+    {
+        "question": "What is the English word for 'phòng bếp'?",
+        "options": [
+            "Kitchen",
+            "Living room",
+            "Bedroom",
+            "Bathroom"
+        ],
+        "answer": 0,
+        "explanation": "'Kitchen' nghĩa là phòng bếp. Living room: phòng khách, Bedroom: phòng ngủ, Bathroom: phòng tắm."
+    },
+    {
+        "question": "What is the English word for 'phòng ăn'?",
+        "options": [
+            "Dining room",
+            "Living room",
+            "Bedroom",
+            "Bathroom"
+        ],
+        "answer": 0,
+        "explanation": "'Dining room' nghĩa là phòng ăn. Living room: phòng khách, Bedroom: phòng ngủ, Bathroom: phòng tắm."
+    },
+    {
+        "question": "What is the English word for 'búp bê'?",
+        "options": [
+            "Doll",
+            "Car",
+            "Ship",
+            "Plane"
+        ],
+        "answer": 0,
+        "explanation": "'Doll' nghĩa là búp bê. Car: ô tô, Ship: tàu, Plane: máy bay."
+    },
+    {
+        "question": "What is the English word for 'gấu bông'?",
+        "options": [
+            "Teddy bear",
+            "Doll",
+            "Car",
+            "Ship"
+        ],
+        "answer": 0,
+        "explanation": "'Teddy bear' nghĩa là gấu bông. Doll: búp bê, Car: ô tô, Ship: tàu."
+    },
+    {
+        "question": "What is the English word for 'ô tô'?",
+        "options": [
+            "Car",
+            "Ship",
+            "Plane",
+            "Train"
+        ],
+        "answer": 0,
+        "explanation": "'Car' nghĩa là ô tô. Ship: tàu, Plane: máy bay, Train: tàu lửa."
+    },
+    {
+        "question": "What is the English word for 'tàu lửa'?",
+        "options": [
+            "Train",
+            "Car",
+            "Ship",
+            "Plane"
+        ],
+        "answer": 0,
+        "explanation": "'Train' nghĩa là tàu lửa. Car: ô tô, Ship: tàu, Plane: máy bay."
+    },
+    {
+        "question": "What is the English word for 'máy bay'?",
+        "options": [
+            "Plane",
+            "Car",
+            "Ship",
+            "Train"
+        ],
+        "answer": 0,
+        "explanation": "'Plane' nghĩa là máy bay. Car: ô tô, Ship: tàu, Train: tàu lửa."
+    },
+    {
+        "question": "What is the English word for 'tàu thủy'?",
+        "options": [
+            "Ship",
+            "Car",
+            "Plane",
+            "Train"
+        ],
+        "answer": 0,
+        "explanation": "'Ship' nghĩa là tàu thủy. Car: ô tô, Plane: máy bay, Train: tàu lửa."
+    },
+    {
+        "question": "What is the English word for 'diều'?",
+        "options": [
+            "Kite",
+            "Ball",
+            "Car",
+            "Doll"
+        ],
+        "answer": 0,
+        "explanation": "'Kite' nghĩa là diều. Ball: bóng, Car: ô tô, Doll: búp bê."
+    },
+    {
+        "question": "What is the English word for 'bóng'?",
+        "options": [
+            "Ball",
+            "Kite",
+            "Car",
+            "Doll"
+        ],
+        "answer": 0,
+        "explanation": "'Ball' nghĩa là bóng. Kite: diều, Car: ô tô, Doll: búp bê."
+    },
+    {
+        "question": "What is the English word for 'đồng hồ'?",
+        "options": [
+            "Clock",
+            "Lamp",
+            "Table",
+            "Chair"
+        ],
+        "answer": 0,
+        "explanation": "'Clock' nghĩa là đồng hồ. Lamp: đèn, Table: bàn, Chair: ghế."
+    },
+    {
+        "question": "What is the English word for 'bánh'?",
+        "options": [
+            "Cake",
+            "Bread",
+            "Rice",
+            "Meat"
+        ],
+        "answer": 0,
+        "explanation": "'Cake' nghĩa là bánh. Bread: bánh mì, Rice: cơm, Meat: thịt."
+    },
+    {
+        "question": "What is the English word for 'kẹo'?",
+        "options": [
+            "Candy",
+            "Cake",
+            "Bread",
+            "Rice"
+        ],
+        "answer": 0,
+        "explanation": "'Candy' nghĩa là kẹo. Cake: bánh, Bread: bánh mì, Rice: cơm."
+    },
+    {
+        "question": "What is the English word for 'kem'?",
+        "options": [
+            "Ice cream",
+            "Candy",
+            "Cake",
+            "Bread"
+        ],
+        "answer": 0,
+        "explanation": "'Ice cream' nghĩa là kem. Candy: kẹo, Cake: bánh, Bread: bánh mì."
+    },
+    {
+        "question": "What is the English word for 'bắp ngô'?",
+        "options": [
+            "Corn",
+            "Rice",
+            "Bread",
+            "Cake"
+        ],
+        "answer": 0,
+        "explanation": "'Corn' nghĩa là bắp ngô. Rice: cơm, Bread: bánh mì, Cake: bánh."
+    },
+    {
+        "question": "What is the English word for 'dưa hấu'?",
+        "options": [
+            "Watermelon",
+            "Banana",
+            "Apple",
+            "Orange"
+        ],
+        "answer": 0,
+        "explanation": "'Watermelon' nghĩa là dưa hấu. Banana: chuối, Apple: táo, Orange: cam."
+    },
+    {
+        "question": "What is the English word for 'quả xoài'?",
+        "options": [
+            "Mango",
+            "Banana",
+            "Apple",
+            "Orange"
+        ],
+        "answer": 0,
+        "explanation": "'Mango' nghĩa là quả xoài. Banana: chuối, Apple: táo, Orange: cam."
+    },
+    {
+        "question": "What is the English word for 'quả dứa'?",
+        "options": [
+            "Pineapple",
+            "Banana",
+            "Apple",
+            "Orange"
+        ],
+        "answer": 0,
+        "explanation": "'Pineapple' nghĩa là quả dứa. Banana: chuối, Apple: táo, Orange: cam."
+    },
+    {
+        "question": "What is the English word for 'quả nho'?",
+        "options": [
+            "Grape",
+            "Banana",
+            "Apple",
+            "Orange"
+        ],
+        "answer": 0,
+        "explanation": "'Grape' nghĩa là quả nho. Banana: chuối, Apple: táo, Orange: cam."
+    },
+    {
+        "question": "What is the English word for 'quả lê'?",
+        "options": [
+            "Pear",
+            "Banana",
+            "Apple",
+            "Orange"
+        ],
+        "answer": 0,
+        "explanation": "'Pear' nghĩa là quả lê. Banana: chuối, Apple: táo, Orange: cam."
+    },
+    {
+        "question": "What is the English word for 'quả đào'?",
+        "options": [
+            "Peach",
+            "Banana",
+            "Apple",
+            "Orange"
+        ],
+        "answer": 0,
+        "explanation": "'Peach' nghĩa là quả đào. Banana: chuối, Apple: táo, Orange: cam."
+    },
+    {
+        "question": "What is the English word for 'quả mận'?",
+        "options": [
+            "Plum",
+            "Banana",
+            "Apple",
+            "Orange"
+        ],
+        "answer": 0,
+        "explanation": "'Plum' nghĩa là quả mận. Banana: chuối, Apple: táo, Orange: cam."
+    },
+    {
+        "question": "What is the English word for 'quả dừa'?",
+        "options": [
+            "Coconut",
+            "Banana",
+            "Apple",
+            "Orange"
+        ],
+        "answer": 0,
+        "explanation": "'Coconut' nghĩa là quả dừa. Banana: chuối, Apple: táo, Orange: cam."
+    },
+    {
+        "question": "What is the English word for 'quả chanh'?",
+        "options": [
+            "Lemon",
+            "Banana",
+            "Apple",
+            "Orange"
+        ],
+        "answer": 0,
+        "explanation": "'Lemon' nghĩa là quả chanh. Banana: chuối, Apple: táo, Orange: cam."
+    },
+    {
+        "question": "What is the English word for 'quả cà chua'?",
+        "options": [
+            "Tomato",
+            "Banana",
+            "Apple",
+            "Orange"
+        ],
+        "answer": 0,
+        "explanation": "'Tomato' nghĩa là quả cà chua. Banana: chuối, Apple: táo, Orange: cam."
+    },
+    {
+        "question": "What is the English word for 'quả dưa chuột'?",
+        "options": [
+            "Cucumber",
+            "Banana",
+            "Apple",
+            "Orange"
+        ],
+        "answer": 0,
+        "explanation": "'Cucumber' nghĩa là quả dưa chuột. Banana: chuối, Apple: táo, Orange: cam."
+    },
+    {
+        "question": "What is the English word for 'cà rốt'?",
+        "options": [
+            "Carrot",
+            "Banana",
+            "Apple",
+            "Orange"
+        ],
+        "answer": 0,
+        "explanation": "'Carrot' nghĩa là cà rốt. Banana: chuối, Apple: táo, Orange: cam."
+    },
+    {
+        "question": "What is the English word for 'khoai tây'?",
+        "options": [
+            "Potato",
+            "Banana",
+            "Apple",
+            "Orange"
+        ],
+        "answer": 0,
+        "explanation": "'Potato' nghĩa là khoai tây. Banana: chuối, Apple: táo, Orange: cam."
+    },
+    {
+        "question": "What is the English word for 'hành tây'?",
+        "options": [
+            "Onion",
+            "Banana",
+            "Apple",
+            "Orange"
+        ],
+        "answer": 0,
+        "explanation": "'Onion' nghĩa là hành tây. Banana: chuối, Apple: táo, Orange: cam."
+    },
+    {
+        "question": "What is the English word for 'rau'?",
+        "options": [
+            "Vegetable",
+            "Banana",
+            "Apple",
+            "Orange"
+        ],
+        "answer": 0,
+        "explanation": "'Vegetable' nghĩa là rau. Banana: chuối, Apple: táo, Orange: cam."
+    },
+    {
+        "question": "What is the English word for 'bắp cải'?",
+        "options": [
+            "Cabbage",
+            "Banana",
+            "Apple",
+            "Orange"
+        ],
+        "answer": 0,
+        "explanation": "'Cabbage' nghĩa là bắp cải. Banana: chuối, Apple: táo, Orange: cam."
+    },
+    {
+        "question": "What is the English word for 'rau cải'?",
+        "options": [
+            "Mustard greens",
+            "Banana",
+            "Apple",
+            "Orange"
+        ],
+        "answer": 0,
+        "explanation": "'Mustard greens' nghĩa là rau cải. Banana: chuối, Apple: táo, Orange: cam."
+    },
+    {
+        "question": "What is the English word for 'rau muống'?",
+        "options": [
+            "Morning glory",
+            "Banana",
+            "Apple",
+            "Orange"
+        ],
+        "answer": 0,
+        "explanation": "'Morning glory' nghĩa là rau muống. Banana: chuối, Apple: táo, Orange: cam."
+    },
+    {
+        "question": "What is the English word for 'rau dền'?",
+        "options": [
+            "Amaranth",
+            "Banana",
+            "Apple",
+            "Orange"
+        ],
+        "answer": 0,
+        "explanation": "'Amaranth' nghĩa là rau dền. Banana: chuối, Apple: táo, Orange: cam."
+    },
+    {
+        "question": "What is the English word for 'rau ngót'?",
+        "options": [
+            "Sweet leaf",
+            "Banana",
+            "Apple",
+            "Orange"
+        ],
+        "answer": 0,
+        "explanation": "'Sweet leaf' nghĩa là rau ngót. Banana: chuối, Apple: táo, Orange: cam."
+    },
+    {
+        "question": "What is the English word for 'rau mồng tơi'?",
+        "options": [
+            "Malabar spinach",
+            "Banana",
+            "Apple",
+            "Orange"
+        ],
+        "answer": 0,
+        "explanation": "'Malabar spinach' nghĩa là rau mồng tơi. Banana: chuối, Apple: táo, Orange: cam."
+    },
+    {
+        "question": "What is the English word for 'rau đay'?",
+        "options": [
+            "Jute",
+            "Banana",
+            "Apple",
+            "Orange"
+        ],
+        "answer": 0,
+        "explanation": "'Jute' nghĩa là rau đay. Banana: chuối, Apple: táo, Orange: cam."
+    },
+    {
+        "question": "What is the English word for 'rau xà lách'?",
+        "options": [
+            "Lettuce",
+            "Banana",
+            "Apple",
+            "Orange"
+        ],
+        "answer": 0,
+        "explanation": "'Lettuce' nghĩa là rau xà lách. Banana: chuối, Apple: táo, Orange: cam."
+    },
+    {
+        "question": "What is the English word for 'rau thơm'?",
+        "options": [
+            "Herb",
+            "Banana",
+            "Apple",
+            "Orange"
+        ],
+        "answer": 0,
+        "explanation": "'Herb' nghĩa là rau thơm. Banana: chuối, Apple: táo, Orange: cam."
+    },
+    {
+        "question": "What is the English word for 'hành lá'?",
+        "options": [
+            "Scallion",
+            "Banana",
+            "Apple",
+            "Orange"
+        ],
+        "answer": 0,
+        "explanation": "'Scallion' nghĩa là hành lá. Banana: chuối, Apple: táo, Orange: cam."
+    },
+    {
+        "question": "What is the English word for 'tỏi'?",
+        "options": [
+            "Garlic",
+            "Banana",
+            "Apple",
+            "Orange"
+        ],
+        "answer": 0,
+        "explanation": "'Garlic' nghĩa là tỏi. Banana: chuối, Apple: táo, Orange: cam."
+    },
+    {
+        "question": "What is the English word for 'ớt'?",
+        "options": [
+            "Chili",
+            "Banana",
+            "Apple",
+            "Orange"
+        ],
+        "answer": 0,
+        "explanation": "'Chili' nghĩa là ớt. Banana: chuối, Apple: táo, Orange: cam."
+    },
+    {
+        "question": "What is the English word for 'gừng'?",
+        "options": [
+            "Ginger",
+            "Banana",
+            "Apple",
+            "Orange"
+        ],
+        "answer": 0,
+        "explanation": "'Ginger' nghĩa là gừng. Banana: chuối, Apple: táo, Orange: cam."
+    },
+    {
+        "question": "What is the English word for 'muối'?",
+        "options": [
+            "Salt",
+            "Banana",
+            "Apple",
+            "Orange"
+        ],
+        "answer": 0,
+        "explanation": "'Salt' nghĩa là muối. Banana: chuối, Apple: táo, Orange: cam."
+    },
+    {
+        "question": "What is the English word for 'đường'?",
+        "options": [
+            "Sugar",
+            "Banana",
+            "Apple",
+            "Orange"
+        ],
+        "answer": 0,
+        "explanation": "'Sugar' nghĩa là đường. Banana: chuối, Apple: táo, Orange: cam."
+    },
+    {
+        "question": "What is the English word for 'tiêu'?",
+        "options": [
+            "Pepper",
+            "Banana",
+            "Apple",
+            "Orange"
+        ],
+        "answer": 0,
+        "explanation": "'Pepper' nghĩa là tiêu. Banana: chuối, Apple: táo, Orange: cam."
+    },
+    {
+        "question": "What is the English word for 'nước mắm'?",
+        "options": [
+            "Fish sauce",
+            "Banana",
+            "Apple",
+            "Orange"
+        ],
+        "answer": 0,
+        "explanation": "'Fish sauce' nghĩa là nước mắm. Banana: chuối, Apple: táo, Orange: cam."
+    },
+    {
+        "question": "What is the English word for 'dầu ăn'?",
+        "options": [
+            "Cooking oil",
+            "Banana",
+            "Apple",
+            "Orange"
+        ],
+        "answer": 0,
+        "explanation": "'Cooking oil' nghĩa là dầu ăn. Banana: chuối, Apple: táo, Orange: cam."
+    },
+    {
+        "question": "What is the English word for 'bơ'?",
+        "options": [
+            "Butter",
+            "Banana",
+            "Apple",
+            "Orange"
+        ],
+        "answer": 0,
+        "explanation": "'Butter' nghĩa là bơ. Banana: chuối, Apple: táo, Orange: cam."
+    },
+    {
+        "question": "What is the English word for 'phô mai'?",
+        "options": [
+            "Cheese",
+            "Banana",
+            "Apple",
+            "Orange"
+        ],
+        "answer": 0,
+        "explanation": "'Cheese' nghĩa là phô mai. Banana: chuối, Apple: táo, Orange: cam."
+    },
+    {
+        "question": "What is the English word for 'mật ong'?",
+        "options": [
+            "Honey",
+            "Banana",
+            "Apple",
+            "Orange"
+        ],
+        "answer": 0,
+        "explanation": "'Honey' nghĩa là mật ong. Banana: chuối, Apple: táo, Orange: cam."
+    },
+    {
+        "question": "What is the English word for 'bột mì'?",
+        "options": [
+            "Flour",
+            "Banana",
+            "Apple",
+            "Orange"
+        ],
+        "answer": 0,
+        "explanation": "'Flour' nghĩa là bột mì. Banana: chuối, Apple: táo, Orange: cam."
+    },
+    {
+        "question": "What is the English word for 'bột gạo'?",
+        "options": [
+            "Rice flour",
+            "Banana",
+            "Apple",
+            "Orange"
+        ],
+        "answer": 0,
+        "explanation": "'Rice flour' nghĩa là bột gạo. Banana: chuối, Apple: táo, Orange: cam."
+    },
+    {
+        "question": "What is the English word for 'bột ngô'?",
+        "options": [
+            "Corn flour",
+            "Banana",
+            "Apple",
+            "Orange"
+        ],
+        "answer": 0,
+        "explanation": "'Corn flour' nghĩa là bột ngô. Banana: chuối, Apple: táo, Orange: cam."
+    },
+    {
+        "question": "What is the English word for 'bột năng'?",
+        "options": [
+            "Tapioca starch",
+            "Banana",
+            "Apple",
+            "Orange"
+        ],
+        "answer": 0,
+        "explanation": "'Tapioca starch' nghĩa là bột năng. Banana: chuối, Apple: táo, Orange: cam."
+    },
+    {
+        "question": "What is the English word for 'bột sắn'?",
+        "options": [
+            "Cassava flour",
+            "Banana",
+            "Apple",
+            "Orange"
+        ],
+        "answer": 0,
+        "explanation": "'Cassava flour' nghĩa là bột sắn. Banana: chuối, Apple: táo, Orange: cam."
+    },
+    {
+        "question": "What is the English word for 'bột bắp'?",
+        "options": [
+            "Cornstarch",
+            "Banana",
+            "Apple",
+            "Orange"
+        ],
+        "answer": 0,
+        "explanation": "'Cornstarch' nghĩa là bột bắp. Banana: chuối, Apple: táo, Orange: cam."
+    },
+    {
+        "question": "What is the English word for 'bột nở'?",
+        "options": [
+            "Baking powder",
+            "Banana",
+            "Apple",
+            "Orange"
+        ],
+        "answer": 0,
+        "explanation": "'Baking powder' nghĩa là bột nở. Banana: chuối, Apple: táo, Orange: cam."
+    },
+    {
+        "question": "What is the English word for 'men nở'?",
+        "options": [
+            "Yeast",
+            "Banana",
+            "Apple",
+            "Orange"
+        ],
+        "answer": 0,
+        "explanation": "'Yeast' nghĩa là men nở. Banana: chuối, Apple: táo, Orange: cam."
+    },
+    {
+        "question": "What is the English word for 'nước ngọt'?",
+        "options": [
+            "Soft drink",
+            "Banana",
+            "Apple",
+            "Orange"
+        ],
+        "answer": 0,
+        "explanation": "'Soft drink' nghĩa là nước ngọt. Banana: chuối, Apple: táo, Orange: cam."
+    },
+    {
+        "question": "What is the English word for 'nước khoáng'?",
+        "options": [
+            "Mineral water",
+            "Banana",
+            "Apple",
+            "Orange"
+        ],
+        "answer": 0,
+        "explanation": "'Mineral water' nghĩa là nước khoáng. Banana: chuối, Apple: táo, Orange: cam."
+    },
+    {
+        "question": "What is the English word for 'nước lọc'?",
+        "options": [
+            "Filtered water",
+            "Banana",
+            "Apple",
+            "Orange"
+        ],
+        "answer": 0,
+        "explanation": "'Filtered water' nghĩa là nước lọc. Banana: chuối, Apple: táo, Orange: cam."
+    },
+    {
+        "question": "What is the English word for 'nước đá'?",
+        "options": [
+            "Ice",
+            "Banana",
+            "Apple",
+            "Orange"
+        ],
+        "answer": 0,
+        "explanation": "'Ice' nghĩa là nước đá. Banana: chuối, Apple: táo, Orange: cam."
     }
 ]

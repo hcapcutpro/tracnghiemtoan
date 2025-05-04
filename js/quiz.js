@@ -26,7 +26,12 @@ function selectSubject(subject) {
     fetch("questions/" + subjectFileMap[subject])
       .then((res) => res.json())
       .then((data) => {
-        currentQuiz = data;
+        // Luôn chọn ngẫu nhiên 20 câu hỏi nếu số lượng lớn hơn 20
+        if (data.length > 20) {
+          currentQuiz = shuffleArray(data).slice(0, 20);
+        } else {
+          currentQuiz = data;
+        }
         currentIndex = 0;
         answers = Array(currentQuiz.length).fill(null);
         quizSubmitted = false;
@@ -294,4 +299,13 @@ function backToHome() {
   document.getElementById("quiz-container").classList.add("hidden");
   document.getElementById("subject-selection-grid").classList.remove("hidden");
   document.getElementById("subject").value = "";
+}
+
+function shuffleArray(array) {
+  let arr = array.slice();
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
 }

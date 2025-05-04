@@ -1,5 +1,67 @@
 [
     {
+        "question": "Con người có thể thực hiện mọi việc mà không cần tới máy tính. Phát biểu này đúng hay sai?",
+        "options": [
+            "Đúng",
+            "Sai"
+        ],
+        "answer": 0,
+        "explanation": "Con người vẫn có thể làm việc mà không cần máy tính, nhưng máy tính giúp công việc nhanh và hiệu quả hơn."
+    },
+    {
+        "question": "Công việc được hoàn thành nhờ sự giúp của máy tính sẽ không tốn nhiều thời gian. Phát biểu này đúng hay sai?",
+        "options": [
+            "Đúng",
+            "Sai"
+        ],
+        "answer": 0,
+        "explanation": "Máy tính giúp công việc nhanh và hiệu quả hơn, nên sẽ tốn ít thời gian hơn."
+    },
+    {
+        "question": "Em xác định những gì đã có để trước và việc cần làm khi: 'Em và mẹ làm bánh bí đỏ bột gạo'. Đâu là việc cần làm?",
+        "options": [
+            "Bột gạo",
+            "Việc cần làm: làm bánh",
+            "Bí đỏ",
+            "Ăn bánh"
+        ],
+        "answer": 1,
+        "explanation": "Việc cần làm: làm bánh là việc cần làm khi em và mẹ làm bánh bí đỏ bột gạo."
+    },
+    {
+        "question": "Đèn tín hiệu giao thông màu đỏ thì em nên làm gì?",
+        "options": [
+            "Em mặc quần, áo ấm",
+            "Người tham gia giao thông dừng lại",
+            "Em đội mũ bảo hiểm",
+            "Em đi tiếp"
+        ],
+        "answer": 1,
+        "explanation": "Đèn tín hiệu giao thông màu đỏ thì người tham gia giao thông dừng lại."
+    },
+    {
+        "question": "Tham gia giao thông bằng xe máy thì em nên làm gì?",
+        "options": [
+            "Em mặc quần, áo ấm",
+            "Người tham gia giao thông dừng lại",
+            "Em đội mũ bảo hiểm",
+            "Em đi tiếp"
+        ],
+        "answer": 2,
+        "explanation": "Em đội mũ bảo hiểm để bảo vệ mình khi tham gia giao thông bằng xe máy."
+    },
+    {
+        "question": "Trời rét thì em nên làm gì?",
+        "options": [
+            "Em mặc quần, áo ấm",
+            "Người tham gia giao thông dừng lại",
+            "Em đội mũ bảo hiểm",
+            "Em đi tiếp"
+        ],
+        "answer": 0,
+        "explanation": "Em mặc quần, áo ấm để bảo vệ mình khi trời rét."
+    },
+    {
         "question": "Khi thấy bạn bị ngã, em nên làm gì?",
         "options": [
             "Đến đỡ bạn dậy",
