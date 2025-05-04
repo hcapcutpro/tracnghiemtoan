@@ -66,7 +66,7 @@
         "explanation": "Thực hiện nhân trước: 15000 × 2 = 30000; 25000 + 30000 = 55000."
     },
     {
-        "question": "Một cửa hàng bán 12000kg gạo, buổi sáng bán 4500kg, buổi chiều bán 2 lần buổi sáng. Hỏi còn lại bao nhiêu kg gạo?",
+        "question": "Một cửa hàng bán 15500kg gạo, buổi sáng bán 4500kg, buổi chiều bán 2 lần buổi sáng. Hỏi còn lại bao nhiêu kg gạo?",
         "options": [
             "3000",
             "1500",
@@ -74,7 +74,7 @@
             "2000"
         ],
         "answer": 3,
-        "explanation": "Buổi chiều bán 4500 × 2 = 9000kg. Tổng bán: 4500 + 9000 = 13500kg. 12000 - 13500 = -1500 (bán vượt, kiểm tra lại đề)."
+        "explanation": "Buổi chiều bán 4500 × 2 = 9000kg. Tổng bán: 4500 + 9000 = 13500kg. Số gạo còn lại sẽ bằng  số gạo ban đầu trừ đi số gạo đã bán 15500 - 13500 = 2000."
     },
     {
         "question": "2 tạ 5 kg = ... kg?",
@@ -229,5 +229,115 @@
         ],
         "answer": 0,
         "explanation": "Chu vi = 50 × 4 = 200cm."
+    },
+    {
+        "question": "Em hãy so sánh hai số sau và chọn dấu thích hợp: 345 ... 354",
+        "options": [
+            ">",
+            "<",
+            "=",
+            "Không so sánh được"
+        ],
+        "answer": 1,
+        "explanation": "Để so sánh hai số 345 và 354, em hãy so sánh từng chữ số từ trái sang phải. Cả hai số đều có chữ số hàng trăm là 3. Chữ số hàng chục của 345 là 4, của 354 là 5. Vì 4 < 5 nên 345 < 354. Em có thể kiểm tra bằng cách vẽ hai số trên trục số, số 345 sẽ nằm bên trái số 354."
+    },
+    {
+        "question": "Em hãy làm tròn số 678 đến hàng trăm?",
+        "options": [
+            "600",
+            "650",
+            "700",
+            "750"
+        ],
+        "answer": 2,
+        "explanation": "Để làm tròn số 678 đến hàng trăm, em hãy nhìn vào chữ số hàng chục là 7. Nếu chữ số hàng chục từ 5 trở lên, ta làm tròn lên hàng trăm. Vì 7 > 5 nên 678 được làm tròn thành 700. Em có thể tưởng tượng như đang đứng ở số 678 trên trục số, số 700 gần hơn số 600."
+    },
+    {
+        "question": "Em hãy tính kết quả của phép tính sau: 123 + 456 = ?",
+        "options": [
+            "569",
+            "579",
+            "589",
+            "599"
+        ],
+        "answer": 1,
+        "explanation": "Để tính 123 + 456, em hãy cộng từ phải sang trái: \n1. Cộng hàng đơn vị: 3 + 6 = 9\n2. Cộng hàng chục: 2 + 5 = 7\n3. Cộng hàng trăm: 1 + 4 = 5\nVậy 123 + 456 = 579. Em có thể kiểm tra bằng cách đặt tính: \n  123\n+ 456\n  ---\n  579"
+    },
+    {
+        "question": "Em hãy tính kết quả của phép tính sau: 789 - 234 = ?",
+        "options": [
+            "545",
+            "555",
+            "565",
+            "575"
+        ],
+        "answer": 1,
+        "explanation": "Để tính 789 - 234, em hãy trừ từ phải sang trái: \n1. Trừ hàng đơn vị: 9 - 4 = 5\n2. Trừ hàng chục: 8 - 3 = 5\n3. Trừ hàng trăm: 7 - 2 = 5\nVậy 789 - 234 = 555. Em có thể kiểm tra bằng cách đặt tính: \n  789\n- 234\n  ---\n  555"
+    },
+    {
+        "question": "Em hãy tính kết quả của phép tính sau: 12 × 5 = ?",
+        "options": [
+            "50",
+            "55",
+            "60",
+            "65"
+        ],
+        "answer": 2,
+        "explanation": "Để tính 12 × 5, em có thể: \n1. Tính 10 × 5 = 50\n2. Tính 2 × 5 = 10\n3. Cộng hai kết quả: 50 + 10 = 60\nHoặc em có thể tưởng tượng như có 5 nhóm, mỗi nhóm có 12 quả táo, tổng cộng sẽ có 60 quả táo. Vậy 12 × 5 = 60."
+    },
+    {
+        "question": "Em hãy tính kết quả của phép tính sau: 84 ÷ 4 = ?",
+        "options": [
+            "18",
+            "20",
+            "21",
+            "22"
+        ],
+        "answer": 2,
+        "explanation": "Để tính 84 ÷ 4, em có thể: \n1. Chia 80 cho 4 được 20\n2. Chia 4 cho 4 được 1\n3. Cộng hai kết quả: 20 + 1 = 21\nHoặc em có thể tưởng tượng như có 84 cái kẹo chia đều cho 4 bạn, mỗi bạn sẽ được 21 cái kẹo. Vậy 84 ÷ 4 = 21."
+    },
+    {
+        "question": "Em hãy tính chu vi của hình chữ nhật có chiều dài 8cm và chiều rộng 5cm?",
+        "options": [
+            "24cm",
+            "26cm",
+            "28cm",
+            "30cm"
+        ],
+        "answer": 1,
+        "explanation": "Chu vi hình chữ nhật bằng tổng độ dài các cạnh. Với hình chữ nhật có chiều dài 8cm và chiều rộng 5cm, chu vi = (8cm + 5cm) × 2 = 13cm × 2 = 26cm. Em có thể tưởng tượng như đang đi một vòng quanh hình chữ nhật: đi 8cm, rẽ 5cm, đi 8cm, rẽ 5cm, tổng cộng đi được 26cm."
+    },
+    {
+        "question": "Em hãy tính diện tích của hình vuông có cạnh dài 6cm?",
+        "options": [
+            "30cm²",
+            "32cm²",
+            "34cm²",
+            "36cm²"
+        ],
+        "answer": 3,
+        "explanation": "Diện tích hình vuông bằng độ dài cạnh nhân với chính nó. Với hình vuông có cạnh dài 6cm, diện tích = 6cm × 6cm = 36cm². Em có thể tưởng tượng như đang xếp các ô vuông nhỏ 1cm² vào hình vuông lớn, sẽ cần 36 ô vuông như vậy (6 hàng × 6 cột = 36 ô)."
+    },
+    {
+        "question": "Em hãy tính thể tích của hình hộp chữ nhật có chiều dài 4cm, chiều rộng 3cm và chiều cao 2cm?",
+        "options": [
+            "20cm³",
+            "22cm³",
+            "24cm³",
+            "26cm³"
+        ],
+        "answer": 2,
+        "explanation": "Thể tích hình hộp chữ nhật bằng chiều dài nhân chiều rộng nhân chiều cao. Với hình hộp có chiều dài 4cm, chiều rộng 3cm và chiều cao 2cm, thể tích = 4cm × 3cm × 2cm = 24cm³. Em có thể tưởng tượng như đang xếp các khối lập phương nhỏ 1cm³ vào hình hộp, sẽ cần 24 khối như vậy."
+    },
+    {
+        "question": "Em hãy tính chu vi của hình tam giác có ba cạnh lần lượt là 5cm, 6cm và 7cm?",
+        "options": [
+            "16cm",
+            "17cm",
+            "18cm",
+            "19cm"
+        ],
+        "answer": 2,
+        "explanation": "Chu vi hình tam giác bằng tổng độ dài ba cạnh. Với hình tam giác có ba cạnh lần lượt là 5cm, 6cm và 7cm, chu vi = 5cm + 6cm + 7cm = 18cm. Em có thể tưởng tượng như đang đi một vòng quanh hình tam giác: đi 5cm, rẽ đi 6cm, rẽ đi 7cm, tổng cộng đi được 18cm."
     }
 ]

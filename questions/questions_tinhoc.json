@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Máy tính là gì?",
+        "options": [
+            "Là thiết bị điện tử dùng để tính toán",
+            "Là thiết bị dùng để chơi game",
+            "Là thiết bị dùng để xem phim",
+            "Là thiết bị dùng để nghe nhạc"
+        ],
+        "answer": 0,
+        "explanation": "Máy tính là thiết bị điện tử dùng để tính toán và xử lý thông tin."
+    },
+    {
+        "question": "Bộ phận nào của máy tính được gọi là 'bộ não'?",
+        "options": [
+            "Màn hình",
+            "Bàn phím",
+            "CPU",
+            "Chuột"
+        ],
+        "answer": 2,
+        "explanation": "CPU (Central Processing Unit) là bộ xử lý trung tâm, được coi là 'bộ não' của máy tính."
+    },
+    {
+        "question": "Phần mềm nào dùng để soạn thảo văn bản?",
+        "options": [
+            "Microsoft Word",
+            "Microsoft Excel",
+            "Microsoft PowerPoint",
+            "Paint"
+        ],
+        "answer": 0,
+        "explanation": "Microsoft Word là phần mềm chuyên dụng để soạn thảo văn bản."
+    },
+    {
+        "question": "Phím nào dùng để xóa ký tự bên trái con trỏ?",
+        "options": [
+            "Delete",
+            "Backspace",
+            "Enter",
+            "Space"
+        ],
+        "answer": 1,
+        "explanation": "Phím Backspace dùng để xóa ký tự bên trái con trỏ."
+    },
+    {
+        "question": "Đâu là trình duyệt web?",
+        "options": [
+            "Google Chrome",
+            "Microsoft Word",
+            "Paint",
+            "Calculator"
+        ],
+        "answer": 0,
+        "explanation": "Google Chrome là một trình duyệt web phổ biến."
+    },
+    {
+        "question": "Phím tắt nào dùng để sao chép văn bản?",
+        "options": [
+            "Ctrl + C",
+            "Ctrl + V",
+            "Ctrl + X",
+            "Ctrl + Z"
+        ],
+        "answer": 0,
+        "explanation": "Ctrl + C là phím tắt để sao chép văn bản."
+    },
+    {
+        "question": "Phím tắt nào dùng để dán văn bản?",
+        "options": [
+            "Ctrl + C",
+            "Ctrl + V",
+            "Ctrl + X",
+            "Ctrl + Z"
+        ],
+        "answer": 1,
+        "explanation": "Ctrl + V là phím tắt để dán văn bản."
+    },
+    {
+        "question": "Đâu là thiết bị lưu trữ dữ liệu?",
+        "options": [
+            "USB",
+            "Màn hình",
+            "Bàn phím",
+            "Chuột"
+        ],
+        "answer": 0,
+        "explanation": "USB là thiết bị lưu trữ dữ liệu di động."
+    },
+    {
+        "question": "Phần mềm nào dùng để vẽ hình?",
+        "options": [
+            "Paint",
+            "Word",
+            "Excel",
+            "PowerPoint"
+        ],
+        "answer": 0,
+        "explanation": "Paint là phần mềm vẽ hình đơn giản."
+    },
+    {
+        "question": "Đâu là thiết bị đầu vào?",
+        "options": [
+            "Bàn phím",
+            "Màn hình",
+            "Loa",
+            "Máy in"
+        ],
+        "answer": 0,
+        "explanation": "Bàn phím là thiết bị đầu vào, dùng để nhập dữ liệu vào máy tính."
+    }
+]

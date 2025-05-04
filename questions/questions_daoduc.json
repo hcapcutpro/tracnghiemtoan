@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Khi thấy bạn bị ngã, em nên làm gì?",
+        "options": [
+            "Đến đỡ bạn dậy",
+            "Cười bạn",
+            "Bỏ đi",
+            "Không quan tâm"
+        ],
+        "answer": 0,
+        "explanation": "Khi thấy bạn bị ngã, em nên đến đỡ bạn dậy vì đó là hành động thể hiện sự quan tâm, giúp đỡ người khác."
+    },
+    {
+        "question": "Khi nhặt được của rơi, em nên làm gì?",
+        "options": [
+            "Trả lại cho người mất",
+            "Giữ lại cho mình",
+            "Bỏ đi",
+            "Không quan tâm"
+        ],
+        "answer": 0,
+        "explanation": "Khi nhặt được của rơi, em nên trả lại cho người mất vì đó là hành động trung thực, đáng khen."
+    },
+    {
+        "question": "Khi thấy rác trên sân trường, em nên làm gì?",
+        "options": [
+            "Nhặt bỏ vào thùng rác",
+            "Bỏ qua",
+            "Đá rác sang chỗ khác",
+            "Không quan tâm"
+        ],
+        "answer": 0,
+        "explanation": "Khi thấy rác trên sân trường, em nên nhặt bỏ vào thùng rác để giữ gìn vệ sinh chung."
+    },
+    {
+        "question": "Khi gặp người lớn tuổi, em nên làm gì?",
+        "options": [
+            "Chào hỏi lễ phép",
+            "Bỏ qua",
+            "Chạy qua mặt",
+            "Không quan tâm"
+        ],
+        "answer": 0,
+        "explanation": "Khi gặp người lớn tuổi, em nên chào hỏi lễ phép để thể hiện sự tôn trọng."
+    },
+    {
+        "question": "Khi thấy bạn bị bắt nạt, em nên làm gì?",
+        "options": [
+            "Báo với thầy cô",
+            "Tham gia bắt nạt",
+            "Bỏ đi",
+            "Không quan tâm"
+        ],
+        "answer": 0,
+        "explanation": "Khi thấy bạn bị bắt nạt, em nên báo với thầy cô để được giúp đỡ."
+    },
+    {
+        "question": "Khi làm bài kiểm tra, em nên làm gì?",
+        "options": [
+            "Tự làm bài",
+            "Quay cóp",
+            "Nhờ bạn làm hộ",
+            "Bỏ giấy trắng"
+        ],
+        "answer": 0,
+        "explanation": "Khi làm bài kiểm tra, em nên tự làm bài để thể hiện tính trung thực."
+    },
+    {
+        "question": "Khi thấy bạn quên mang đồ dùng học tập, em nên làm gì?",
+        "options": [
+            "Chia sẻ đồ dùng với bạn",
+            "Không cho mượn",
+            "Cười bạn",
+            "Không quan tâm"
+        ],
+        "answer": 0,
+        "explanation": "Khi thấy bạn quên mang đồ dùng học tập, em nên chia sẻ đồ dùng với bạn để thể hiện tinh thần đoàn kết."
+    },
+    {
+        "question": "Khi thấy bạn bị điểm kém, em nên làm gì?",
+        "options": [
+            "Động viên, giúp đỡ bạn",
+            "Cười nhạo bạn",
+            "Khoe điểm cao",
+            "Không quan tâm"
+        ],
+        "answer": 0,
+        "explanation": "Khi thấy bạn bị điểm kém, em nên động viên, giúp đỡ bạn để cùng tiến bộ."
+    },
+    {
+        "question": "Khi thấy bạn làm việc tốt, em nên làm gì?",
+        "options": [
+            "Khen ngợi bạn",
+            "Ghen tị",
+            "Chê bai",
+            "Không quan tâm"
+        ],
+        "answer": 0,
+        "explanation": "Khi thấy bạn làm việc tốt, em nên khen ngợi bạn để động viên tinh thần."
+    },
+    {
+        "question": "Khi thấy bạn gặp khó khăn, em nên làm gì?",
+        "options": [
+            "Hỏi thăm và giúp đỡ",
+            "Bỏ qua",
+            "Cười nhạo",
+            "Không quan tâm"
+        ],
+        "answer": 0,
+        "explanation": "Khi thấy bạn gặp khó khăn, em nên hỏi thăm và giúp đỡ để thể hiện tình bạn tốt đẹp."
+    }
+]

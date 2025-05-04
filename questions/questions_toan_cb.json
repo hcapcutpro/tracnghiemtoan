@@ -1,6 +1,6 @@
 [
     {
-        "question": "5 + 3 bằng bao nhiêu?",
+        "question": "Em hãy tính kết quả của phép tính sau: 5 + 3 = ?",
         "options": [
             "6",
             "7",
@@ -8,43 +8,43 @@
             "9"
         ],
         "answer": 2,
-        "explanation": "5 cộng 3 bằng 8."
+        "explanation": "Để tính 5 + 3, em hãy đếm từ số 5 thêm 3 đơn vị nữa: 5, 6, 7, 8. Vậy 5 + 3 = 8. Em có thể kiểm tra bằng cách đếm ngón tay: giơ 5 ngón tay, sau đó giơ thêm 3 ngón tay nữa, tổng cộng sẽ có 8 ngón tay."
     },
     {
-        "question": "12 - 5 bằng bao nhiêu?",
+        "question": "Em hãy tính kết quả của phép tính sau: 10 - 4 = ?",
         "options": [
+            "5",
             "6",
             "7",
-            "8",
-            "9"
+            "8"
         ],
         "answer": 1,
-        "explanation": "12 trừ 5 bằng 7."
+        "explanation": "Để tính 10 - 4, em hãy đếm ngược từ 10 xuống 4 đơn vị: 10, 9, 8, 7, 6. Vậy 10 - 4 = 6. Em có thể kiểm tra bằng cách giơ 10 ngón tay, sau đó cụp xuống 4 ngón tay, số ngón tay còn lại là 6."
     },
     {
-        "question": "4 × 3 bằng bao nhiêu?",
+        "question": "Em hãy tính kết quả của phép tính sau: 2 × 3 = ?",
         "options": [
-            "10",
-            "11",
-            "12",
-            "13"
+            "4",
+            "5",
+            "6",
+            "7"
         ],
         "answer": 2,
-        "explanation": "4 nhân 3 bằng 12."
+        "explanation": "Phép nhân 2 × 3 có nghĩa là lấy số 2 cộng với chính nó 3 lần: 2 + 2 + 2 = 6. Em có thể tưởng tượng như có 3 nhóm, mỗi nhóm có 2 quả táo, tổng cộng sẽ có 6 quả táo."
     },
     {
-        "question": "15 : 3 bằng bao nhiêu?",
+        "question": "Em hãy tính kết quả của phép tính sau: 8 ÷ 2 = ?",
         "options": [
             "3",
             "4",
             "5",
             "6"
         ],
-        "answer": 2,
-        "explanation": "15 chia 3 bằng 5."
+        "answer": 1,
+        "explanation": "Phép chia 8 ÷ 2 có nghĩa là chia 8 thành 2 phần bằng nhau. Em có thể tưởng tượng như có 8 cái kẹo chia đều cho 2 bạn, mỗi bạn sẽ được 4 cái kẹo. Vậy 8 ÷ 2 = 4."
     },
     {
-        "question": "Số liền sau của 99 là:",
+        "question": "Em hãy tìm số liền sau của số 99 trong dãy số tự nhiên?",
         "options": [
             "98",
             "99",
@@ -52,7 +52,62 @@
             "101"
         ],
         "answer": 2,
-        "explanation": "Số liền sau của 99 là 100(liền sau thì cộng thêm 1)."
+        "explanation": "Số liền sau của một số là số đứng ngay sau nó trong dãy số tự nhiên. Để tìm số liền sau của 99, em hãy đếm tiếp: 99, 100. Vậy số liền sau của 99 là 100. Em có thể kiểm tra bằng cách vẽ một dãy số từ 98 đến 101: 98, 99, 100, 101."
+    },
+    {
+        "question": "Em hãy tìm số liền trước của số 100 trong dãy số tự nhiên?",
+        "options": [
+            "98",
+            "99",
+            "100",
+            "101"
+        ],
+        "answer": 1,
+        "explanation": "Số liền trước của một số là số đứng ngay trước nó trong dãy số tự nhiên. Để tìm số liền trước của 100, em hãy đếm ngược: 100, 99. Vậy số liền trước của 100 là 99. Em có thể kiểm tra bằng cách vẽ một dãy số từ 98 đến 101: 98, 99, 100, 101."
+    },
+    {
+        "question": "Em hãy so sánh hai số sau và chọn dấu thích hợp: 25 ... 52",
+        "options": [
+            ">",
+            "<",
+            "=",
+            "Không so sánh được"
+        ],
+        "answer": 1,
+        "explanation": "Để so sánh hai số 25 và 52, em hãy so sánh từng chữ số từ trái sang phải. Chữ số hàng chục của 25 là 2, của 52 là 5. Vì 2 < 5 nên 25 < 52. Em có thể kiểm tra bằng cách vẽ hai số trên trục số, số 25 sẽ nằm bên trái số 52."
+    },
+    {
+        "question": "Em hãy làm tròn số 47 đến hàng chục?",
+        "options": [
+            "40",
+            "45",
+            "50",
+            "55"
+        ],
+        "answer": 2,
+        "explanation": "Để làm tròn số 47 đến hàng chục, em hãy nhìn vào chữ số hàng đơn vị là 7. Nếu chữ số hàng đơn vị từ 5 trở lên, ta làm tròn lên hàng chục. Vì 7 > 5 nên 47 được làm tròn thành 50. Em có thể tưởng tượng như đang đứng ở số 47 trên trục số, số 50 gần hơn số 40."
+    },
+    {
+        "question": "Em hãy tính chu vi của hình vuông có cạnh dài 4cm?",
+        "options": [
+            "12cm",
+            "14cm",
+            "16cm",
+            "18cm"
+        ],
+        "answer": 2,
+        "explanation": "Chu vi hình vuông bằng tổng độ dài 4 cạnh. Vì hình vuông có 4 cạnh bằng nhau, mỗi cạnh dài 4cm, nên chu vi = 4cm + 4cm + 4cm + 4cm = 16cm. Hoặc em có thể tính nhanh bằng cách lấy độ dài một cạnh nhân với 4: 4cm × 4 = 16cm."
+    },
+    {
+        "question": "Em hãy tính diện tích của hình chữ nhật có chiều dài 5cm và chiều rộng 3cm?",
+        "options": [
+            "8cm²",
+            "12cm²",
+            "15cm²",
+            "18cm²"
+        ],
+        "answer": 2,
+        "explanation": "Diện tích hình chữ nhật bằng chiều dài nhân với chiều rộng. Với hình chữ nhật có chiều dài 5cm và chiều rộng 3cm, diện tích = 5cm × 3cm = 15cm². Em có thể tưởng tượng như đang xếp các ô vuông nhỏ 1cm² vào hình chữ nhật, sẽ cần 15 ô vuông như vậy."
     },
     {
         "question": "7 + 8 bằng bao nhiêu?",
@@ -97,17 +152,6 @@
         ],
         "answer": 2,
         "explanation": "18 chia 2 bằng 9."
-    },
-    {
-        "question": "Số liền trước của 50 là:",
-        "options": [
-            "48",
-            "49",
-            "50",
-            "51"
-        ],
-        "answer": 1,
-        "explanation": "Số liền trước của 50 là 49(Số liền trước thì trừ đi 1)."
     },
     {
         "question": "9 + 6 bằng bao nhiêu?",
@@ -376,7 +420,7 @@
         "explanation": "3000 × 2 = 6000; 2000 + 6000 = 8000."
     },
     {
-        "question": "Một cửa hàng có 5000kg gạo, bán buổi sáng 2000kg, buổi chiều bán 2 lần buổi sáng. Hỏi còn lại bao nhiêu kg gạo?",
+        "question": "Một cửa hàng có 6000kg gạo, bán buổi sáng 2000kg, buổi chiều bán 2 lần buổi sáng. Hỏi còn lại bao nhiêu kg gạo?",
         "options": [
             "1000",
             "500",
@@ -384,7 +428,7 @@
             "2000"
         ],
         "answer": 2,
-        "explanation": "Buổi chiều bán 2000 × 2 = 4000kg. Tổng bán: 2000 + 4000 = 6000kg. 5000 - 6000 = -1000 (bán vượt, kiểm tra lại đề)."
+        "explanation": "Buổi chiều bán 2000 × 2 = 4000kg. Tổng bán: 2000 + 4000 = 6000kg. Số gạo còn lại sẽ bằng số gạo ban đầu trừ đi số gạo đã bán: 6000 - 6000 = 0."
     },
     {
         "question": "1 yến 5 kg = ... kg?",

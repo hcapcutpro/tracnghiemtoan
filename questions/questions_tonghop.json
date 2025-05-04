@@ -1,0 +1,112 @@
+[
+    {
+        "question": "5 + 3 bằng bao nhiêu?",
+        "options": [
+            "6",
+            "7",
+            "8",
+            "9"
+        ],
+        "answer": 2,
+        "explanation": "5 cộng 3 bằng 8."
+    },
+    {
+        "question": "What is the English word for 'con mèo'?",
+        "options": [
+            "Cat",
+            "Dog",
+            "Bird",
+            "Fish"
+        ],
+        "answer": 0,
+        "explanation": "The English word for 'con mèo' is 'cat'."
+    },
+    {
+        "question": "Khi thấy bạn bị ngã, em nên làm gì?",
+        "options": [
+            "Đến đỡ bạn dậy",
+            "Cười bạn",
+            "Bỏ đi",
+            "Không quan tâm"
+        ],
+        "answer": 0,
+        "explanation": "Khi thấy bạn bị ngã, em nên đến đỡ bạn dậy vì đó là hành động thể hiện sự quan tâm, giúp đỡ người khác."
+    },
+    {
+        "question": "Đâu là nguồn năng lượng tái tạo?",
+        "options": [
+            "Năng lượng mặt trời",
+            "Than đá",
+            "Dầu mỏ",
+            "Khí đốt"
+        ],
+        "answer": 0,
+        "explanation": "Năng lượng mặt trời là nguồn năng lượng tái tạo, có thể tái tạo tự nhiên."
+    },
+    {
+        "question": "Máy tính là gì?",
+        "options": [
+            "Là thiết bị điện tử dùng để tính toán",
+            "Là thiết bị dùng để chơi game",
+            "Là thiết bị dùng để xem phim",
+            "Là thiết bị dùng để nghe nhạc"
+        ],
+        "answer": 0,
+        "explanation": "Máy tính là thiết bị điện tử dùng để tính toán và xử lý thông tin."
+    },
+    {
+        "question": "Số liền sau của 99 là:",
+        "options": [
+            "98",
+            "99",
+            "100",
+            "101"
+        ],
+        "answer": 2,
+        "explanation": "Số liền sau của 99 là 100(liền sau thì cộng thêm 1)."
+    },
+    {
+        "question": "What is the English word for 'quả táo'?",
+        "options": [
+            "Apple",
+            "Orange",
+            "Banana",
+            "Mango"
+        ],
+        "answer": 0,
+        "explanation": "The English word for 'quả táo' is 'apple'."
+    },
+    {
+        "question": "Khi nhặt được của rơi, em nên làm gì?",
+        "options": [
+            "Trả lại cho người mất",
+            "Giữ lại cho mình",
+            "Bỏ đi",
+            "Không quan tâm"
+        ],
+        "answer": 0,
+        "explanation": "Khi nhặt được của rơi, em nên trả lại cho người mất vì đó là hành động trung thực, đáng khen."
+    },
+    {
+        "question": "Đâu là thiết bị tiết kiệm điện?",
+        "options": [
+            "Đèn LED",
+            "Đèn sợi đốt",
+            "Đèn huỳnh quang",
+            "Đèn halogen"
+        ],
+        "answer": 0,
+        "explanation": "Đèn LED là thiết bị tiết kiệm điện nhất trong các loại đèn."
+    },
+    {
+        "question": "Bộ phận nào của máy tính được gọi là 'bộ não'?",
+        "options": [
+            "Màn hình",
+            "Bàn phím",
+            "CPU",
+            "Chuột"
+        ],
+        "answer": 2,
+        "explanation": "CPU (Central Processing Unit) là bộ xử lý trung tâm, được coi là 'bộ não' của máy tính."
+    }
+]

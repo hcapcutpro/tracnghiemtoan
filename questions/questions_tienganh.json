@@ -1,0 +1,112 @@
+[
+    {
+        "question": "What is the English word for 'con mèo'?",
+        "options": [
+            "Cat",
+            "Dog",
+            "Bird",
+            "Fish"
+        ],
+        "answer": 0,
+        "explanation": "The English word for 'con mèo' is 'cat'."
+    },
+    {
+        "question": "What is the English word for 'quả táo'?",
+        "options": [
+            "Apple",
+            "Orange",
+            "Banana",
+            "Mango"
+        ],
+        "answer": 0,
+        "explanation": "The English word for 'quả táo' is 'apple'."
+    },
+    {
+        "question": "What is the English word for 'màu đỏ'?",
+        "options": [
+            "Red",
+            "Blue",
+            "Green",
+            "Yellow"
+        ],
+        "answer": 0,
+        "explanation": "The English word for 'màu đỏ' is 'red'."
+    },
+    {
+        "question": "What is the English word for 'số một'?",
+        "options": [
+            "One",
+            "Two",
+            "Three",
+            "Four"
+        ],
+        "answer": 0,
+        "explanation": "The English word for 'số một' is 'one'."
+    },
+    {
+        "question": "What is the English word for 'bạn'?",
+        "options": [
+            "Friend",
+            "Teacher",
+            "Student",
+            "Parent"
+        ],
+        "answer": 0,
+        "explanation": "The English word for 'bạn' is 'friend'."
+    },
+    {
+        "question": "What is the English word for 'trường học'?",
+        "options": [
+            "School",
+            "Hospital",
+            "Park",
+            "Market"
+        ],
+        "answer": 0,
+        "explanation": "The English word for 'trường học' is 'school'."
+    },
+    {
+        "question": "What is the English word for 'sách'?",
+        "options": [
+            "Book",
+            "Pen",
+            "Pencil",
+            "Eraser"
+        ],
+        "answer": 0,
+        "explanation": "The English word for 'sách' is 'book'."
+    },
+    {
+        "question": "What is the English word for 'bút'?",
+        "options": [
+            "Pen",
+            "Book",
+            "Pencil",
+            "Ruler"
+        ],
+        "answer": 0,
+        "explanation": "The English word for 'bút' is 'pen'."
+    },
+    {
+        "question": "What is the English word for 'bàn'?",
+        "options": [
+            "Table",
+            "Chair",
+            "Desk",
+            "Shelf"
+        ],
+        "answer": 0,
+        "explanation": "The English word for 'bàn' is 'table'."
+    },
+    {
+        "question": "What is the English word for 'ghế'?",
+        "options": [
+            "Chair",
+            "Table",
+            "Desk",
+            "Shelf"
+        ],
+        "answer": 0,
+        "explanation": "The English word for 'ghế' is 'chair'."
+    }
+]

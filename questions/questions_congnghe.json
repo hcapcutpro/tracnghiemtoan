@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Đâu là nguồn năng lượng tái tạo?",
+        "options": [
+            "Năng lượng mặt trời",
+            "Than đá",
+            "Dầu mỏ",
+            "Khí đốt"
+        ],
+        "answer": 0,
+        "explanation": "Năng lượng mặt trời là nguồn năng lượng tái tạo, có thể tái tạo tự nhiên."
+    },
+    {
+        "question": "Vật liệu nào có thể tái chế?",
+        "options": [
+            "Giấy",
+            "Nhựa",
+            "Thủy tinh",
+            "Tất cả các đáp án trên"
+        ],
+        "answer": 3,
+        "explanation": "Giấy, nhựa và thủy tinh đều là những vật liệu có thể tái chế."
+    },
+    {
+        "question": "Đâu là thiết bị tiết kiệm điện?",
+        "options": [
+            "Đèn LED",
+            "Đèn sợi đốt",
+            "Đèn huỳnh quang",
+            "Đèn halogen"
+        ],
+        "answer": 0,
+        "explanation": "Đèn LED là thiết bị tiết kiệm điện nhất trong các loại đèn."
+    },
+    {
+        "question": "Công nghệ nào giúp giảm ô nhiễm không khí?",
+        "options": [
+            "Xe điện",
+            "Xe máy xăng",
+            "Xe buýt diesel",
+            "Xe tải chạy dầu"
+        ],
+        "answer": 0,
+        "explanation": "Xe điện không thải khí độc hại, giúp giảm ô nhiễm không khí."
+    },
+    {
+        "question": "Vật liệu nào thân thiện với môi trường?",
+        "options": [
+            "Giấy tái chế",
+            "Nhựa dùng một lần",
+            "Túi nilon",
+            "Hộp xốp"
+        ],
+        "answer": 0,
+        "explanation": "Giấy tái chế là vật liệu thân thiện với môi trường."
+    },
+    {
+        "question": "Đâu là cách tiết kiệm nước?",
+        "options": [
+            "Tắt vòi nước khi đánh răng",
+            "Xả nước liên tục",
+            "Tắm quá lâu",
+            "Rửa xe bằng vòi nước"
+        ],
+        "answer": 0,
+        "explanation": "Tắt vòi nước khi đánh răng là cách tiết kiệm nước hiệu quả."
+    },
+    {
+        "question": "Công nghệ nào giúp bảo vệ môi trường?",
+        "options": [
+            "Pin mặt trời",
+            "Máy phát điện chạy dầu",
+            "Lò đốt than",
+            "Máy phát điện diesel"
+        ],
+        "answer": 0,
+        "explanation": "Pin mặt trời sử dụng năng lượng sạch, không gây ô nhiễm."
+    },
+    {
+        "question": "Đâu là thiết bị thông minh?",
+        "options": [
+            "Điều hòa thông minh",
+            "Quạt điện thường",
+            "Đèn dầu",
+            "Bếp than"
+        ],
+        "answer": 0,
+        "explanation": "Điều hòa thông minh có thể tự động điều chỉnh nhiệt độ và tiết kiệm điện."
+    },
+    {
+        "question": "Công nghệ nào giúp giảm rác thải?",
+        "options": [
+            "Máy ép rác",
+            "Lò đốt rác",
+            "Bãi rác lộ thiên",
+            "Không có đáp án nào đúng"
+        ],
+        "answer": 0,
+        "explanation": "Máy ép rác giúp giảm thể tích rác thải."
+    },
+    {
+        "question": "Đâu là nguồn năng lượng sạch?",
+        "options": [
+            "Gió",
+            "Than đá",
+            "Dầu mỏ",
+            "Khí đốt"
+        ],
+        "answer": 0,
+        "explanation": "Năng lượng gió là nguồn năng lượng sạch, không gây ô nhiễm."
+    }
+]
