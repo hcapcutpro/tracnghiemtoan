@@ -8,7 +8,7 @@
             "Fish"
         ],
         "answer": 0,
-        "explanation": "The English word for 'con mèo' is 'cat'."
+        "explanation": "Từ tiếng Anh của 'con mèo' là 'cat'. Đây là một con vật nuôi phổ biến ở nông thôn, thường bắt chuột và sống gần nhà. Các từ khác là: 'dog' (con chó), 'bird' (con chim), 'fish' (con cá)."
     },
     {
         "question": "What is the English word for 'quả táo'?",
@@ -19,7 +19,7 @@
             "Mango"
         ],
         "answer": 0,
-        "explanation": "The English word for 'quả táo' is 'apple'."
+        "explanation": "Từ tiếng Anh của 'quả táo' là 'apple'. Táo là một loại trái cây ngon, có màu đỏ hoặc xanh. Các từ khác là: 'orange' (quả cam), 'banana' (quả chuối), 'mango' (quả xoài)."
     },
     {
         "question": "What is the English word for 'màu đỏ'?",
@@ -30,7 +30,7 @@
             "Yellow"
         ],
         "answer": 0,
-        "explanation": "The English word for 'màu đỏ' is 'red'."
+        "explanation": "Từ tiếng Anh của 'màu đỏ' là 'red'. Màu đỏ là màu của lá cờ Tổ quốc, màu của hoa phượng và màu của quả ớt. Các màu khác là: 'blue' (màu xanh dương), 'green' (màu xanh lá), 'yellow' (màu vàng)."
     },
     {
         "question": "What is the English word for 'số một'?",
@@ -41,7 +41,7 @@
             "Four"
         ],
         "answer": 0,
-        "explanation": "The English word for 'số một' is 'one'."
+        "explanation": "Từ tiếng Anh của 'số một' là 'one'. Số một là số đầu tiên trong dãy số tự nhiên. Các số khác là: 'two' (số hai), 'three' (số ba), 'four' (số bốn)."
     },
     {
         "question": "What is the English word for 'bạn'?",
@@ -52,7 +52,7 @@
             "Parent"
         ],
         "answer": 0,
-        "explanation": "The English word for 'bạn' is 'friend'."
+        "explanation": "Từ tiếng Anh của 'bạn' là 'friend'. Bạn là người cùng chơi, cùng học và giúp đỡ nhau. Các từ khác là: 'teacher' (cô giáo/thầy giáo), 'student' (học sinh), 'parent' (bố mẹ)."
     },
     {
         "question": "What is the English word for 'trường học'?",
@@ -63,7 +63,7 @@
             "Market"
         ],
         "answer": 0,
-        "explanation": "The English word for 'trường học' is 'school'."
+        "explanation": "Từ tiếng Anh của 'trường học' là 'school'. Trường học là nơi các em đến học tập mỗi ngày, gặp gỡ bạn bè và thầy cô. Các từ khác là: 'hospital' (bệnh viện), 'park' (công viên), 'market' (chợ)."
     },
     {
         "question": "What is the English word for 'sách'?",
@@ -74,7 +74,7 @@
             "Eraser"
         ],
         "answer": 0,
-        "explanation": "The English word for 'sách' is 'book'."
+        "explanation": "Từ tiếng Anh của 'sách' là 'book'. Sách là người bạn tốt, giúp các em học được nhiều điều hay. Các từ khác là: 'pen' (bút mực), 'pencil' (bút chì), 'eraser' (cục tẩy)."
     },
     {
         "question": "What is the English word for 'bút'?",
@@ -85,7 +85,7 @@
             "Ruler"
         ],
         "answer": 0,
-        "explanation": "The English word for 'bút' is 'pen'."
+        "explanation": "Từ tiếng Anh của 'bút' là 'pen'. Bút là dụng cụ học tập quan trọng để viết bài. Các từ khác là: 'book' (sách), 'pencil' (bút chì), 'ruler' (thước kẻ)."
     },
     {
         "question": "What is the English word for 'bàn'?",
@@ -96,7 +96,7 @@
             "Shelf"
         ],
         "answer": 0,
-        "explanation": "The English word for 'bàn' is 'table'."
+        "explanation": "Từ tiếng Anh của 'bàn' là 'table'. Bàn là nơi các em ngồi học bài và ăn cơm. Các từ khác là: 'chair' (ghế), 'desk' (bàn học), 'shelf' (kệ sách)."
     },
     {
         "question": "What is the English word for 'ghế'?",
@@ -107,6 +107,61 @@
             "Shelf"
         ],
         "answer": 0,
-        "explanation": "The English word for 'ghế' is 'chair'."
+        "explanation": "Từ tiếng Anh của 'ghế' là 'chair'. Ghế là nơi các em ngồi khi học bài hoặc ăn cơm. Các từ khác là: 'table' (bàn), 'desk' (bàn học), 'shelf' (kệ sách)."
+    },
+    {
+        "question": "What is the English word for 'con gà'?",
+        "options": [
+            "Chicken",
+            "Duck",
+            "Pig",
+            "Cow"
+        ],
+        "answer": 0,
+        "explanation": "Từ tiếng Anh của 'con gà' là 'chicken'. Gà là con vật nuôi quen thuộc ở nông thôn, cho trứng và thịt. Các từ khác là: 'duck' (con vịt), 'pig' (con lợn), 'cow' (con bò)."
+    },
+    {
+        "question": "What is the English word for 'cái cây'?",
+        "options": [
+            "Tree",
+            "Flower",
+            "Grass",
+            "Leaf"
+        ],
+        "answer": 0,
+        "explanation": "Từ tiếng Anh của 'cái cây' là 'tree'. Cây xanh giúp cho không khí trong lành và cho bóng mát. Các từ khác là: 'flower' (bông hoa), 'grass' (cỏ), 'leaf' (lá cây)."
+    },
+    {
+        "question": "What is the English word for 'mặt trời'?",
+        "options": [
+            "Sun",
+            "Moon",
+            "Star",
+            "Cloud"
+        ],
+        "answer": 0,
+        "explanation": "Từ tiếng Anh của 'mặt trời' là 'sun'. Mặt trời chiếu sáng và sưởi ấm cho chúng ta mỗi ngày. Các từ khác là: 'moon' (mặt trăng), 'star' (ngôi sao), 'cloud' (đám mây)."
+    },
+    {
+        "question": "What is the English word for 'con đường'?",
+        "options": [
+            "Road",
+            "Street",
+            "Path",
+            "Way"
+        ],
+        "answer": 0,
+        "explanation": "Từ tiếng Anh của 'con đường' là 'road'. Con đường là nơi mọi người đi lại, xe cộ di chuyển. Các từ khác là: 'street' (phố), 'path' (lối đi), 'way' (đường đi)."
+    },
+    {
+        "question": "What is the English word for 'ngôi nhà'?",
+        "options": [
+            "House",
+            "School",
+            "Shop",
+            "Farm"
+        ],
+        "answer": 0,
+        "explanation": "Từ tiếng Anh của 'ngôi nhà' là 'house'. Ngôi nhà là nơi các em sống cùng gia đình. Các từ khác là: 'school' (trường học), 'shop' (cửa hàng), 'farm' (nông trại)."
     }
 ]

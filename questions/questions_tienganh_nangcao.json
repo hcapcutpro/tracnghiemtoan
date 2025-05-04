@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Who is this? (Bức tranh một gia đình, chỉ vào người bố)",
+        "options": [
+            "It's my father.",
+            "It's my mother.",
+            "It's my sister.",
+            "It's my brother."
+        ],
+        "answer": 0,
+        "explanation": "Câu hỏi 'Who is this?' dùng để hỏi về ai đó trong tranh hoặc trước mặt. Đáp án đúng là 'It's my father.' (Đó là bố của em). Các đáp án khác là mẹ, chị/em gái, anh/em trai."
+    },
+    {
+        "question": "How old is he? (Chỉ vào một bạn nam, ghi số 9)",
+        "options": [
+            "He's nine.",
+            "He's ten.",
+            "He's eleven.",
+            "He's eight."
+        ],
+        "answer": 0,
+        "explanation": "Câu hỏi 'How old is he?' dùng để hỏi tuổi của một bạn nam. Đáp án đúng là 'He's nine.' (Bạn ấy 9 tuổi). Các đáp án khác là các số tuổi khác."
+    },
+    {
+        "question": "What's his job? (Chỉ vào người nông dân)",
+        "options": [
+            "He's a farmer.",
+            "He's a doctor.",
+            "He's a cook.",
+            "He's a teacher."
+        ],
+        "answer": 0,
+        "explanation": "Câu hỏi 'What's his job?' dùng để hỏi nghề nghiệp. Đáp án đúng là 'He's a farmer.' (Ông ấy là nông dân). Các đáp án khác là bác sĩ, đầu bếp, giáo viên."
+    },
+    {
+        "question": "Where is the living room? (Chỉ vào phòng khách trong sơ đồ nhà)",
+        "options": [
+            "It's here.",
+            "It's there.",
+            "It's in the kitchen.",
+            "It's on the table."
+        ],
+        "answer": 0,
+        "explanation": "Câu hỏi 'Where is the living room?' dùng để hỏi vị trí phòng khách. Đáp án đúng là 'It's here.' (Nó ở đây). 'There' là ở kia, các đáp án khác không phù hợp với vị trí phòng."
+    },
+    {
+        "question": "Where are the books? (Chỉ vào sách trên bàn)",
+        "options": [
+            "They're on the table.",
+            "They're in the box.",
+            "They're under the chair.",
+            "They're in the bag."
+        ],
+        "answer": 0,
+        "explanation": "Câu hỏi 'Where are the books?' dùng để hỏi vị trí của nhiều quyển sách. Đáp án đúng là 'They're on the table.' (Chúng ở trên bàn). Các đáp án khác là các vị trí khác nhau."
+    },
+    {
+        "question": "Is she a doctor? (Chỉ vào cô giáo)",
+        "options": [
+            "No, she isn't. She's a teacher.",
+            "Yes, she is.",
+            "No, she isn't. She's a nurse.",
+            "No, she isn't. She's a cook."
+        ],
+        "answer": 0,
+        "explanation": "Câu hỏi 'Is she a doctor?' dùng để xác nhận nghề nghiệp. Đáp án đúng là 'No, she isn't. She's a teacher.' (Không, cô ấy là giáo viên). Các đáp án khác là các nghề khác."
+    },
+    {
+        "question": "There is/are _____ in the room. (Chọn từ đúng để điền vào chỗ trống: a bed)",
+        "options": [
+            "There is a bed in the room.",
+            "There are a bed in the room.",
+            "There is beds in the room.",
+            "There are bed in the room."
+        ],
+        "answer": 0,
+        "explanation": "Khi nói về một vật (số ít), dùng 'There is'. Đáp án đúng là 'There is a bed in the room.' (Có một cái giường trong phòng). Các đáp án khác sai về ngữ pháp."
+    },
+    {
+        "question": "Would you like some milk? (Chọn câu trả lời phù hợp)",
+        "options": [
+            "Yes, please.",
+            "No, I don't.",
+            "Yes, I do.",
+            "No, I am not."
+        ],
+        "answer": 0,
+        "explanation": "Câu hỏi 'Would you like...?' dùng để mời ai đó. Đáp án đúng là 'Yes, please.' (Vâng, làm ơn). Các đáp án khác không phù hợp với mẫu câu này."
+    },
+    {
+        "question": "Do you have any pets? (Chọn câu trả lời phù hợp)",
+        "options": [
+            "Yes, I do.",
+            "Yes, I am.",
+            "No, I am not.",
+            "No, I do."
+        ],
+        "answer": 0,
+        "explanation": "Câu hỏi 'Do you have any pets?' dùng để hỏi về thú cưng. Đáp án đúng là 'Yes, I do.' (Vâng, mình có). Các đáp án khác không đúng ngữ pháp."
+    },
+    {
+        "question": "How many toys do you have? (Chọn câu trả lời phù hợp: 5)",
+        "options": [
+            "I have five.",
+            "I have toy.",
+            "I have toys.",
+            "I have a five."
+        ],
+        "answer": 0,
+        "explanation": "Câu hỏi 'How many toys do you have?' dùng để hỏi số lượng đồ chơi. Đáp án đúng là 'I have five.' (Mình có 5 cái). Các đáp án khác sai về ngữ pháp hoặc thiếu số lượng."
+    }
+]

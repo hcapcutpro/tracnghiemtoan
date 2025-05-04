@@ -236,6 +236,9 @@ button:hover {
 .subject-card.tienganh {
   color: #2980b9;
 }
+.subject-card.tienganh_nangcao {
+  color: #00cd8b;
+}
 .subject-card.tonghop {
   color: #16a085;
 }

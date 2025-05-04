@@ -17,6 +17,7 @@ const subjectFileMap = {
   daoduc: "questions_daoduc.json",
   tienganh: "questions_tienganh.json",
   tonghop: "questions_tonghop.json",
+  tienganh_nangcao: "questions_tienganh_nangcao.json",
 };
 
 function selectSubject(subject) {
