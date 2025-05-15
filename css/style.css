@@ -59,14 +59,23 @@ select {
 .quiz-header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-bottom: 20px;
-  padding-bottom: 10px;
-  border-bottom: 1px solid var(--border-color);
+  padding: 15px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .progress {
-  font-size: 18px;
-  font-weight: bold;
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 15px;
+  padding: 8px 12px;
+  background-color: #f8f9fa;
+  border-radius: 6px;
+  display: inline-block;
+  border-left: 3px solid #2196f3;
 }
 
 .timer {
@@ -100,11 +109,18 @@ select {
 
 .question-container {
   margin-bottom: 30px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-h2 {
+.question-container h2 {
+  margin-top: 10px;
   margin-bottom: 20px;
   color: var(--primary-color);
+  font-size: 1.2em;
+  line-height: 1.4;
 }
 
 .options {
@@ -260,4 +276,16 @@ button {
 }
 .subject-card.tonghop {
   color: #16a085;
+}
+
+.subject-title {
+  text-align: center;
+  color: #2196f3;
+  margin: 0 0 15px 0;
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 10px;
+  border-bottom: 2px solid #e3f2fd;
+  background-color: #f8f9fa;
+  border-radius: 8px 8px 0 0;
 }

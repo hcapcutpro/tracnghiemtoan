@@ -27,6 +27,19 @@ const subjectFileMap = {
   tiengviet: "questions_tiengviet.json",
 };
 
+// Thêm map cho tên hiển thị của các môn học
+const subjectDisplayNames = {
+  toan_cb: "Toán Lớp 3 Đầy Đủ",
+  tinhoc: "Tin Học Cơ Bản",
+  congnghe: "Đề Thi Công Nghệ",
+  daoduc: "Đề Thi Đạo Đức",
+  tienganh: "Ôn Tập Tiếng Anh",
+  tonghop: "Đề Thi Tổng Hợp",
+  tienganh_nangcao: "Tiếng Anh Nâng Cao",
+  bangcuuchuong: "Luyện Bảng Cửu Chương",
+  tiengviet: "Luyện Tiếng Việt",
+};
+
 const subjectConfig = {
   toan_cb: { isCountdown: false, perQuestionLimit: null },
   toan_nc: { isCountdown: false, perQuestionLimit: null },
@@ -78,6 +91,14 @@ function selectSubject(subject) {
 function showQuestion() {
   answered = false;
   const q = currentQuiz[currentIndex];
+
+  // Hiển thị tên môn học
+  const subjectTitle = document.getElementById("subject-title");
+  if (subjectTitle) {
+    subjectTitle.textContent =
+      subjectDisplayNames[window.subject] || "Bài Kiểm Tra";
+  }
+
   document.getElementById("question-text").textContent = q.question;
   document.getElementById("current-question").textContent = currentIndex + 1;
 
@@ -94,7 +115,50 @@ function showQuestion() {
         option.classList.add("incorrect");
       option.classList.add("disabled");
     } else {
-      option.onclick = () => selectOption(idx);
+      // Thêm data attribute để theo dõi trạng thái highlight
+      option.dataset.highlighted = "false";
+
+      // Xử lý sự kiện chạm đầu tiên - highlight
+      option.addEventListener("click", function (e) {
+        if (this.dataset.highlighted === "false") {
+          // Bỏ highlight tất cả các option khác
+          document.querySelectorAll(".option").forEach((opt) => {
+            opt.classList.remove("highlighted");
+            opt.dataset.highlighted = "false";
+          });
+          // Highlight option này
+          this.classList.add("highlighted");
+          this.dataset.highlighted = "true";
+          e.preventDefault();
+          return;
+        }
+
+        // Nếu đã được highlight, chọn đáp án
+        if (this.dataset.highlighted === "true") {
+          selectOption(idx);
+        }
+      });
+
+      // Xử lý sự kiện touch cho mobile
+      option.addEventListener("touchend", function (e) {
+        if (this.dataset.highlighted === "false") {
+          // Bỏ highlight tất cả các option khác
+          document.querySelectorAll(".option").forEach((opt) => {
+            opt.classList.remove("highlighted");
+            opt.dataset.highlighted = "false";
+          });
+          // Highlight option này
+          this.classList.add("highlighted");
+          this.dataset.highlighted = "true";
+          e.preventDefault();
+          return;
+        }
+
+        // Nếu đã được highlight, chọn đáp án
+        if (this.dataset.highlighted === "true") {
+          selectOption(idx);
+        }
+      });
     }
     optionsDiv.appendChild(option);
   });
@@ -591,3 +655,15 @@ function shuffleQuestionOptions(question) {
     answer: newAnswer,
   };
 }
+
+// Thêm style cho trạng thái highlighted
+const style = document.createElement("style");
+style.textContent = `
+  .option.highlighted {
+    background-color: #e3f2fd;
+    border-color: #2196f3;
+    transform: scale(1.02);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+`;
+document.head.appendChild(style);

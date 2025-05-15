@@ -110,6 +110,666 @@
         "explanation": "'Dog' nghĩa là con chó. Các đáp án khác: Cat (con mèo), Bird (con chim), Fish (con cá)."
     },
     {
+        "question": "What is the English word for 'anh/em trai'?",
+        "options": [
+            "Father",
+            "Brother",
+            "Uncle",
+            "Boy"
+        ],
+        "answer": 1,
+        "explanation": "'Brother' nghĩa là anh hoặc em trai. 'Father' là cha, 'Uncle' là chú, 'Boy' là bé trai."
+    },
+    {
+        "question": "What is this? It's used for studying. (Đây là gì? Dùng để học bài.)",
+        "options": [
+            "Lamp",
+            "Desk",
+            "Chair",
+            "Door"
+        ],
+        "answer": 1,
+        "explanation": "'Desk' là cái bàn học. Các đáp án khác: Lamp (đèn), Chair (ghế), Door (cửa)."
+    },
+    {
+        "question": "Which one is a vehicle? (Cái nào là phương tiện giao thông?)",
+        "options": [
+            "Doll",
+            "Car",
+            "Apple",
+            "Chair"
+        ],
+        "answer": 1,
+        "explanation": "'Car' là ô tô – là phương tiện di chuyển. Các từ khác không phải phương tiện."
+    },
+    {
+        "question": "What would you like to drink? (Bạn muốn uống gì?)",
+        "options": [
+            "Rice",
+            "Milk",
+            "Book",
+            "Car"
+        ],
+        "answer": 1,
+        "explanation": "'Milk' là sữa – là đồ uống. Các từ còn lại không phải đồ uống."
+    },
+    {
+        "question": "What is he doing? — He’s _______. (Cậu ấy đang làm gì?)",
+        "options": [
+            "sleeping",
+            "reading",
+            "eating",
+            "drinking"
+        ],
+        "answer": 1,
+        "explanation": "'Reading' nghĩa là đang đọc sách. Đây là hành động thường gặp trong lớp học."
+    },
+    {
+        "question": "What’s her job? — She’s a ________. (Công việc của cô ấy là gì?)",
+        "options": [
+            "teacher",
+            "nurse",
+            "doctor",
+            "worker"
+        ],
+        "answer": 2,
+        "explanation": "'Doctor' nghĩa là bác sĩ. Đây là nghề nghiệp được học trong bài Jobs."
+    },
+    {
+        "question": "What is the English word for 'lamp'?",
+        "options": [
+            "Lamp",
+            "Dog",
+            "Milk",
+            "Train"
+        ],
+        "answer": 0,
+        "explanation": "'Lamp' là đèn. Là đồ vật trong phòng ngủ hoặc bàn học."
+    },
+    {
+        "question": "What is the English word for 'rabbit'?",
+        "options": [
+            "Rabbit",
+            "Milk",
+            "Dog",
+            "Train"
+        ],
+        "answer": 0,
+        "explanation": "'Rabbit' là con thỏ – một trong những con vật nuôi (pet) học trong Unit 16."
+    },
+    {
+        "question": "What is the English word for 'egg'?",
+        "options": [
+            "Egg",
+            "Milk",
+            "Book",
+            "Bus"
+        ],
+        "answer": 0,
+        "explanation": "'Egg' nghĩa là trứng – là một loại thức ăn trong bữa ăn sáng."
+    },
+    {
+        "question": "What is the English word for 'juice'?",
+        "options": [
+            "Juice",
+            "Rice",
+            "Book",
+            "Chair"
+        ],
+        "answer": 0,
+        "explanation": "'Juice' là nước ép – là đồ uống thường dùng cho trẻ em."
+    },
+    {
+        "question": "What is the English word for 'skipping'?",
+        "options": [
+            "Skipping",
+            "Sleeping",
+            "Climbing",
+            "Cooking"
+        ],
+        "answer": 0,
+        "explanation": "'Skipping' nghĩa là nhảy dây – là một hoạt động ngoài trời mà trẻ em rất hay chơi."
+    },
+    {
+        "question": "What is the English word for 'watching TV'?",
+        "options": [
+            "Dancing",
+            "Watching TV",
+            "Listening",
+            "Singing"
+        ],
+        "answer": 1,
+        "explanation": "'Watching TV' là xem ti vi – là hoạt động giải trí tại nhà. Được học trong bài về hoạt động hằng ngày."
+    },
+    {
+        "question": "Which word means 'to climb up something'? (Từ nào nghĩa là leo lên?)",
+        "options": [
+            "Swinging",
+            "Reading",
+            "Climbing",
+            "Sitting"
+        ],
+        "answer": 2,
+        "explanation": "'Climbing' là leo trèo. Ví dụ: 'The monkey is climbing the tree.'"
+    },
+    {
+        "question": "Which one is a pet? (Đâu là thú cưng?)",
+        "options": [
+            "Peacock",
+            "Parrot",
+            "Elephant",
+            "Tiger"
+        ],
+        "answer": 1,
+        "explanation": "'Parrot' là con vẹt – là thú cưng. Những con còn lại là động vật hoang dã hoặc ở sở thú."
+    },
+    {
+        "question": "What can you see at the zoo? (Bạn có thể thấy gì ở sở thú?)",
+        "options": [
+            "Tiger",
+            "Desk",
+            "Chair",
+            "Pencil"
+        ],
+        "answer": 0,
+        "explanation": "'Tiger' là con hổ – thường thấy ở sở thú. Các từ khác là đồ dùng học tập hoặc nội thất."
+    },
+    {
+        "question": "Which one is a kind of food? (Đâu là thức ăn?)",
+        "options": [
+            "Juice",
+            "Egg",
+            "Milk",
+            "Water"
+        ],
+        "answer": 1,
+        "explanation": "'Egg' là trứng – là thức ăn. Các từ còn lại là đồ uống."
+    },
+    {
+        "question": "What is the English word for 'dining room'?",
+        "options": [
+            "Kitchen",
+            "Dining room",
+            "Bedroom",
+            "Bathroom"
+        ],
+        "answer": 1,
+        "explanation": "'Dining room' là phòng ăn – nơi gia đình ngồi ăn cơm."
+    },
+    {
+        "question": "What is the English word for 'door'?",
+        "options": [
+            "Window",
+            "Wall",
+            "Door",
+            "Chair"
+        ],
+        "answer": 2,
+        "explanation": "'Door' là cái cửa – dùng để ra vào phòng."
+    },
+    {
+        "question": "Which of the following is NOT a room in the house?",
+        "options": [
+            "Kitchen",
+            "Bathroom",
+            "Milk",
+            "Bedroom"
+        ],
+        "answer": 2,
+        "explanation": "'Milk' là sữa – không phải phòng. Các từ còn lại là các phòng trong nhà."
+    },
+    {
+        "question": "What is the English word for 'writing'?",
+        "options": [
+            "Writing",
+            "Drawing",
+            "Dancing",
+            "Cooking"
+        ],
+        "answer": 0,
+        "explanation": "'Writing' là viết – hoạt động học sinh thường làm trong lớp."
+    },
+    {
+        "question": "What is the English word for 'fish'?",
+        "options": [
+            "Dog",
+            "Fish",
+            "Milk",
+            "Bird"
+        ],
+        "answer": 1,
+        "explanation": "'Fish' là con cá – là một từ chỉ con vật và cũng là một món ăn."
+    },
+    {
+        "question": "What is the English word for 'elephant'?",
+        "options": [
+            "Bird",
+            "Fish",
+            "Elephant",
+            "Parrot"
+        ],
+        "answer": 2,
+        "explanation": "'Elephant' là con voi – là động vật lớn thường sống ở rừng hoặc sở thú."
+    },
+    {
+        "question": "Which of these is a job? (Cái nào là nghề nghiệp?)",
+        "options": [
+            "Doctor",
+            "Window",
+            "Parrot",
+            "Room"
+        ],
+        "answer": 0,
+        "explanation": "'Doctor' là nghề bác sĩ – công việc giúp chăm sóc sức khỏe cho mọi người."
+    },
+    {
+        "question": "Where do you sleep? (Bạn ngủ ở đâu?)",
+        "options": [
+            "Bathroom",
+            "Kitchen",
+            "Bedroom",
+            "Dining room"
+        ],
+        "answer": 2,
+        "explanation": "'Bedroom' là phòng ngủ – nơi có giường để ngủ nghỉ."
+    },
+    {
+        "question": "Which one is a toy? (Cái nào là đồ chơi?)",
+        "options": [
+            "Chair",
+            "Teddy bear",
+            "Door",
+            "Table"
+        ],
+        "answer": 1,
+        "explanation": "'Teddy bear' là gấu bông – đồ chơi trẻ em yêu thích. Các từ khác là đồ nội thất."
+    },
+    {
+        "question": "What’s she doing? — She’s _______ a picture.",
+        "options": [
+            "drawing",
+            "eating",
+            "drinking",
+            "sleeping"
+        ],
+        "answer": 0,
+        "explanation": "'Drawing a picture' là vẽ tranh – một hoạt động thường gặp ở trường."
+    },
+    {
+        "question": "What is the opposite of 'big'?",
+        "options": [
+            "Tall",
+            "Short",
+            "Small",
+            "Thin"
+        ],
+        "answer": 2,
+        "explanation": "'Big' nghĩa là to/lớn → trái nghĩa là 'Small' = nhỏ."
+    },
+    {
+        "question": "Which one is a verb (động từ)?",
+        "options": [
+            "Fish",
+            "Eat",
+            "Milk",
+            "Egg"
+        ],
+        "answer": 1,
+        "explanation": "'Eat' là động từ – hành động ăn. Các từ còn lại là danh từ (chỉ đồ ăn)."
+    },
+    {
+        "question": "What is the English word for 'train'?",
+        "options": [
+            "Truck",
+            "Plane",
+            "Train",
+            "Car"
+        ],
+        "answer": 2,
+        "explanation": "'Train' là tàu lửa – phương tiện dùng để đi xa, chạy trên đường ray."
+    },
+    {
+        "question": "Which one is an action? (Đâu là một hành động?)",
+        "options": [
+            "Running",
+            "Chair",
+            "Room",
+            "Milk"
+        ],
+        "answer": 0,
+        "explanation": "'Running' là chạy – một hành động. Các từ khác là đồ vật hoặc danh từ."
+    },
+    {
+        "question": "What is the English word for 'bird'?",
+        "options": [
+            "Cat",
+            "Bird",
+            "Dog",
+            "Fish"
+        ],
+        "answer": 1,
+        "explanation": "'Bird' là con chim – một loài vật biết bay."
+    },
+    {
+        "question": "Which one is a kind of drink? (Loại nào là đồ uống?)",
+        "options": [
+            "Egg",
+            "Meat",
+            "Juice",
+            "Rice"
+        ],
+        "answer": 2,
+        "explanation": "'Juice' là nước ép – đồ uống. Các từ khác là thức ăn."
+    },
+    {
+        "question": "What room is this: where you eat meals? (Phòng nào dùng để ăn cơm?)",
+        "options": [
+            "Bedroom",
+            "Bathroom",
+            "Dining room",
+            "Living room"
+        ],
+        "answer": 2,
+        "explanation": "'Dining room' là phòng ăn – nơi cả nhà ngồi ăn cơm cùng nhau."
+    },
+    {
+        "question": "Which one is not a pet? (Từ nào KHÔNG phải là thú cưng?)",
+        "options": [
+            "Rabbit",
+            "Goldfish",
+            "Tiger",
+            "Cat"
+        ],
+        "answer": 2,
+        "explanation": "'Tiger' là con hổ – là động vật hoang dã, không phải thú cưng."
+    },
+    {
+        "question": "What is the English word for 'skating'?",
+        "options": [
+            "Skating",
+            "Running",
+            "Reading",
+            "Sleeping"
+        ],
+        "answer": 0,
+        "explanation": "'Skating' là trượt patin – một hoạt động thể thao vui nhộn."
+    },
+    {
+        "question": "What is the English word for 'goldfish'?",
+        "options": [
+            "Parrot",
+            "Dog",
+            "Goldfish",
+            "Chicken"
+        ],
+        "answer": 2,
+        "explanation": "'Goldfish' là cá vàng – thường nuôi làm cảnh trong bể cá."
+    },
+    {
+        "question": "Which word means 'nấu ăn'? (Từ nào có nghĩa là nấu ăn?)",
+        "options": [
+            "Cook",
+            "Read",
+            "Draw",
+            "Play"
+        ],
+        "answer": 0,
+        "explanation": "'Cook' là động từ 'nấu ăn'. Ví dụ: 'My mother is cooking in the kitchen.'"
+    },
+    {
+        "question": "What is the English word for 'peacock'?",
+        "options": [
+            "Tiger",
+            "Peacock",
+            "Elephant",
+            "Monkey"
+        ],
+        "answer": 1,
+        "explanation": "'Peacock' là con công – có đuôi xòe rất đẹp."
+    },
+    {
+        "question": "What is the English word for 'climbing'?",
+        "options": [
+            "Jumping",
+            "Climbing",
+            "Swimming",
+            "Singing"
+        ],
+        "answer": 1,
+        "explanation": "'Climbing' là leo trèo – ví dụ: 'The monkey is climbing the tree.'"
+    },
+    {
+        "question": "What is the English word for 'window'?",
+        "options": [
+            "Window",
+            "Door",
+            "Wall",
+            "Lamp"
+        ],
+        "answer": 0,
+        "explanation": "'Window' là cửa sổ – thường có trong mỗi căn phòng để đón ánh sáng."
+    },
+    {
+        "question": "Which one is a room in the house? (Cái nào là phòng trong nhà?)",
+        "options": [
+            "Room",
+            "Egg",
+            "Bike",
+            "Zoo"
+        ],
+        "answer": 0,
+        "explanation": "'Room' là căn phòng. Các từ còn lại không phải là phòng trong nhà."
+    },
+    {
+        "question": "Which word means 'uống'? (Từ nào có nghĩa là 'uống'?)",
+        "options": [
+            "Eat",
+            "Drink",
+            "Sleep",
+            "Write"
+        ],
+        "answer": 1,
+        "explanation": "'Drink' là uống. Ví dụ: 'I drink milk every morning.'"
+    },
+    {
+        "question": "What is the English word for 'swinging'?",
+        "options": [
+            "Swinging",
+            "Flying",
+            "Running",
+            "Crying"
+        ],
+        "answer": 0,
+        "explanation": "'Swinging' là đu xích đu – một trò chơi ngoài trời rất vui."
+    },
+    {
+        "question": "What is the English word for 'meat'?",
+        "options": [
+            "Fish",
+            "Rice",
+            "Meat",
+            "Milk"
+        ],
+        "answer": 2,
+        "explanation": "'Meat' là thịt – một loại thức ăn trong bữa ăn hằng ngày."
+    },
+    {
+        "question": "What is the English word for 'plane'?",
+        "options": [
+            "Train",
+            "Ship",
+            "Car",
+            "Plane"
+        ],
+        "answer": 3,
+        "explanation": "'Plane' là máy bay – phương tiện bay trên trời."
+    },
+    {
+        "question": "Which one is an animal? (Từ nào là con vật?)",
+        "options": [
+            "Doctor",
+            "Zoo",
+            "Monkey",
+            "Window"
+        ],
+        "answer": 2,
+        "explanation": "'Monkey' là con khỉ – động vật sống ở rừng hoặc trong sở thú."
+    },
+    {
+        "question": "Which one is used to light up the room? (Dùng để chiếu sáng phòng)",
+        "options": [
+            "Chair",
+            "Lamp",
+            "Table",
+            "Pencil"
+        ],
+        "answer": 1,
+        "explanation": "'Lamp' là cái đèn – dùng để chiếu sáng khi trời tối."
+    },
+    {
+        "question": "What is the English word for 'walking'?",
+        "options": [
+            "Running",
+            "Walking",
+            "Jumping",
+            "Swimming"
+        ],
+        "answer": 1,
+        "explanation": "'Walking' là đi bộ – hoạt động nhẹ nhàng hằng ngày."
+    },
+    {
+        "question": "Which one is used for counting? (Dùng để đếm)",
+        "options": [
+            "Singing",
+            "Counting",
+            "Jumping",
+            "Drawing"
+        ],
+        "answer": 1,
+        "explanation": "'Counting' là đếm – ví dụ: 'He is counting from 1 to 10.'"
+    },
+    {
+        "question": "What number comes after eleven? (Số nào sau số 11?)",
+        "options": [
+            "Thirteen",
+            "Fourteen",
+            "Twelve",
+            "Twenty"
+        ],
+        "answer": 2,
+        "explanation": "'Twelve' là số 12 – đứng ngay sau 'Eleven'."
+    },
+    {
+        "question": "What is the English word for 'beans'?",
+        "options": [
+            "Rice",
+            "Egg",
+            "Beans",
+            "Milk"
+        ],
+        "answer": 2,
+        "explanation": "'Beans' là đậu – là một loại thức ăn tốt cho sức khỏe."
+    },
+    {
+        "question": "What is the English word for 'worker'?",
+        "options": [
+            "Worker",
+            "Doctor",
+            "Teacher",
+            "Farmer"
+        ],
+        "answer": 0,
+        "explanation": "'Worker' là công nhân – một nghề nghiệp học trong Unit 12: Jobs."
+    },
+    {
+        "question": "Which of these is a toy? (Cái nào là đồ chơi?)",
+        "options": [
+            "Plane",
+            "Teddy bear",
+            "Bus",
+            "Train"
+        ],
+        "answer": 1,
+        "explanation": "'Teddy bear' là gấu bông – đồ chơi mềm được nhiều trẻ em yêu thích."
+    },
+    {
+        "question": "What is the English word for 'truck'?",
+        "options": [
+            "Car",
+            "Truck",
+            "Train",
+            "Plane"
+        ],
+        "answer": 1,
+        "explanation": "'Truck' là xe tải – một loại phương tiện chở hàng lớn."
+    },
+    {
+        "question": "Which animal can talk and has colorful feathers?",
+        "options": [
+            "Cat",
+            "Parrot",
+            "Rabbit",
+            "Horse"
+        ],
+        "answer": 1,
+        "explanation": "'Parrot' là con vẹt – có thể bắt chước tiếng người và có lông rất đẹp."
+    },
+    {
+        "question": "What is the English word for 'cycling'?",
+        "options": [
+            "Running",
+            "Cycling",
+            "Walking",
+            "Jumping"
+        ],
+        "answer": 1,
+        "explanation": "'Cycling' là đi xe đạp – là một hoạt động thể thao ngoài trời."
+    },
+    {
+        "question": "Which word means 'vẽ'? (Từ nào nghĩa là 'vẽ'?)",
+        "options": [
+            "Writing",
+            "Drawing",
+            "Singing",
+            "Reading"
+        ],
+        "answer": 1,
+        "explanation": "'Drawing' là vẽ – ví dụ: 'She is drawing a cat.'"
+    },
+    {
+        "question": "Which one is in the sky? (Cái nào bay trên trời?)",
+        "options": [
+            "Plane",
+            "Bus",
+            "Truck",
+            "Train"
+        ],
+        "answer": 0,
+        "explanation": "'Plane' là máy bay – phương tiện duy nhất trong nhóm có thể bay."
+    },
+    {
+        "question": "Which room has a bed and a lamp? (Phòng nào có giường và đèn?)",
+        "options": [
+            "Living room",
+            "Kitchen",
+            "Bedroom",
+            "Dining room"
+        ],
+        "answer": 2,
+        "explanation": "'Bedroom' là phòng ngủ – thường có giường, đèn ngủ và bàn học."
+    },
+    {
+        "question": "What number comes before fifteen? (Số nào đứng trước số 15?)",
+        "options": [
+            "Thirteen",
+            "Twelve",
+            "Fourteen",
+            "Sixteen"
+        ],
+        "answer": 2,
+        "explanation": "'Fourteen' là số đứng ngay trước 'Fifteen'."
+    },
+    {
         "question": "What is the English word for 'quyển sách'?",
         "options": [
             "Book",

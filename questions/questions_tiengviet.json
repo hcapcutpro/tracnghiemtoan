@@ -99,6 +99,226 @@
         "explanation": "'Học' là hành động – là từ chỉ hoạt động (động từ)."
     },
     {
+        "question": "Từ nào sau đây là từ chỉ màu sắc? (Which of these is a color word?)",
+        "options": [
+            "Xanh",
+            "Chạy",
+            "Cá",
+            "Bàn"
+        ],
+        "answer": 0,
+        "explanation": "'Xanh' là màu sắc (màu xanh). Các từ còn lại không chỉ màu."
+    },
+    {
+        "question": "Câu nào là câu khiến? (Which one is an imperative sentence?)",
+        "options": [
+            "Tớ thích chơi đá bóng.",
+            "Cậu đi học chưa?",
+            "Hãy giữ gìn vệ sinh lớp học.",
+            "Trời ơi, đẹp quá!"
+        ],
+        "answer": 2,
+        "explanation": "Câu khiến là câu đưa ra yêu cầu/lời nhắc. Ví dụ: 'Hãy giữ gìn vệ sinh.'"
+    },
+    {
+        "question": "Trong các từ sau, từ nào là từ chỉ hoạt động? (Which one is a verb?)",
+        "options": [
+            "Bàn",
+            "Ngủ",
+            "Tươi",
+            "Xanh"
+        ],
+        "answer": 1,
+        "explanation": "'Ngủ' là hành động – thuộc nhóm động từ."
+    },
+    {
+        "question": "Từ nào là từ chỉ đặc điểm? (Which word is an adjective?)",
+        "options": [
+            "Nhanh",
+            "Xe",
+            "Đá",
+            "Chạy"
+        ],
+        "answer": 0,
+        "explanation": "'Nhanh' là từ mô tả tốc độ – là tính từ."
+    },
+    {
+        "question": "Dấu nào kết thúc câu cảm? (Which punctuation ends an exclamatory sentence?)",
+        "options": [
+            "Dấu phẩy (,)",
+            "Dấu chấm hỏi (?)",
+            "Dấu chấm (.)",
+            "Dấu chấm than (!)"
+        ],
+        "answer": 3,
+        "explanation": "Câu cảm thể hiện cảm xúc → kết thúc bằng dấu chấm than (!)."
+    },
+    {
+        "question": "Câu nào sau đây là câu hỏi? (Which sentence is a question?)",
+        "options": [
+            "Bạn có muốn chơi không?",
+            "Chúng tôi đang ăn cơm.",
+            "Hôm nay là thứ hai.",
+            "Cô giáo rất hiền."
+        ],
+        "answer": 0,
+        "explanation": "Câu hỏi thường kết thúc bằng '?' và có mục đích hỏi thông tin."
+    },
+    {
+        "question": "Từ nào chỉ sự vật? (Which one is a noun?)",
+        "options": [
+            "Đẹp",
+            "Mẹ",
+            "Nhanh",
+            "Ngủ"
+        ],
+        "answer": 1,
+        "explanation": "'Mẹ' là danh từ – chỉ người (sự vật)."
+    },
+    {
+        "question": "Trong câu 'Con mèo đang ngủ', từ nào là động từ?",
+        "options": [
+            "Con",
+            "Mèo",
+            "Đang",
+            "Ngủ"
+        ],
+        "answer": 3,
+        "explanation": "'Ngủ' là hành động của mèo – là động từ chính trong câu."
+    },
+    {
+        "question": "Từ 'xinh đẹp' thuộc loại từ nào?",
+        "options": [
+            "Động từ",
+            "Tính từ",
+            "Danh từ",
+            "Trạng từ"
+        ],
+        "answer": 1,
+        "explanation": "'Xinh đẹp' là từ mô tả – thuộc nhóm tính từ (đặc điểm)."
+    },
+    {
+        "question": "Từ nào sau đây là từ láy? (Which one is a reduplicative word?)",
+        "options": [
+            "Lấp lánh",
+            "Bút",
+            "Chạy",
+            "Đèn"
+        ],
+        "answer": 0,
+        "explanation": "'Lấp lánh' là từ láy – gồm hai tiếng láy lại nhau, dùng để miêu tả ánh sáng lung linh."
+    },
+    {
+        "question": "Từ nào là từ chỉ hoạt động trong câu sau: 'Em bé đang khóc.'?",
+        "options": [
+            "Em",
+            "Bé",
+            "Đang",
+            "Khóc"
+        ],
+        "answer": 3,
+        "explanation": "'Khóc' là hành động – là từ chỉ hoạt động trong câu này."
+    },
+    {
+        "question": "Từ nào sau đây là tính từ? (Which word is an adjective?)",
+        "options": [
+            "Đỏ",
+            "Xe",
+            "Mẹ",
+            "Đá"
+        ],
+        "answer": 0,
+        "explanation": "'Đỏ' là từ chỉ màu sắc – là tính từ mô tả đặc điểm."
+    },
+    {
+        "question": "Từ nào là danh từ? (Which one is a noun?)",
+        "options": [
+            "Ngủ",
+            "Nhanh",
+            "Bàn",
+            "Tốt"
+        ],
+        "answer": 2,
+        "explanation": "'Bàn' là đồ vật – thuộc loại danh từ."
+    },
+    {
+        "question": "Câu nào là câu kể? (Which sentence is a declarative sentence?)",
+        "options": [
+            "Bạn có thích học không?",
+            "Cẩn thận kẻo ngã!",
+            "Trời mưa rồi.",
+            "Thật là vui quá!"
+        ],
+        "answer": 2,
+        "explanation": "Câu kể nêu thông tin sự việc – 'Trời mưa rồi.' là ví dụ điển hình."
+    },
+    {
+        "question": "Câu 'Em đi học vào buổi sáng.' thuộc kiểu câu nào?",
+        "options": [
+            "Câu hỏi",
+            "Câu cảm",
+            "Câu kể",
+            "Câu khiến"
+        ],
+        "answer": 2,
+        "explanation": "Đây là câu kể – dùng để kể lại sự việc thường ngày."
+    },
+    {
+        "question": "Trong câu 'Chúng em chơi đá bóng', từ nào là động từ?",
+        "options": [
+            "Chúng",
+            "Em",
+            "Chơi",
+            "Bóng"
+        ],
+        "answer": 2,
+        "explanation": "'Chơi' là hành động – là động từ chính trong câu."
+    },
+    {
+        "question": "Từ 'cẩn thận' thuộc loại từ nào?",
+        "options": [
+            "Động từ",
+            "Tính từ",
+            "Danh từ",
+            "Từ láy"
+        ],
+        "answer": 1,
+        "explanation": "'Cẩn thận' mô tả tính cách, thái độ – là tính từ."
+    },
+    {
+        "question": "Từ nào dưới đây là từ chỉ đồ vật?",
+        "options": [
+            "Ghế",
+            "Chạy",
+            "Vui",
+            "Ngon"
+        ],
+        "answer": 0,
+        "explanation": "'Ghế' là đồ dùng – thuộc nhóm danh từ chỉ vật."
+    },
+    {
+        "question": "Câu 'Trời ơi, con mèo đáng yêu quá!' thuộc kiểu câu nào?",
+        "options": [
+            "Câu hỏi",
+            "Câu kể",
+            "Câu khiến",
+            "Câu cảm"
+        ],
+        "answer": 3,
+        "explanation": "Câu có cảm xúc, có dấu chấm than → là câu cảm."
+    },
+    {
+        "question": "Từ nào là từ láy? (Which one is a reduplicative word?)",
+        "options": [
+            "Mát mẻ",
+            "Xe",
+            "Chạy",
+            "Sách"
+        ],
+        "answer": 0,
+        "explanation": "'Mát mẻ' là từ láy toàn phần (hai tiếng giống nhau về nghĩa và vần)."
+    },
+    {
         "question": "Câu 'Chúng em cùng nhau dọn vệ sinh lớp học.' thuộc kiểu câu nào?",
         "options": [
             "Câu hỏi",
