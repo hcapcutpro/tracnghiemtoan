@@ -1,0 +1,112 @@
+[
+    {
+        "question": "Câu hỏi nào dưới đây là câu kể? (Which of the following is a telling sentence?)",
+        "options": [
+            "Bạn có thích đọc sách không?",
+            "Hôm nay trời rất đẹp.",
+            "Bạn đang làm gì thế?",
+            "Hãy giữ gìn vệ sinh lớp học!"
+        ],
+        "answer": 1,
+        "explanation": "Câu kể là câu nêu một sự việc hoặc thông tin. 'Hôm nay trời rất đẹp.' là một câu kể đơn giản."
+    },
+    {
+        "question": "Câu nào là câu cảm? (Which one is an exclamatory sentence?)",
+        "options": [
+            "Bà ngoại đang nấu ăn.",
+            "Tôi thích ăn cơm.",
+            "Trời ơi, đẹp quá!",
+            "Cậu có đi học không?"
+        ],
+        "answer": 2,
+        "explanation": "Câu cảm giúp thể hiện cảm xúc, ví dụ như vui, buồn, ngạc nhiên. 'Trời ơi, đẹp quá!' là câu cảm vì thể hiện sự ngạc nhiên."
+    },
+    {
+        "question": "Câu nào dưới đây dùng dấu chấm hỏi? (Which sentence uses a question mark?)",
+        "options": [
+            "Hôm nay bạn học bài chưa?",
+            "Mẹ tôi đang nấu ăn",
+            "Trời ơi, đẹp quá",
+            "Chúng tôi rất vui."
+        ],
+        "answer": 0,
+        "explanation": "Câu hỏi luôn có dấu chấm hỏi (?) ở cuối. Câu 'Hôm nay bạn học bài chưa?' là câu hỏi đúng."
+    },
+    {
+        "question": "Dấu nào dùng để kết thúc câu kể? (Which punctuation ends a telling sentence?)",
+        "options": [
+            "Dấu chấm hỏi (?)",
+            "Dấu chấm than (!)",
+            "Dấu chấm (.)",
+            "Dấu phẩy (,)"
+        ],
+        "answer": 2,
+        "explanation": "Câu kể thường kết thúc bằng dấu chấm (.). Ví dụ: 'Bé Lan đi học.'"
+    },
+    {
+        "question": "Câu 'Bạn có thích hoa không?' thuộc kiểu câu nào? (What kind of sentence is this?)",
+        "options": [
+            "Câu kể",
+            "Câu hỏi",
+            "Câu cảm",
+            "Câu khiến"
+        ],
+        "answer": 1,
+        "explanation": "Đây là một câu hỏi vì dùng để hỏi người khác và có dấu chấm hỏi ở cuối câu."
+    },
+    {
+        "question": "Từ nào là từ chỉ hoạt động? (Which word shows an action?)",
+        "options": [
+            "Xanh",
+            "Lớp học",
+            "Chạy",
+            "Sạch sẽ"
+        ],
+        "answer": 2,
+        "explanation": "'Chạy' là từ chỉ hoạt động (động từ). Các từ khác là danh từ hoặc tính từ."
+    },
+    {
+        "question": "Từ nào chỉ đặc điểm? (Which word describes a characteristic?)",
+        "options": [
+            "Cười",
+            "Núi",
+            "Nhanh nhẹn",
+            "Bơi"
+        ],
+        "answer": 2,
+        "explanation": "'Nhanh nhẹn' là từ mô tả tính cách, đặc điểm của ai đó. Đây là tính từ."
+    },
+    {
+        "question": "Từ nào chỉ sự vật? (Which one is a noun?)",
+        "options": [
+            "Xe đạp",
+            "Ngủ",
+            "Vui vẻ",
+            "Đẹp"
+        ],
+        "answer": 0,
+        "explanation": "'Xe đạp' là sự vật (một đồ vật có thể nhìn thấy). Nó là danh từ."
+    },
+    {
+        "question": "Trong câu 'Em đang học bài', từ nào chỉ hoạt động?",
+        "options": [
+            "Em",
+            "Đang",
+            "Học",
+            "Bài"
+        ],
+        "answer": 2,
+        "explanation": "'Học' là hành động – là từ chỉ hoạt động (động từ)."
+    },
+    {
+        "question": "Câu 'Chúng em cùng nhau dọn vệ sinh lớp học.' thuộc kiểu câu nào?",
+        "options": [
+            "Câu hỏi",
+            "Câu kể",
+            "Câu cảm",
+            "Câu khiến"
+        ],
+        "answer": 1,
+        "explanation": "Câu này kể lại một việc đã làm → là câu kể."
+    }
+]

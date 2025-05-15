@@ -17,7 +17,6 @@ let isQuizActive = false;
 
 const subjectFileMap = {
   toan_cb: "questions_toan_cb.json",
-  toan_nc: "questions_toan_nc.json",
   tinhoc: "questions_tinhoc.json",
   congnghe: "questions_congnghe.json",
   daoduc: "questions_daoduc.json",
@@ -25,6 +24,7 @@ const subjectFileMap = {
   tonghop: "questions_tonghop.json",
   tienganh_nangcao: "questions_tienganh_nangcao.json",
   bangcuuchuong: "questions_bangcuuchuong.json",
+  tiengviet: "questions_tiengviet.json",
 };
 
 const subjectConfig = {
@@ -37,6 +37,7 @@ const subjectConfig = {
   tonghop: { isCountdown: false, perQuestionLimit: null },
   tienganh_nangcao: { isCountdown: false, perQuestionLimit: null },
   bangcuuchuong: { isCountdown: true, perQuestionLimit: 10 },
+  tiengviet: { isCountdown: false, perQuestionLimit: null },
 };
 
 function selectSubject(subject) {
@@ -130,22 +131,46 @@ function showQuestion() {
   // Đếm ngược nếu cấu hình môn là countdown
   const config = subjectConfig[window.subject] || { isCountdown: false };
   if (config.isCountdown && config.perQuestionLimit) {
-    if (perQuestionTimer) clearInterval(perQuestionTimer);
-    perQuestionSeconds = config.perQuestionLimit;
-    updatePerQuestionTimer();
-    perQuestionTimer = setInterval(() => {
-      perQuestionSeconds--;
+    // Clear any existing timer first
+    if (perQuestionTimer) {
+      clearInterval(perQuestionTimer);
+      perQuestionTimer = null;
+    }
+
+    // Only start timer if the question hasn't been answered
+    if (answers[currentIndex] === null) {
+      perQuestionSeconds = config.perQuestionLimit;
       updatePerQuestionTimer();
-      if (perQuestionSeconds <= 0) {
-        clearInterval(perQuestionTimer);
-        if (answers[currentIndex] === null) {
-          answers[currentIndex] = -1;
-          showQuestion();
+
+      perQuestionTimer = setInterval(() => {
+        if (perQuestionSeconds <= 0) {
+          if (perQuestionTimer) {
+            clearInterval(perQuestionTimer);
+            perQuestionTimer = null;
+          }
+          // Only mark as incorrect if still not answered
+          if (answers[currentIndex] === null) {
+            answers[currentIndex] = -1;
+            // Use setTimeout to avoid potential recursion
+            setTimeout(() => {
+              showQuestion();
+            }, 0);
+          }
+          return;
         }
-      }
-    }, 1000);
+
+        perQuestionSeconds--;
+        updatePerQuestionTimer();
+      }, 1000);
+    } else {
+      // If question is already answered, clear the timer display
+      document.getElementById("timer").textContent = "";
+    }
   } else {
-    if (perQuestionTimer) clearInterval(perQuestionTimer);
+    if (perQuestionTimer) {
+      clearInterval(perQuestionTimer);
+      perQuestionTimer = null;
+    }
     document.getElementById("timer").textContent = "";
   }
 }
@@ -161,10 +186,15 @@ function updatePerQuestionTimer() {
 
 function selectOption(index) {
   if (answers[currentIndex] !== null) return;
+
+  // Clear timer before setting the answer
+  if (perQuestionTimer) {
+    clearInterval(perQuestionTimer);
+    perQuestionTimer = null;
+  }
+
   answers[currentIndex] = index;
   answered = true;
-  const config = subjectConfig[window.subject] || { isCountdown: false };
-  if (config.isCountdown && perQuestionTimer) clearInterval(perQuestionTimer);
   showQuestion();
 }
 
@@ -198,8 +228,12 @@ function showFeedback() {
 }
 
 function prevQuestion() {
-  const config = subjectConfig[window.subject] || { isCountdown: false };
-  if (config.isCountdown && perQuestionTimer) clearInterval(perQuestionTimer);
+  // Clear timer before changing question
+  if (perQuestionTimer) {
+    clearInterval(perQuestionTimer);
+    perQuestionTimer = null;
+  }
+
   if (currentIndex > 0) {
     currentIndex--;
     showQuestion();
@@ -207,8 +241,12 @@ function prevQuestion() {
 }
 
 function nextQuestion() {
-  const config = subjectConfig[window.subject] || { isCountdown: false };
-  if (config.isCountdown && perQuestionTimer) clearInterval(perQuestionTimer);
+  // Clear timer before changing question
+  if (perQuestionTimer) {
+    clearInterval(perQuestionTimer);
+    perQuestionTimer = null;
+  }
+
   if (answers[currentIndex] === null) {
     alert("Vui lòng chọn một đáp án trước khi tiếp tục!");
     return;
@@ -368,16 +406,26 @@ function showResult() {
 }
 
 function resetQuiz() {
-  const config = subjectConfig[window.subject] || { isCountdown: false };
-  if (config.isCountdown && perQuestionTimer) clearInterval(perQuestionTimer);
+  // Clear all timers
+  if (perQuestionTimer) {
+    clearInterval(perQuestionTimer);
+    perQuestionTimer = null;
+  }
+  if (countdown) {
+    clearInterval(countdown);
+    countdown = null;
+  }
+  if (timerInterval) {
+    clearInterval(timerInterval);
+    timerInterval = null;
+  }
+
   currentIndex = 0;
   answers = Array(currentQuiz.length).fill(null);
   quizSubmitted = false;
   document.getElementById("result").classList.add("hidden");
   document.getElementById("quiz-container").classList.remove("hidden");
   document.getElementById("submit-btn").classList.add("hidden");
-  clearInterval(countdown);
-  clearInterval(timerInterval);
   startTimer();
   showQuestion();
 }
