@@ -171,15 +171,30 @@ function selectOption(index) {
 function showFeedback() {
   const q = currentQuiz[currentIndex];
   const feedback = document.getElementById("feedback");
+  let feedbackHTML = "";
+
   if (answers[currentIndex] === q.answer) {
-    feedback.innerHTML =
+    feedbackHTML =
       '<span style="color: var(--correct-color)">Chính xác!</span>';
   } else {
-    feedback.innerHTML =
+    feedbackHTML =
       '<span style="color: var(--incorrect-color)">Chưa đúng!</span> Đáp án đúng là: <b>' +
       q.options[q.answer] +
       "</b>";
   }
+
+  // Thêm phần giải thích nếu có
+  if (q.explanation) {
+    feedbackHTML += `<div style="margin-top: 8px; padding: 8px; background: #f8f9fa; border-radius: 6px; font-size: 14px; color: #666;">
+      <i>${q.explanation}</i>
+    </div>`;
+  } else {
+    feedbackHTML += `<div style="margin-top: 8px; padding: 8px; background: #f8f9fa; border-radius: 6px; font-size: 14px; color: #666;">
+      <i>Chưa có giải thích cho câu này.</i>
+    </div>`;
+  }
+
+  feedback.innerHTML = feedbackHTML;
 }
 
 function prevQuestion() {
