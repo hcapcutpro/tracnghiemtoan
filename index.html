@@ -9,7 +9,9 @@
   <body>
     <div class="container">
       <header>
-        <h1>Ôn tập kiến thức lớp 3</h1>
+        <h1>
+          Ôn Thi, Chúc Đình Nhân đạt kết quả cao trong kỳ thi sắp tới nha!
+        </h1>
       </header>
 
       <main>
@@ -19,49 +21,56 @@
               class="subject-card toan_cb"
               onclick="selectSubject('toan_cb')"
             >
-              📐<br />Toán (Cơ bản)
+              📐<br /><br />Toán lớp 3 <br />cơ bản
             </button>
             <button
               class="subject-card toan_nc"
               onclick="selectSubject('toan_nc')"
             >
-              🧮<br />Toán (Nâng cao)
+              🧮<br /><br />Toán lớp 3 nâng cao
             </button>
             <button
               class="subject-card tinhoc"
               onclick="selectSubject('tinhoc')"
             >
-              💻<br />Tin học
+              💻<br /><br />Tin học <br />cơ bản
             </button>
             <button
               class="subject-card congnghe"
               onclick="selectSubject('congnghe')"
             >
-              🛠️<br />Công nghệ
+              🛠️<br /><br />Đề thi <br />Công nghệ
             </button>
             <button
               class="subject-card daoduc"
               onclick="selectSubject('daoduc')"
             >
-              ❤️<br />Đạo đức
+              ❤️<br /><br />Đề thi <br />Đạo đức
             </button>
             <button
               class="subject-card tienganh"
               onclick="selectSubject('tienganh')"
             >
-              🇬🇧<br />Tiếng Anh
+              🇬🇧<br /><br />Từ vựng <br />Tiếng Anh
             </button>
             <button
               class="subject-card tienganh_nangcao"
               onclick="selectSubject('tienganh_nangcao')"
             >
-              🇬🇧✨<br />Tiếng Anh Nâng cao
+              🇬🇧✨<br /><br />Tiếng Anh <br />Nâng cao
             </button>
             <button
               class="subject-card tonghop"
               onclick="selectSubject('tonghop')"
             >
-              📚<br />Tổng hợp
+              📚<br /><br />Đề thi <br />Tổng hợp
+            </button>
+            <button
+              class="subject-card bangcuuchuong"
+              onclick="selectSubject('bangcuuchuong')"
+            >
+              ✖️➗<br /><br />Luyện Bảng <br />
+              cửu chương
             </button>
           </div>
         </div>
@@ -69,8 +78,8 @@
         <div id="quiz-container" class="hidden">
           <div class="quiz-header">
             <div class="progress">
-              Câu <span id="current-question">1</span>/<span
-                id="total-questions"
+              Câu
+              <span id="current-question">1</span>/<span id="total-questions"
                 >30</span
               >
             </div>
@@ -94,13 +103,17 @@
         <div id="result" class="result hidden">
           <h2>Kết quả</h2>
           <p>
-            Số câu đúng: <span id="correct-answers">0</span>/<span
+            Số câu đúng:
+            <span id="correct-answers">0</span>/<span
               id="total-questions-result"
               >0</span
             >
           </p>
           <p>Tỷ lệ đúng: <span id="percentage">0</span>%</p>
-          <p>Thời gian làm bài: <span id="time-taken">00:00</span></p>
+          <p>
+            Thời gian làm bài:
+            <span id="time-taken">00:00</span>
+          </p>
           <p class="feedback"></p>
           <div id="explanations"></div>
           <button onclick="resetQuiz()">Làm lại</button>

@@ -11,6 +11,116 @@
         "explanation": "Câu hỏi 'Who is this?' dùng để hỏi về ai đó trong tranh hoặc trước mặt. Đáp án đúng là 'It's my father.' (Đó là bố của em). Các đáp án khác là mẹ, chị/em gái, anh/em trai."
     },
     {
+        "question": "What room is this: where you sleep at night? (Phòng nào là nơi bạn ngủ vào ban đêm?)",
+        "options": [
+            "Bathroom",
+            "Living room",
+            "Bedroom",
+            "Kitchen"
+        ],
+        "answer": 2,
+        "explanation": "'Bedroom' nghĩa là phòng ngủ. Đây là nơi bạn đi ngủ vào ban đêm. Các phòng khác có chức năng khác: bathroom (phòng tắm), living room (phòng khách), kitchen (nhà bếp)."
+    },
+    {
+        "question": "What is this: you cook food here. (Đây là nơi bạn nấu ăn.)",
+        "options": [
+            "Bathroom",
+            "Living room",
+            "Bedroom",
+            "Kitchen"
+        ],
+        "answer": 3,
+        "explanation": "'Kitchen' là nhà bếp – nơi có bếp nấu và đồ ăn. Từ 'cook' nghĩa là 'nấu ăn'."
+    },
+    {
+        "question": "What room has a toilet and sink? (Phòng nào có bồn rửa và nhà vệ sinh?)",
+        "options": [
+            "Bedroom",
+            "Bathroom",
+            "Kitchen",
+            "Dining room"
+        ],
+        "answer": 1,
+        "explanation": "'Bathroom' là phòng tắm. Toilet là bồn cầu, sink là bồn rửa tay – cả hai đều có trong phòng tắm."
+    },
+    {
+        "question": "What’s in the living room? (Phòng khách có gì?)",
+        "options": [
+            "There is a TV",
+            "There are toys",
+            "There is rice",
+            "There is a cat"
+        ],
+        "answer": 0,
+        "explanation": "'TV' thường được đặt ở phòng khách để xem cùng gia đình. Câu đúng: 'There is a TV' nghĩa là 'Có một cái tivi'."
+    },
+    {
+        "question": "What’s your favorite drink? (Đồ uống yêu thích của bạn là gì?)",
+        "options": [
+            "Milk",
+            "Rice",
+            "Book",
+            "Toy"
+        ],
+        "answer": 0,
+        "explanation": "'Milk' là sữa – là đồ uống. Rice là cơm (thức ăn), book là sách, toy là đồ chơi – không phải đồ uống."
+    },
+    {
+        "question": "Which one is food? (Cái nào là đồ ăn?)",
+        "options": [
+            "Robot",
+            "Juice",
+            "Rice",
+            "Book"
+        ],
+        "answer": 2,
+        "explanation": "'Rice' là cơm – là đồ ăn. Juice là nước uống, robot và book không phải để ăn hay uống."
+    },
+    {
+        "question": "Choose the correct answer: I’m thirsty. I’d like some ______. (Tôi khát. Tôi muốn một ít ______.)",
+        "options": [
+            "milk",
+            "rice",
+            "chicken",
+            "toy"
+        ],
+        "answer": 0,
+        "explanation": "'Thirsty' nghĩa là khát → ta muốn uống gì đó. 'Milk' là sữa, là đồ uống phù hợp. Rice và chicken là đồ ăn, toy là đồ chơi."
+    },
+    {
+        "question": "Read and answer: 'My name is Nam. I’m nine. I like fish.' — How old is Nam? (Đọc và trả lời: Nam bao nhiêu tuổi?)",
+        "options": [
+            "Six",
+            "Seven",
+            "Nine",
+            "Ten"
+        ],
+        "answer": 2,
+        "explanation": "Câu 'I’m nine' nghĩa là 'Mình 9 tuổi'. Vậy Nam 9 tuổi. Đây là câu trả lời nằm trong đoạn văn ngắn."
+    },
+    {
+        "question": "Read and answer: 'Lan is in the kitchen. She is cooking.' — Where is Lan? (Lan đang ở đâu?)",
+        "options": [
+            "In the bedroom",
+            "In the kitchen",
+            "In the bathroom",
+            "In the garden"
+        ],
+        "answer": 1,
+        "explanation": "Câu đầu nói rõ: 'Lan is in the kitchen' nghĩa là 'Lan đang ở trong bếp'. Đó là câu trả lời đúng."
+    },
+    {
+        "question": "What is the opposite of 'short'? (Từ trái nghĩa với 'short' là gì?)",
+        "options": [
+            "Big",
+            "Small",
+            "Tall",
+            "Fat"
+        ],
+        "answer": 2,
+        "explanation": "'Short' nghĩa là thấp. Trái nghĩa với nó là 'Tall' – nghĩa là cao. Các từ khác không liên quan đến chiều cao."
+    },
+    {
         "question": "How old is he? (Chỉ vào một bạn nam, ghi số 9)",
         "options": [
             "He's nine.",

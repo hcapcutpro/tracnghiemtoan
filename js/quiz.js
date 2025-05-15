@@ -9,6 +9,9 @@ let quizSubmitted = false;
 let countdown = null;
 let countdownSeconds = 0;
 
+let perQuestionTimer = null;
+let perQuestionSeconds = 0;
+
 const subjectFileMap = {
   toan_cb: "questions_toan_cb.json",
   toan_nc: "questions_toan_nc.json",
@@ -18,6 +21,19 @@ const subjectFileMap = {
   tienganh: "questions_tienganh.json",
   tonghop: "questions_tonghop.json",
   tienganh_nangcao: "questions_tienganh_nangcao.json",
+  bangcuuchuong: "questions_bangcuuchuong.json",
+};
+
+const subjectConfig = {
+  toan_cb: { isCountdown: false, perQuestionLimit: null },
+  toan_nc: { isCountdown: false, perQuestionLimit: null },
+  tinhoc: { isCountdown: false, perQuestionLimit: null },
+  congnghe: { isCountdown: false, perQuestionLimit: null },
+  daoduc: { isCountdown: false, perQuestionLimit: null },
+  tienganh: { isCountdown: false, perQuestionLimit: null },
+  tonghop: { isCountdown: false, perQuestionLimit: null },
+  tienganh_nangcao: { isCountdown: false, perQuestionLimit: null },
+  bangcuuchuong: { isCountdown: true, perQuestionLimit: 10 },
 };
 
 function selectSubject(subject) {
@@ -26,12 +42,13 @@ function selectSubject(subject) {
     fetch("questions/" + subjectFileMap[subject])
       .then((res) => res.json())
       .then((data) => {
-        // Luôn chọn ngẫu nhiên 20 câu hỏi nếu số lượng lớn hơn 20
+        let quizData;
         if (data.length > 20) {
-          currentQuiz = shuffleArray(data).slice(0, 20);
+          quizData = shuffleArray(data).slice(0, 20);
         } else {
-          currentQuiz = data;
+          quizData = data;
         }
+        currentQuiz = quizData.map((q) => shuffleQuestionOptions(q));
         currentIndex = 0;
         answers = Array(currentQuiz.length).fill(null);
         quizSubmitted = false;
@@ -67,12 +84,9 @@ function showQuestion() {
     option.classList.add("option");
     option.textContent = opt;
     if (answers[currentIndex] !== null) {
-      // Đã trả lời
       if (idx === q.answer) option.classList.add("correct");
-
       if (answers[currentIndex] === idx && answers[currentIndex] !== q.answer)
         option.classList.add("incorrect");
-
       option.classList.add("disabled");
     } else {
       option.onclick = () => selectOption(idx);
@@ -108,13 +122,45 @@ function showQuestion() {
       document.getElementById("submit-btn").classList.remove("hidden");
     }
   }
+
+  // Đếm ngược nếu cấu hình môn là countdown
+  const config = subjectConfig[window.subject] || { isCountdown: false };
+  if (config.isCountdown && config.perQuestionLimit) {
+    if (perQuestionTimer) clearInterval(perQuestionTimer);
+    perQuestionSeconds = config.perQuestionLimit;
+    updatePerQuestionTimer();
+    perQuestionTimer = setInterval(() => {
+      perQuestionSeconds--;
+      updatePerQuestionTimer();
+      if (perQuestionSeconds <= 0) {
+        clearInterval(perQuestionTimer);
+        if (answers[currentIndex] === null) {
+          answers[currentIndex] = -1;
+          showQuestion();
+        }
+      }
+    }, 1000);
+  } else {
+    if (perQuestionTimer) clearInterval(perQuestionTimer);
+    document.getElementById("timer").textContent = "";
+  }
+}
+
+function updatePerQuestionTimer() {
+  const config = subjectConfig[window.subject] || { isCountdown: false };
+  if (config.isCountdown && config.perQuestionLimit) {
+    document.getElementById("timer").textContent = `00:${perQuestionSeconds
+      .toString()
+      .padStart(2, "0")}`;
+  }
 }
 
 function selectOption(index) {
   if (answers[currentIndex] !== null) return;
-
   answers[currentIndex] = index;
   answered = true;
+  const config = subjectConfig[window.subject] || { isCountdown: false };
+  if (config.isCountdown && perQuestionTimer) clearInterval(perQuestionTimer);
   showQuestion();
 }
 
@@ -133,6 +179,8 @@ function showFeedback() {
 }
 
 function prevQuestion() {
+  const config = subjectConfig[window.subject] || { isCountdown: false };
+  if (config.isCountdown && perQuestionTimer) clearInterval(perQuestionTimer);
   if (currentIndex > 0) {
     currentIndex--;
     showQuestion();
@@ -140,6 +188,8 @@ function prevQuestion() {
 }
 
 function nextQuestion() {
+  const config = subjectConfig[window.subject] || { isCountdown: false };
+  if (config.isCountdown && perQuestionTimer) clearInterval(perQuestionTimer);
   if (answers[currentIndex] === null) {
     alert("Vui lòng chọn một đáp án trước khi tiếp tục!");
     return;
@@ -151,6 +201,8 @@ function nextQuestion() {
 }
 
 function submitQuiz() {
+  const config = subjectConfig[window.subject] || { isCountdown: false };
+  if (config.isCountdown && perQuestionTimer) clearInterval(perQuestionTimer);
   quizSubmitted = true;
   showResult();
 }
@@ -159,6 +211,8 @@ function startTimer() {
   startTime = new Date();
   clearInterval(timerInterval);
   clearInterval(countdown);
+  clearInterval(perQuestionTimer);
+  const config = subjectConfig[window.subject] || { isCountdown: false };
   if (window.subject === "tonghop") {
     countdownSeconds = 15 * 60; // 15 phút
     updateCountdown();
@@ -172,13 +226,22 @@ function startTimer() {
         showResult();
       }
     }, 1000);
+  } else if (config.isCountdown) {
+    // Nếu môn có cấu hình isCountdown (ví dụ bangcuuchuong) thì không chạy đồng hồ tổng (timerInterval) mà chỉ chạy đồng hồ đếm ngược cho từng câu (perQuestionTimer) (đã được xử lý trong showQuestion).
+    // (Không gọi updateTimer ở đây)
   } else {
+    // Còn lại (các môn khác) thì chỉ chạy đồng hồ tổng (đếm xuôi) (như hiện tại).
     timerInterval = setInterval(updateTimer, 1000);
     updateTimer();
   }
 }
 
 function updateTimer() {
+  const config = subjectConfig[window.subject] || { isCountdown: false };
+  if (config.isCountdown) {
+    // Nếu môn có cấu hình isCountdown thì không "update" đồng hồ tổng (không gọi updateTimer) mà chỉ chạy đồng hồ đếm ngược cho từng câu (đã được xử lý trong showQuestion).
+    return;
+  }
   const now = new Date();
   const diff = Math.floor((now - startTime) / 1000);
   const minutes = Math.floor(diff / 60);
@@ -189,6 +252,9 @@ function updateTimer() {
 }
 
 function updateCountdown() {
+  if (window.subject !== "tonghop") {
+    return;
+  }
   const minutes = Math.floor(countdownSeconds / 60);
   const seconds = countdownSeconds % 60;
   document.getElementById("timer").textContent = `${minutes
@@ -282,6 +348,8 @@ function showResult() {
 }
 
 function resetQuiz() {
+  const config = subjectConfig[window.subject] || { isCountdown: false };
+  if (config.isCountdown && perQuestionTimer) clearInterval(perQuestionTimer);
   currentIndex = 0;
   answers = Array(currentQuiz.length).fill(null);
   quizSubmitted = false;
@@ -294,12 +362,42 @@ function resetQuiz() {
   showQuestion();
 }
 
+function confirmNavigation(message) {
+  return window.confirm(message);
+}
+
 function backToHome() {
+  // Check if quiz is in progress (not submitted and has answers)
+  const isQuizInProgress =
+    !quizSubmitted && answers.some((answer) => answer !== null);
+
+  if (isQuizInProgress) {
+    const confirmed = confirmNavigation(
+      "Bạn đang làm bài. Nếu thoát, tiến độ sẽ bị mất. Bạn có chắc muốn thoát không?"
+    );
+    if (!confirmed) {
+      return;
+    }
+  }
+
   document.getElementById("result").classList.add("hidden");
   document.getElementById("quiz-container").classList.add("hidden");
   document.getElementById("subject-selection-grid").classList.remove("hidden");
   document.getElementById("subject").value = "";
 }
+
+// Add event listener for page unload
+window.addEventListener("beforeunload", function (e) {
+  // Check if quiz is in progress
+  const isQuizInProgress =
+    !quizSubmitted && answers.some((answer) => answer !== null);
+
+  if (isQuizInProgress) {
+    // Standard way to show confirmation dialog when leaving page
+    e.preventDefault();
+    e.returnValue = "";
+  }
+});
 
 function shuffleArray(array) {
   let arr = array.slice();
@@ -308,4 +406,25 @@ function shuffleArray(array) {
     [arr[i], arr[j]] = [arr[j], arr[i]];
   }
   return arr;
+}
+
+// Hàm trộn đáp án và cập nhật lại chỉ số đáp án đúng
+function shuffleQuestionOptions(question) {
+  const options = question.options.slice();
+  const correctAnswer = question.answer;
+  // Tạo mảng index và trộn
+  const indices = options.map((_, i) => i);
+  for (let i = indices.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [indices[i], indices[j]] = [indices[j], indices[i]];
+  }
+  // Tạo options mới theo thứ tự đã trộn
+  const newOptions = indices.map((i) => options[i]);
+  // Xác định vị trí mới của đáp án đúng
+  const newAnswer = indices.indexOf(correctAnswer);
+  return {
+    ...question,
+    options: newOptions,
+    answer: newAnswer,
+  };
 }

@@ -1,0 +1,1784 @@
+[
+    {
+        "question": "1 × 1 = ?",
+        "options": [
+            "1",
+            "2",
+            "0",
+            "3"
+        ],
+        "answer": 0,
+        "explanation": "1 nhân 1 bằng 1. Ví dụ: Em có 1 hộp, mỗi hộp 1 cái bút. Hỏi em có tất cả bao nhiêu cái bút? Đáp án: 1 × 1 = 1 cái bút."
+    },
+    {
+        "question": "1 × 2 = ?",
+        "options": [
+            "2",
+            "1",
+            "3",
+            "4"
+        ],
+        "answer": 0,
+        "explanation": "1 nhân 2 bằng 2. Ví dụ: Em có 1 túi, mỗi túi 2 quả cam. Hỏi em có tất cả bao nhiêu quả cam? Đáp án: 1 × 2 = 2 quả cam."
+    },
+    {
+        "question": "1 × 3 = ?",
+        "options": [
+            "3",
+            "2",
+            "1",
+            "4"
+        ],
+        "answer": 0,
+        "explanation": "1 nhân 3 bằng 3. Ví dụ: Em có 1 rổ, mỗi rổ 3 quả trứng. Hỏi em có tất cả bao nhiêu quả trứng? Đáp án: 1 × 3 = 3 quả trứng."
+    },
+    {
+        "question": "1 × 4 = ?",
+        "options": [
+            "4",
+            "3",
+            "2",
+            "5"
+        ],
+        "answer": 0,
+        "explanation": "1 nhân 4 bằng 4. Ví dụ: Em có 1 bó hoa, mỗi bó 4 bông hoa. Hỏi em có tất cả bao nhiêu bông hoa? Đáp án: 1 × 4 = 4 bông hoa."
+    },
+    {
+        "question": "1 × 5 = ?",
+        "options": [
+            "5",
+            "4",
+            "6",
+            "3"
+        ],
+        "answer": 0,
+        "explanation": "1 nhân 5 bằng 5. Ví dụ: Em có 1 túi, mỗi túi 5 viên bi. Hỏi em có tất cả bao nhiêu viên bi? Đáp án: 1 × 5 = 5 viên bi."
+    },
+    {
+        "question": "1 × 6 = ?",
+        "options": [
+            "6",
+            "5",
+            "7",
+            "4"
+        ],
+        "answer": 0,
+        "explanation": "1 nhân 6 bằng 6. Ví dụ: Em có 1 hộp, mỗi hộp 6 cái bánh. Hỏi em có tất cả bao nhiêu cái bánh? Đáp án: 1 × 6 = 6 cái bánh."
+    },
+    {
+        "question": "1 × 7 = ?",
+        "options": [
+            "7",
+            "6",
+            "8",
+            "5"
+        ],
+        "answer": 0,
+        "explanation": "1 nhân 7 bằng 7. Ví dụ: Em có 1 túi, mỗi túi 7 cái kẹo. Hỏi em có tất cả bao nhiêu cái kẹo? Đáp án: 1 × 7 = 7 cái kẹo."
+    },
+    {
+        "question": "1 × 8 = ?",
+        "options": [
+            "8",
+            "7",
+            "9",
+            "6"
+        ],
+        "answer": 0,
+        "explanation": "1 nhân 8 bằng 8. Ví dụ: Em có 1 hộp, mỗi hộp 8 cái bút chì. Hỏi em có tất cả bao nhiêu cái bút chì? Đáp án: 1 × 8 = 8 cái bút chì."
+    },
+    {
+        "question": "1 × 9 = ?",
+        "options": [
+            "9",
+            "8",
+            "10",
+            "7"
+        ],
+        "answer": 0,
+        "explanation": "1 nhân 9 bằng 9. Ví dụ: Em có 1 túi, mỗi túi 9 quả táo. Hỏi em có tất cả bao nhiêu quả táo? Đáp án: 1 × 9 = 9 quả táo."
+    },
+    {
+        "question": "2 × 1 = ?",
+        "options": [
+            "2",
+            "1",
+            "3",
+            "4"
+        ],
+        "answer": 0,
+        "explanation": "2 nhân 1 bằng 2. Ví dụ: Em có 2 hộp, mỗi hộp 1 cái bánh. Hỏi em có tất cả bao nhiêu cái bánh? Đáp án: 2 × 1 = 2 cái bánh."
+    },
+    {
+        "question": "2 × 2 = ?",
+        "options": [
+            "4",
+            "2",
+            "3",
+            "5"
+        ],
+        "answer": 0,
+        "explanation": "2 nhân 2 bằng 4. Ví dụ: Em có 2 túi, mỗi túi 2 quả cam. Hỏi em có tất cả bao nhiêu quả cam? Đáp án: 2 × 2 = 4 quả cam."
+    },
+    {
+        "question": "2 × 3 = ?",
+        "options": [
+            "6",
+            "5",
+            "4",
+            "3"
+        ],
+        "answer": 0,
+        "explanation": "2 nhân 3 bằng 6. Ví dụ: Em có 2 rổ, mỗi rổ 3 quả trứng. Hỏi em có tất cả bao nhiêu quả trứng? Đáp án: 2 × 3 = 6 quả trứng."
+    },
+    {
+        "question": "2 × 4 = ?",
+        "options": [
+            "8",
+            "6",
+            "7",
+            "4"
+        ],
+        "answer": 0,
+        "explanation": "2 nhân 4 bằng 8. Ví dụ: Em có 2 bó hoa, mỗi bó 4 bông hoa. Hỏi em có tất cả bao nhiêu bông hoa? Đáp án: 2 × 4 = 8 bông hoa."
+    },
+    {
+        "question": "2 × 5 = ?",
+        "options": [
+            "10",
+            "8",
+            "9",
+            "7"
+        ],
+        "answer": 0,
+        "explanation": "2 nhân 5 bằng 10. Ví dụ: Em có 2 túi, mỗi túi 5 viên bi. Hỏi em có tất cả bao nhiêu viên bi? Đáp án: 2 × 5 = 10 viên bi."
+    },
+    {
+        "question": "2 × 6 = ?",
+        "options": [
+            "12",
+            "10",
+            "11",
+            "8"
+        ],
+        "answer": 0,
+        "explanation": "2 nhân 6 bằng 12. Ví dụ: Em có 2 hộp, mỗi hộp 6 cái bánh. Hỏi em có tất cả bao nhiêu cái bánh? Đáp án: 2 × 6 = 12 cái bánh."
+    },
+    {
+        "question": "2 × 7 = ?",
+        "options": [
+            "14",
+            "12",
+            "13",
+            "10"
+        ],
+        "answer": 0,
+        "explanation": "2 nhân 7 bằng 14. Ví dụ: Em có 2 túi, mỗi túi 7 cái kẹo. Hỏi em có tất cả bao nhiêu cái kẹo? Đáp án: 2 × 7 = 14 cái kẹo."
+    },
+    {
+        "question": "2 × 8 = ?",
+        "options": [
+            "16",
+            "14",
+            "15",
+            "12"
+        ],
+        "answer": 0,
+        "explanation": "2 nhân 8 bằng 16. Ví dụ: Em có 2 hộp, mỗi hộp 8 cái bút chì. Hỏi em có tất cả bao nhiêu cái bút chì? Đáp án: 2 × 8 = 16 cái bút chì."
+    },
+    {
+        "question": "2 × 9 = ?",
+        "options": [
+            "18",
+            "16",
+            "17",
+            "14"
+        ],
+        "answer": 0,
+        "explanation": "2 nhân 9 bằng 18. Ví dụ: Em có 2 túi, mỗi túi 9 quả táo. Hỏi em có tất cả bao nhiêu quả táo? Đáp án: 2 × 9 = 18 quả táo."
+    },
+    {
+        "question": "3 × 1 = ?",
+        "options": [
+            "3",
+            "2",
+            "4",
+            "5"
+        ],
+        "answer": 0,
+        "explanation": "3 nhân 1 bằng 3. Ví dụ: Em có 3 hộp, mỗi hộp 1 cái bánh. Hỏi em có tất cả bao nhiêu cái bánh? Đáp án: 3 × 1 = 3 cái bánh."
+    },
+    {
+        "question": "3 × 2 = ?",
+        "options": [
+            "6",
+            "4",
+            "5",
+            "3"
+        ],
+        "answer": 0,
+        "explanation": "3 nhân 2 bằng 6. Ví dụ: Em có 3 túi, mỗi túi 2 quả cam. Hỏi em có tất cả bao nhiêu quả cam? Đáp án: 3 × 2 = 6 quả cam."
+    },
+    {
+        "question": "3 × 3 = ?",
+        "options": [
+            "9",
+            "6",
+            "8",
+            "7"
+        ],
+        "answer": 0,
+        "explanation": "3 nhân 3 bằng 9. Ví dụ: Em có 3 rổ, mỗi rổ 3 quả trứng. Hỏi em có tất cả bao nhiêu quả trứng? Đáp án: 3 × 3 = 9 quả trứng."
+    },
+    {
+        "question": "3 × 4 = ?",
+        "options": [
+            "12",
+            "9",
+            "10",
+            "8"
+        ],
+        "answer": 0,
+        "explanation": "3 nhân 4 bằng 12. Ví dụ: Em có 3 bó hoa, mỗi bó 4 bông hoa. Hỏi em có tất cả bao nhiêu bông hoa? Đáp án: 3 × 4 = 12 bông hoa."
+    },
+    {
+        "question": "3 × 5 = ?",
+        "options": [
+            "15",
+            "12",
+            "14",
+            "10"
+        ],
+        "answer": 0,
+        "explanation": "3 nhân 5 bằng 15. Ví dụ: Em có 3 túi, mỗi túi 5 viên bi. Hỏi em có tất cả bao nhiêu viên bi? Đáp án: 3 × 5 = 15 viên bi."
+    },
+    {
+        "question": "3 × 6 = ?",
+        "options": [
+            "18",
+            "15",
+            "16",
+            "12"
+        ],
+        "answer": 0,
+        "explanation": "3 nhân 6 bằng 18. Ví dụ: Em có 3 hộp, mỗi hộp 6 cái bánh. Hỏi em có tất cả bao nhiêu cái bánh? Đáp án: 3 × 6 = 18 cái bánh."
+    },
+    {
+        "question": "3 × 7 = ?",
+        "options": [
+            "21",
+            "20",
+            "24",
+            "18"
+        ],
+        "answer": 0,
+        "explanation": "3 nhân 7 bằng 21. Ví dụ: Em có 3 túi, mỗi túi 7 cái kẹo. Hỏi em có tất cả bao nhiêu cái kẹo? Đáp án: 3 × 7 = 21 cái kẹo."
+    },
+    {
+        "question": "3 × 8 = ?",
+        "options": [
+            "24",
+            "21",
+            "26",
+            "18"
+        ],
+        "answer": 0,
+        "explanation": "3 nhân 8 bằng 24. Ví dụ: Em có 3 hộp, mỗi hộp 8 cái bút chì. Hỏi em có tất cả bao nhiêu cái bút chì? Đáp án: 3 × 8 = 24 cái bút chì."
+    },
+    {
+        "question": "3 × 9 = ?",
+        "options": [
+            "27",
+            "24",
+            "21",
+            "30"
+        ],
+        "answer": 0,
+        "explanation": "3 nhân 9 bằng 27. Ví dụ: Em có 3 rổ, mỗi rổ 9 quả trứng. Hỏi em có tất cả bao nhiêu quả trứng? Đáp án: 3 × 9 = 27 quả trứng."
+    },
+    {
+        "question": "4 × 1 = ?",
+        "options": [
+            "4",
+            "3",
+            "5",
+            "6"
+        ],
+        "answer": 0,
+        "explanation": "4 nhân 1 bằng 4. Ví dụ: Em có 4 hộp, mỗi hộp 1 cái bánh. Hỏi em có tất cả bao nhiêu cái bánh? Đáp án: 4 × 1 = 4 cái bánh."
+    },
+    {
+        "question": "4 × 2 = ?",
+        "options": [
+            "8",
+            "6",
+            "7",
+            "4"
+        ],
+        "answer": 0,
+        "explanation": "4 nhân 2 bằng 8. Ví dụ: Em có 4 túi, mỗi túi 2 quả cam. Hỏi em có tất cả bao nhiêu quả cam? Đáp án: 4 × 2 = 8 quả cam."
+    },
+    {
+        "question": "4 × 3 = ?",
+        "options": [
+            "12",
+            "8",
+            "10",
+            "9"
+        ],
+        "answer": 0,
+        "explanation": "4 nhân 3 bằng 12. Ví dụ: Em có 4 rổ, mỗi rổ 3 quả trứng. Hỏi em có tất cả bao nhiêu quả trứng? Đáp án: 4 × 3 = 12 quả trứng."
+    },
+    {
+        "question": "4 × 4 = ?",
+        "options": [
+            "16",
+            "12",
+            "14",
+            "8"
+        ],
+        "answer": 0,
+        "explanation": "4 nhân 4 bằng 16. Ví dụ: Em có 4 bó hoa, mỗi bó 4 bông hoa. Hỏi em có tất cả bao nhiêu bông hoa? Đáp án: 4 × 4 = 16 bông hoa."
+    },
+    {
+        "question": "4 × 5 = ?",
+        "options": [
+            "20",
+            "16",
+            "18",
+            "12"
+        ],
+        "answer": 0,
+        "explanation": "4 nhân 5 bằng 20. Ví dụ: Em có 4 túi, mỗi túi 5 viên bi. Hỏi em có tất cả bao nhiêu viên bi? Đáp án: 4 × 5 = 20 viên bi."
+    },
+    {
+        "question": "4 × 6 = ?",
+        "options": [
+            "24",
+            "20",
+            "22",
+            "16"
+        ],
+        "answer": 0,
+        "explanation": "4 nhân 6 bằng 24. Ví dụ: Em có 4 hộp, mỗi hộp 6 cái bánh. Hỏi em có tất cả bao nhiêu cái bánh? Đáp án: 4 × 6 = 24 cái bánh."
+    },
+    {
+        "question": "4 × 7 = ?",
+        "options": [
+            "28",
+            "24",
+            "27",
+            "32"
+        ],
+        "answer": 0,
+        "explanation": "4 nhân 7 bằng 28. Ví dụ: Em có 4 túi, mỗi túi 7 cái kẹo. Hỏi em có tất cả bao nhiêu cái kẹo? Đáp án: 4 × 7 = 28 cái kẹo."
+    },
+    {
+        "question": "4 × 8 = ?",
+        "options": [
+            "32",
+            "36",
+            "28",
+            "30"
+        ],
+        "answer": 0,
+        "explanation": "4 nhân 8 bằng 32. Ví dụ: Em có 4 hộp, mỗi hộp 8 cái bút chì. Hỏi em có tất cả bao nhiêu cái bút chì? Đáp án: 4 × 8 = 32 cái bút chì."
+    },
+    {
+        "question": "4 × 9 = ?",
+        "options": [
+            "36",
+            "32",
+            "40",
+            "34"
+        ],
+        "answer": 0,
+        "explanation": "4 nhân 9 bằng 36. Ví dụ: Em có 4 túi, mỗi túi 9 quả táo. Hỏi em có tất cả bao nhiêu quả táo? Đáp án: 4 × 9 = 36 quả táo."
+    },
+    {
+        "question": "5 × 1 = ?",
+        "options": [
+            "5",
+            "6",
+            "4",
+            "7"
+        ],
+        "answer": 0,
+        "explanation": "5 nhân 1 bằng 5. Ví dụ: Em có 5 hộp, mỗi hộp 1 cái bánh. Hỏi em có tất cả bao nhiêu cái bánh? Đáp án: 5 × 1 = 5 cái bánh."
+    },
+    {
+        "question": "5 × 2 = ?",
+        "options": [
+            "10",
+            "8",
+            "12",
+            "9"
+        ],
+        "answer": 0,
+        "explanation": "5 nhân 2 bằng 10. Ví dụ: Em có 5 túi, mỗi túi 2 quả cam. Hỏi em có tất cả bao nhiêu quả cam? Đáp án: 5 × 2 = 10 quả cam."
+    },
+    {
+        "question": "5 × 3 = ?",
+        "options": [
+            "15",
+            "10",
+            "12",
+            "13"
+        ],
+        "answer": 0,
+        "explanation": "5 nhân 3 bằng 15. Ví dụ: Em có 5 rổ, mỗi rổ 3 quả trứng. Hỏi em có tất cả bao nhiêu quả trứng? Đáp án: 5 × 3 = 15 quả trứng."
+    },
+    {
+        "question": "5 × 4 = ?",
+        "options": [
+            "20",
+            "15",
+            "18",
+            "16"
+        ],
+        "answer": 0,
+        "explanation": "5 nhân 4 bằng 20. Ví dụ: Em có 5 bó hoa, mỗi bó 4 bông hoa. Hỏi em có tất cả bao nhiêu bông hoa? Đáp án: 5 × 4 = 20 bông hoa."
+    },
+    {
+        "question": "5 × 5 = ?",
+        "options": [
+            "25",
+            "20",
+            "30",
+            "15"
+        ],
+        "answer": 0,
+        "explanation": "5 nhân 5 bằng 25. Ví dụ: Em có 5 túi, mỗi túi 5 viên bi. Hỏi em có tất cả bao nhiêu viên bi? Đáp án: 5 × 5 = 25 viên bi."
+    },
+    {
+        "question": "5 × 6 = ?",
+        "options": [
+            "30",
+            "25",
+            "35",
+            "28"
+        ],
+        "answer": 0,
+        "explanation": "5 nhân 6 bằng 30. Ví dụ: Em có 5 hộp, mỗi hộp 6 cái bánh. Hỏi em có tất cả bao nhiêu cái bánh? Đáp án: 5 × 6 = 30 cái bánh."
+    },
+    {
+        "question": "5 × 7 = ?",
+        "options": [
+            "35",
+            "30",
+            "28",
+            "32"
+        ],
+        "answer": 0,
+        "explanation": "5 nhân 7 bằng 35. Ví dụ: Em có 5 túi, mỗi túi 7 cái kẹo. Hỏi em có tất cả bao nhiêu cái kẹo? Đáp án: 5 × 7 = 35 cái kẹo."
+    },
+    {
+        "question": "5 × 8 = ?",
+        "options": [
+            "40",
+            "35",
+            "36",
+            "38"
+        ],
+        "answer": 0,
+        "explanation": "5 nhân 8 bằng 40. Ví dụ: Em có 5 hộp, mỗi hộp 8 cái bút chì. Hỏi em có tất cả bao nhiêu cái bút chì? Đáp án: 5 × 8 = 40 cái bút chì."
+    },
+    {
+        "question": "5 × 9 = ?",
+        "options": [
+            "45",
+            "40",
+            "42",
+            "48"
+        ],
+        "answer": 0,
+        "explanation": "5 nhân 9 bằng 45. Ví dụ: Em có 5 túi, mỗi túi 9 quả táo. Hỏi em có tất cả bao nhiêu quả táo? Đáp án: 5 × 9 = 45 quả táo."
+    },
+    {
+        "question": "6 × 1 = ?",
+        "options": [
+            "6",
+            "7",
+            "5",
+            "8"
+        ],
+        "answer": 0,
+        "explanation": "6 nhân 1 bằng 6. Ví dụ: Em có 6 hộp, mỗi hộp 1 cái bánh. Hỏi em có tất cả bao nhiêu cái bánh? Đáp án: 6 × 1 = 6 cái bánh."
+    },
+    {
+        "question": "6 × 2 = ?",
+        "options": [
+            "12",
+            "10",
+            "14",
+            "8"
+        ],
+        "answer": 0,
+        "explanation": "6 nhân 2 bằng 12. Ví dụ: Em có 6 túi, mỗi túi 2 quả cam. Hỏi em có tất cả bao nhiêu quả cam? Đáp án: 6 × 2 = 12 quả cam."
+    },
+    {
+        "question": "6 × 3 = ?",
+        "options": [
+            "18",
+            "12",
+            "15",
+            "16"
+        ],
+        "answer": 0,
+        "explanation": "6 nhân 3 bằng 18. Ví dụ: Em có 6 rổ, mỗi rổ 3 quả trứng. Hỏi em có tất cả bao nhiêu quả trứng? Đáp án: 6 × 3 = 18 quả trứng."
+    },
+    {
+        "question": "6 × 4 = ?",
+        "options": [
+            "24",
+            "18",
+            "20",
+            "22"
+        ],
+        "answer": 0,
+        "explanation": "6 nhân 4 bằng 24. Ví dụ: Em có 6 bó hoa, mỗi bó 4 bông hoa. Hỏi em có tất cả bao nhiêu bông hoa? Đáp án: 6 × 4 = 24 bông hoa."
+    },
+    {
+        "question": "6 × 5 = ?",
+        "options": [
+            "30",
+            "24",
+            "28",
+            "26"
+        ],
+        "answer": 0,
+        "explanation": "6 nhân 5 bằng 30. Ví dụ: Em có 6 túi, mỗi túi 5 viên bi. Hỏi em có tất cả bao nhiêu viên bi? Đáp án: 6 × 5 = 30 viên bi."
+    },
+    {
+        "question": "6 × 6 = ?",
+        "options": [
+            "36",
+            "30",
+            "32",
+            "34"
+        ],
+        "answer": 0,
+        "explanation": "6 nhân 6 bằng 36. Ví dụ: Em có 6 hộp, mỗi hộp 6 cái bánh. Hỏi em có tất cả bao nhiêu cái bánh? Đáp án: 6 × 6 = 36 cái bánh."
+    },
+    {
+        "question": "6 × 7 = ?",
+        "options": [
+            "42",
+            "36",
+            "40",
+            "44"
+        ],
+        "answer": 0,
+        "explanation": "6 nhân 7 bằng 42. Ví dụ: Em có 6 túi, mỗi túi 7 cái kẹo. Hỏi em có tất cả bao nhiêu cái kẹo? Đáp án: 6 × 7 = 42 cái kẹo."
+    },
+    {
+        "question": "6 × 8 = ?",
+        "options": [
+            "48",
+            "42",
+            "46",
+            "44"
+        ],
+        "answer": 0,
+        "explanation": "6 nhân 8 bằng 48. Ví dụ: Em có 6 hộp, mỗi hộp 8 cái bút chì. Hỏi em có tất cả bao nhiêu cái bút chì? Đáp án: 6 × 8 = 48 cái bút chì."
+    },
+    {
+        "question": "6 × 9 = ?",
+        "options": [
+            "54",
+            "48",
+            "50",
+            "52"
+        ],
+        "answer": 0,
+        "explanation": "6 nhân 9 bằng 54. Ví dụ: Em có 6 túi, mỗi túi 9 quả táo. Hỏi em có tất cả bao nhiêu quả táo? Đáp án: 6 × 9 = 54 quả táo."
+    },
+    {
+        "question": "7 × 1 = ?",
+        "options": [
+            "7",
+            "6",
+            "8",
+            "9"
+        ],
+        "answer": 0,
+        "explanation": "7 nhân 1 bằng 7. Ví dụ: Em có 7 hộp, mỗi hộp 1 cái bánh. Hỏi em có tất cả bao nhiêu cái bánh? Đáp án: 7 × 1 = 7 cái bánh."
+    },
+    {
+        "question": "7 × 2 = ?",
+        "options": [
+            "14",
+            "12",
+            "16",
+            "13"
+        ],
+        "answer": 0,
+        "explanation": "7 nhân 2 bằng 14. Ví dụ: Em có 7 túi, mỗi túi 2 quả cam. Hỏi em có tất cả bao nhiêu quả cam? Đáp án: 7 × 2 = 14 quả cam."
+    },
+    {
+        "question": "7 × 3 = ?",
+        "options": [
+            "21",
+            "14",
+            "18",
+            "20"
+        ],
+        "answer": 0,
+        "explanation": "7 nhân 3 bằng 21. Ví dụ: Em có 7 rổ, mỗi rổ 3 quả trứng. Hỏi em có tất cả bao nhiêu quả trứng? Đáp án: 7 × 3 = 21 quả trứng."
+    },
+    {
+        "question": "7 × 4 = ?",
+        "options": [
+            "28",
+            "24",
+            "32",
+            "30"
+        ],
+        "answer": 0,
+        "explanation": "7 nhân 4 bằng 28. Ví dụ: Em có 7 bó hoa, mỗi bó 4 bông hoa. Hỏi em có tất cả bao nhiêu bông hoa? Đáp án: 7 × 4 = 28 bông hoa."
+    },
+    {
+        "question": "7 × 5 = ?",
+        "options": [
+            "35",
+            "30",
+            "25",
+            "40"
+        ],
+        "answer": 0,
+        "explanation": "7 nhân 5 bằng 35. Ví dụ: Em có 7 túi, mỗi túi 5 viên bi. Hỏi em có tất cả bao nhiêu viên bi? Đáp án: 7 × 5 = 35 viên bi."
+    },
+    {
+        "question": "7 × 6 = ?",
+        "options": [
+            "42",
+            "36",
+            "40",
+            "48"
+        ],
+        "answer": 0,
+        "explanation": "7 nhân 6 bằng 42. Ví dụ: Em có 7 hộp, mỗi hộp 6 cái bánh. Hỏi em có tất cả bao nhiêu cái bánh? Đáp án: 7 × 6 = 42 cái bánh."
+    },
+    {
+        "question": "7 × 7 = ?",
+        "options": [
+            "49",
+            "42",
+            "56",
+            "63"
+        ],
+        "answer": 0,
+        "explanation": "7 nhân 7 bằng 49. Ví dụ: Em có 7 túi, mỗi túi 7 cái kẹo. Hỏi em có tất cả bao nhiêu cái kẹo? Đáp án: 7 × 7 = 49 cái kẹo."
+    },
+    {
+        "question": "7 × 8 = ?",
+        "options": [
+            "56",
+            "49",
+            "54",
+            "64"
+        ],
+        "answer": 0,
+        "explanation": "7 nhân 8 bằng 56. Ví dụ: Em có 7 hộp, mỗi hộp 8 cái bút chì. Hỏi em có tất cả bao nhiêu cái bút chì? Đáp án: 7 × 8 = 56 cái bút chì."
+    },
+    {
+        "question": "7 × 9 = ?",
+        "options": [
+            "63",
+            "56",
+            "54",
+            "72"
+        ],
+        "answer": 0,
+        "explanation": "7 nhân 9 bằng 63. Ví dụ: Em có 7 túi, mỗi túi 9 quả táo. Hỏi em có tất cả bao nhiêu quả táo? Đáp án: 7 × 9 = 63 quả táo."
+    },
+    {
+        "question": "8 × 1 = ?",
+        "options": [
+            "8",
+            "7",
+            "9",
+            "6"
+        ],
+        "answer": 0,
+        "explanation": "8 nhân 1 bằng 8. Ví dụ: Em có 8 hộp, mỗi hộp 1 cái bánh. Hỏi em có tất cả bao nhiêu cái bánh? Đáp án: 8 × 1 = 8 cái bánh."
+    },
+    {
+        "question": "8 × 2 = ?",
+        "options": [
+            "16",
+            "14",
+            "18",
+            "12"
+        ],
+        "answer": 0,
+        "explanation": "8 nhân 2 bằng 16. Ví dụ: Em có 8 túi, mỗi túi 2 quả cam. Hỏi em có tất cả bao nhiêu quả cam? Đáp án: 8 × 2 = 16 quả cam."
+    },
+    {
+        "question": "8 × 3 = ?",
+        "options": [
+            "24",
+            "16",
+            "18",
+            "20"
+        ],
+        "answer": 0,
+        "explanation": "8 nhân 3 bằng 24. Ví dụ: Em có 8 rổ, mỗi rổ 3 quả trứng. Hỏi em có tất cả bao nhiêu quả trứng? Đáp án: 8 × 3 = 24 quả trứng."
+    },
+    {
+        "question": "8 × 4 = ?",
+        "options": [
+            "32",
+            "24",
+            "28",
+            "36"
+        ],
+        "answer": 0,
+        "explanation": "8 nhân 4 bằng 32. Ví dụ: Em có 8 bó hoa, mỗi bó 4 bông hoa. Hỏi em có tất cả bao nhiêu bông hoa? Đáp án: 8 × 4 = 32 bông hoa."
+    },
+    {
+        "question": "8 × 5 = ?",
+        "options": [
+            "40",
+            "32",
+            "36",
+            "38"
+        ],
+        "answer": 0,
+        "explanation": "8 nhân 5 bằng 40. Ví dụ: Em có 8 túi, mỗi túi 5 viên bi. Hỏi em có tất cả bao nhiêu viên bi? Đáp án: 8 × 5 = 40 viên bi."
+    },
+    {
+        "question": "8 × 6 = ?",
+        "options": [
+            "48",
+            "40",
+            "44",
+            "46"
+        ],
+        "answer": 0,
+        "explanation": "8 nhân 6 bằng 48. Ví dụ: Em có 8 hộp, mỗi hộp 6 cái bánh. Hỏi em có tất cả bao nhiêu cái bánh? Đáp án: 8 × 6 = 48 cái bánh."
+    },
+    {
+        "question": "8 × 7 = ?",
+        "options": [
+            "56",
+            "48",
+            "54",
+            "64"
+        ],
+        "answer": 0,
+        "explanation": "8 nhân 7 bằng 56. Ví dụ: Em có 8 túi, mỗi túi 7 cái kẹo. Hỏi em có tất cả bao nhiêu cái kẹo? Đáp án: 8 × 7 = 56 cái kẹo."
+    },
+    {
+        "question": "8 × 8 = ?",
+        "options": [
+            "64",
+            "56",
+            "72",
+            "54"
+        ],
+        "answer": 0,
+        "explanation": "8 nhân 8 bằng 64. Ví dụ: Em có 8 hộp, mỗi hộp 8 cái bút chì. Hỏi em có tất cả bao nhiêu cái bút chì? Đáp án: 8 × 8 = 64 cái bút chì."
+    },
+    {
+        "question": "8 × 9 = ?",
+        "options": [
+            "72",
+            "64",
+            "70",
+            "81"
+        ],
+        "answer": 0,
+        "explanation": "8 nhân 9 bằng 72. Ví dụ: Em có 8 túi, mỗi túi 9 quả táo. Hỏi em có tất cả bao nhiêu quả táo? Đáp án: 8 × 9 = 72 quả táo."
+    },
+    {
+        "question": "9 × 1 = ?",
+        "options": [
+            "9",
+            "8",
+            "10",
+            "7"
+        ],
+        "answer": 0,
+        "explanation": "9 nhân 1 bằng 9. Ví dụ: Em có 9 hộp, mỗi hộp 1 cái bánh. Hỏi em có tất cả bao nhiêu cái bánh? Đáp án: 9 × 1 = 9 cái bánh."
+    },
+    {
+        "question": "9 × 2 = ?",
+        "options": [
+            "18",
+            "16",
+            "20",
+            "14"
+        ],
+        "answer": 0,
+        "explanation": "9 nhân 2 bằng 18. Ví dụ: Em có 9 túi, mỗi túi 2 quả cam. Hỏi em có tất cả bao nhiêu quả cam? Đáp án: 9 × 2 = 18 quả cam."
+    },
+    {
+        "question": "9 × 3 = ?",
+        "options": [
+            "27",
+            "18",
+            "21",
+            "24"
+        ],
+        "answer": 0,
+        "explanation": "9 nhân 3 bằng 27. Ví dụ: Em có 9 rổ, mỗi rổ 3 quả trứng. Hỏi em có tất cả bao nhiêu quả trứng? Đáp án: 9 × 3 = 27 quả trứng."
+    },
+    {
+        "question": "9 × 4 = ?",
+        "options": [
+            "36",
+            "27",
+            "32",
+            "40"
+        ],
+        "answer": 0,
+        "explanation": "9 nhân 4 bằng 36. Ví dụ: Em có 9 bó hoa, mỗi bó 4 bông hoa. Hỏi em có tất cả bao nhiêu bông hoa? Đáp án: 9 × 4 = 36 bông hoa."
+    },
+    {
+        "question": "9 × 5 = ?",
+        "options": [
+            "45",
+            "36",
+            "40",
+            "50"
+        ],
+        "answer": 0,
+        "explanation": "9 nhân 5 bằng 45. Ví dụ: Em có 9 túi, mỗi túi 5 viên bi. Hỏi em có tất cả bao nhiêu viên bi? Đáp án: 9 × 5 = 45 viên bi."
+    },
+    {
+        "question": "9 × 6 = ?",
+        "options": [
+            "54",
+            "45",
+            "48",
+            "60"
+        ],
+        "answer": 0,
+        "explanation": "9 nhân 6 bằng 54. Ví dụ: Em có 9 hộp, mỗi hộp 6 cái bánh. Hỏi em có tất cả bao nhiêu cái bánh? Đáp án: 9 × 6 = 54 cái bánh."
+    },
+    {
+        "question": "9 × 7 = ?",
+        "options": [
+            "63",
+            "54",
+            "56",
+            "72"
+        ],
+        "answer": 0,
+        "explanation": "9 nhân 7 bằng 63. Ví dụ: Em có 9 túi, mỗi túi 7 cái kẹo. Hỏi em có tất cả bao nhiêu cái kẹo? Đáp án: 9 × 7 = 63 cái kẹo."
+    },
+    {
+        "question": "9 × 8 = ?",
+        "options": [
+            "72",
+            "63",
+            "70",
+            "81"
+        ],
+        "answer": 0,
+        "explanation": "9 nhân 8 bằng 72. Ví dụ: Em có 9 hộp, mỗi hộp 8 cái bút chì. Hỏi em có tất cả bao nhiêu cái bút chì? Đáp án: 9 × 8 = 72 cái bút chì."
+    },
+    {
+        "question": "9 × 9 = ?",
+        "options": [
+            "81",
+            "72",
+            "90",
+            "99"
+        ],
+        "answer": 0,
+        "explanation": "9 nhân 9 bằng 81. Ví dụ: Em có 9 túi, mỗi túi 9 quả táo. Hỏi em có tất cả bao nhiêu quả táo? Đáp án: 9 × 9 = 81 quả táo."
+    },
+    {
+        "question": "1 : 1 = ?",
+        "options": [
+            "1",
+            "0",
+            "2",
+            "3"
+        ],
+        "answer": 0,
+        "explanation": "1 chia 1 bằng 1. Ví dụ: Em có 1 cái bánh chia đều cho 1 bạn, mỗi bạn được mấy cái? Đáp án: 1 : 1 = 1 cái bánh."
+    },
+    {
+        "question": "2 : 1 = ?",
+        "options": [
+            "2",
+            "1",
+            "0",
+            "3"
+        ],
+        "answer": 0,
+        "explanation": "2 chia 1 bằng 2. Ví dụ: Em có 2 cái bánh chia đều cho 1 bạn, mỗi bạn được mấy cái? Đáp án: 2 : 1 = 2 cái bánh."
+    },
+    {
+        "question": "3 : 1 = ?",
+        "options": [
+            "3",
+            "2",
+            "1",
+            "0"
+        ],
+        "answer": 0,
+        "explanation": "3 chia 1 bằng 3. Ví dụ: Em có 3 cái kẹo chia đều cho 1 bạn, mỗi bạn được mấy cái? Đáp án: 3 : 1 = 3 cái kẹo."
+    },
+    {
+        "question": "4 : 1 = ?",
+        "options": [
+            "4",
+            "3",
+            "2",
+            "1"
+        ],
+        "answer": 0,
+        "explanation": "4 chia 1 bằng 4. Ví dụ: Em có 4 quả cam chia đều cho 1 bạn, mỗi bạn được mấy quả? Đáp án: 4 : 1 = 4 quả cam."
+    },
+    {
+        "question": "5 : 1 = ?",
+        "options": [
+            "5",
+            "4",
+            "3",
+            "2"
+        ],
+        "answer": 0,
+        "explanation": "5 chia 1 bằng 5. Ví dụ: Em có 5 viên bi chia đều cho 1 bạn, mỗi bạn được mấy viên? Đáp án: 5 : 1 = 5 viên bi."
+    },
+    {
+        "question": "6 : 1 = ?",
+        "options": [
+            "6",
+            "5",
+            "4",
+            "3"
+        ],
+        "answer": 0,
+        "explanation": "6 chia 1 bằng 6. Ví dụ: Em có 6 cái bánh chia đều cho 1 bạn, mỗi bạn được mấy cái? Đáp án: 6 : 1 = 6 cái bánh."
+    },
+    {
+        "question": "7 : 1 = ?",
+        "options": [
+            "7",
+            "6",
+            "5",
+            "4"
+        ],
+        "answer": 0,
+        "explanation": "7 chia 1 bằng 7. Ví dụ: Em có 7 cái kẹo chia đều cho 1 bạn, mỗi bạn được mấy cái? Đáp án: 7 : 1 = 7 cái kẹo."
+    },
+    {
+        "question": "8 : 1 = ?",
+        "options": [
+            "8",
+            "7",
+            "6",
+            "5"
+        ],
+        "answer": 0,
+        "explanation": "8 chia 1 bằng 8. Ví dụ: Em có 8 quả táo chia đều cho 1 bạn, mỗi bạn được mấy quả? Đáp án: 8 : 1 = 8 quả táo."
+    },
+    {
+        "question": "9 : 1 = ?",
+        "options": [
+            "9",
+            "8",
+            "7",
+            "6"
+        ],
+        "answer": 0,
+        "explanation": "9 chia 1 bằng 9. Ví dụ: Em có 9 cái bánh chia đều cho 1 bạn, mỗi bạn được mấy cái? Đáp án: 9 : 1 = 9 cái bánh."
+    },
+    {
+        "question": "2 : 2 = ?",
+        "options": [
+            "1",
+            "2",
+            "0",
+            "3"
+        ],
+        "answer": 0,
+        "explanation": "2 chia 2 bằng 1. Ví dụ: Em có 2 cái bánh chia đều cho 2 bạn, mỗi bạn được mấy cái? Đáp án: 2 : 2 = 1 cái bánh."
+    },
+    {
+        "question": "4 : 2 = ?",
+        "options": [
+            "2",
+            "1",
+            "3",
+            "4"
+        ],
+        "answer": 0,
+        "explanation": "4 chia 2 bằng 2. Ví dụ: Em có 4 quả cam chia đều cho 2 bạn, mỗi bạn được mấy quả? Đáp án: 4 : 2 = 2 quả cam."
+    },
+    {
+        "question": "6 : 2 = ?",
+        "options": [
+            "3",
+            "2",
+            "4",
+            "1"
+        ],
+        "answer": 0,
+        "explanation": "6 chia 2 bằng 3. Ví dụ: Em có 6 cái kẹo chia đều cho 2 bạn, mỗi bạn được mấy cái? Đáp án: 6 : 2 = 3 cái kẹo."
+    },
+    {
+        "question": "8 : 2 = ?",
+        "options": [
+            "4",
+            "2",
+            "3",
+            "5"
+        ],
+        "answer": 0,
+        "explanation": "8 chia 2 bằng 4. Ví dụ: Em có 8 quả táo chia đều cho 2 bạn, mỗi bạn được mấy quả? Đáp án: 8 : 2 = 4 quả táo."
+    },
+    {
+        "question": "10 : 2 = ?",
+        "options": [
+            "5",
+            "4",
+            "6",
+            "2"
+        ],
+        "answer": 0,
+        "explanation": "10 chia 2 bằng 5. Ví dụ: Em có 10 viên bi chia đều cho 2 bạn, mỗi bạn được mấy viên? Đáp án: 10 : 2 = 5 viên bi."
+    },
+    {
+        "question": "12 : 2 = ?",
+        "options": [
+            "6",
+            "5",
+            "4",
+            "7"
+        ],
+        "answer": 0,
+        "explanation": "12 chia 2 bằng 6. Ví dụ: Em có 12 cái bánh chia đều cho 2 bạn, mỗi bạn được mấy cái? Đáp án: 12 : 2 = 6 cái bánh."
+    },
+    {
+        "question": "14 : 2 = ?",
+        "options": [
+            "7",
+            "6",
+            "8",
+            "5"
+        ],
+        "answer": 0,
+        "explanation": "14 chia 2 bằng 7. Ví dụ: Em có 14 cái kẹo chia đều cho 2 bạn, mỗi bạn được mấy cái? Đáp án: 14 : 2 = 7 cái kẹo."
+    },
+    {
+        "question": "16 : 2 = ?",
+        "options": [
+            "8",
+            "7",
+            "6",
+            "9"
+        ],
+        "answer": 0,
+        "explanation": "16 chia 2 bằng 8. Ví dụ: Em có 16 quả cam chia đều cho 2 bạn, mỗi bạn được mấy quả? Đáp án: 16 : 2 = 8 quả cam."
+    },
+    {
+        "question": "18 : 2 = ?",
+        "options": [
+            "9",
+            "8",
+            "7",
+            "6"
+        ],
+        "answer": 0,
+        "explanation": "18 chia 2 bằng 9. Ví dụ: Em có 18 cái bánh chia đều cho 2 bạn, mỗi bạn được mấy cái? Đáp án: 18 : 2 = 9 cái bánh."
+    },
+    {
+        "question": "3 : 3 = ?",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "0"
+        ],
+        "answer": 0,
+        "explanation": "3 chia 3 bằng 1. Ví dụ: Em có 3 cái bánh chia đều cho 3 bạn, mỗi bạn được mấy cái? Đáp án: 3 : 3 = 1 cái bánh."
+    },
+    {
+        "question": "6 : 3 = ?",
+        "options": [
+            "2",
+            "3",
+            "1",
+            "4"
+        ],
+        "answer": 0,
+        "explanation": "6 chia 3 bằng 2. Ví dụ: Em có 6 cái kẹo chia đều cho 3 bạn, mỗi bạn được mấy cái? Đáp án: 6 : 3 = 2 cái kẹo."
+    },
+    {
+        "question": "9 : 3 = ?",
+        "options": [
+            "3",
+            "2",
+            "1",
+            "4"
+        ],
+        "answer": 0,
+        "explanation": "9 chia 3 bằng 3. Ví dụ: Em có 9 quả cam chia đều cho 3 bạn, mỗi bạn được mấy quả? Đáp án: 9 : 3 = 3 quả cam."
+    },
+    {
+        "question": "12 : 3 = ?",
+        "options": [
+            "4",
+            "3",
+            "2",
+            "5"
+        ],
+        "answer": 0,
+        "explanation": "12 chia 3 bằng 4. Ví dụ: Em có 12 cái bánh chia đều cho 3 bạn, mỗi bạn được mấy cái? Đáp án: 12 : 3 = 4 cái bánh."
+    },
+    {
+        "question": "15 : 3 = ?",
+        "options": [
+            "5",
+            "4",
+            "3",
+            "6"
+        ],
+        "answer": 0,
+        "explanation": "15 chia 3 bằng 5. Ví dụ: Em có 15 viên bi chia đều cho 3 bạn, mỗi bạn được mấy viên? Đáp án: 15 : 3 = 5 viên bi."
+    },
+    {
+        "question": "18 : 3 = ?",
+        "options": [
+            "6",
+            "5",
+            "4",
+            "7"
+        ],
+        "answer": 0,
+        "explanation": "18 chia 3 bằng 6. Ví dụ: Em có 18 cái bánh chia đều cho 3 bạn, mỗi bạn được mấy cái? Đáp án: 18 : 3 = 6 cái bánh."
+    },
+    {
+        "question": "21 : 3 = ?",
+        "options": [
+            "7",
+            "6",
+            "5",
+            "8"
+        ],
+        "answer": 0,
+        "explanation": "21 chia 3 bằng 7. Ví dụ: Em có 21 cái kẹo chia đều cho 3 bạn, mỗi bạn được mấy cái? Đáp án: 21 : 3 = 7 cái kẹo."
+    },
+    {
+        "question": "24 : 3 = ?",
+        "options": [
+            "8",
+            "7",
+            "6",
+            "9"
+        ],
+        "answer": 0,
+        "explanation": "24 chia 3 bằng 8. Ví dụ: Em có 24 quả cam chia đều cho 3 bạn, mỗi bạn được mấy quả? Đáp án: 24 : 3 = 8 quả cam."
+    },
+    {
+        "question": "27 : 3 = ?",
+        "options": [
+            "9",
+            "8",
+            "7",
+            "6"
+        ],
+        "answer": 0,
+        "explanation": "27 chia 3 bằng 9. Ví dụ: Em có 27 cái bánh chia đều cho 3 bạn, mỗi bạn được mấy cái? Đáp án: 27 : 3 = 9 cái bánh."
+    },
+    {
+        "question": "4 : 4 = ?",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "answer": 0,
+        "explanation": "4 chia 4 bằng 1. Ví dụ: Em có 4 cái bánh chia đều cho 4 bạn, mỗi bạn được mấy cái? Đáp án: 4 : 4 = 1 cái bánh."
+    },
+    {
+        "question": "8 : 4 = ?",
+        "options": [
+            "2",
+            "1",
+            "3",
+            "4"
+        ],
+        "answer": 0,
+        "explanation": "8 chia 4 bằng 2. Ví dụ: Em có 8 quả cam chia đều cho 4 bạn, mỗi bạn được mấy quả? Đáp án: 8 : 4 = 2 quả cam."
+    },
+    {
+        "question": "12 : 4 = ?",
+        "options": [
+            "3",
+            "2",
+            "1",
+            "4"
+        ],
+        "answer": 0,
+        "explanation": "12 chia 4 bằng 3. Ví dụ: Em có 12 cái kẹo chia đều cho 4 bạn, mỗi bạn được mấy cái? Đáp án: 12 : 4 = 3 cái kẹo."
+    },
+    {
+        "question": "16 : 4 = ?",
+        "options": [
+            "4",
+            "3",
+            "2",
+            "5"
+        ],
+        "answer": 0,
+        "explanation": "16 chia 4 bằng 4. Ví dụ: Em có 16 cái bánh chia đều cho 4 bạn, mỗi bạn được mấy cái? Đáp án: 16 : 4 = 4 cái bánh."
+    },
+    {
+        "question": "20 : 4 = ?",
+        "options": [
+            "5",
+            "4",
+            "3",
+            "6"
+        ],
+        "answer": 0,
+        "explanation": "20 chia 4 bằng 5. Ví dụ: Em có 20 viên bi chia đều cho 4 bạn, mỗi bạn được mấy viên? Đáp án: 20 : 4 = 5 viên bi."
+    },
+    {
+        "question": "24 : 4 = ?",
+        "options": [
+            "6",
+            "5",
+            "4",
+            "7"
+        ],
+        "answer": 0,
+        "explanation": "24 chia 4 bằng 6. Ví dụ: Em có 24 cái bánh chia đều cho 4 bạn, mỗi bạn được mấy cái? Đáp án: 24 : 4 = 6 cái bánh."
+    },
+    {
+        "question": "28 : 4 = ?",
+        "options": [
+            "7",
+            "6",
+            "5",
+            "8"
+        ],
+        "answer": 0,
+        "explanation": "28 chia 4 bằng 7. Ví dụ: Em có 28 cái kẹo chia đều cho 4 bạn, mỗi bạn được mấy cái? Đáp án: 28 : 4 = 7 cái kẹo."
+    },
+    {
+        "question": "32 : 4 = ?",
+        "options": [
+            "8",
+            "7",
+            "6",
+            "9"
+        ],
+        "answer": 0,
+        "explanation": "32 chia 4 bằng 8. Ví dụ: Em có 32 quả cam chia đều cho 4 bạn, mỗi bạn được mấy quả? Đáp án: 32 : 4 = 8 quả cam."
+    },
+    {
+        "question": "36 : 4 = ?",
+        "options": [
+            "9",
+            "8",
+            "7",
+            "6"
+        ],
+        "answer": 0,
+        "explanation": "36 chia 4 bằng 9. Ví dụ: Em có 36 cái bánh chia đều cho 4 bạn, mỗi bạn được mấy cái? Đáp án: 36 : 4 = 9 cái bánh."
+    },
+    {
+        "question": "5 : 5 = ?",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "answer": 0,
+        "explanation": "5 chia 5 bằng 1. Ví dụ: Em có 5 cái bánh chia đều cho 5 bạn, mỗi bạn được mấy cái? Đáp án: 5 : 5 = 1 cái bánh."
+    },
+    {
+        "question": "10 : 5 = ?",
+        "options": [
+            "2",
+            "1",
+            "3",
+            "4"
+        ],
+        "answer": 0,
+        "explanation": "10 chia 5 bằng 2. Ví dụ: Em có 10 quả cam chia đều cho 5 bạn, mỗi bạn được mấy quả? Đáp án: 10 : 5 = 2 quả cam."
+    },
+    {
+        "question": "15 : 5 = ?",
+        "options": [
+            "3",
+            "2",
+            "1",
+            "4"
+        ],
+        "answer": 0,
+        "explanation": "15 chia 5 bằng 3. Ví dụ: Em có 15 cái kẹo chia đều cho 5 bạn, mỗi bạn được mấy cái? Đáp án: 15 : 5 = 3 cái kẹo."
+    },
+    {
+        "question": "20 : 5 = ?",
+        "options": [
+            "4",
+            "3",
+            "2",
+            "5"
+        ],
+        "answer": 0,
+        "explanation": "20 chia 5 bằng 4. Ví dụ: Em có 20 cái bánh chia đều cho 5 bạn, mỗi bạn được mấy cái? Đáp án: 20 : 5 = 4 cái bánh."
+    },
+    {
+        "question": "25 : 5 = ?",
+        "options": [
+            "5",
+            "4",
+            "3",
+            "6"
+        ],
+        "answer": 0,
+        "explanation": "25 chia 5 bằng 5. Ví dụ: Em có 25 viên bi chia đều cho 5 bạn, mỗi bạn được mấy viên? Đáp án: 25 : 5 = 5 viên bi."
+    },
+    {
+        "question": "30 : 5 = ?",
+        "options": [
+            "6",
+            "5",
+            "4",
+            "7"
+        ],
+        "answer": 0,
+        "explanation": "30 chia 5 bằng 6. Ví dụ: Em có 30 cái bánh chia đều cho 5 bạn, mỗi bạn được mấy cái? Đáp án: 30 : 5 = 6 cái bánh."
+    },
+    {
+        "question": "35 : 5 = ?",
+        "options": [
+            "7",
+            "6",
+            "5",
+            "8"
+        ],
+        "answer": 0,
+        "explanation": "35 chia 5 bằng 7. Ví dụ: Em có 35 cái kẹo chia đều cho 5 bạn, mỗi bạn được mấy cái? Đáp án: 35 : 5 = 7 cái kẹo."
+    },
+    {
+        "question": "40 : 5 = ?",
+        "options": [
+            "8",
+            "7",
+            "6",
+            "9"
+        ],
+        "answer": 0,
+        "explanation": "40 chia 5 bằng 8. Ví dụ: Em có 40 quả cam chia đều cho 5 bạn, mỗi bạn được mấy quả? Đáp án: 40 : 5 = 8 quả cam."
+    },
+    {
+        "question": "45 : 5 = ?",
+        "options": [
+            "9",
+            "8",
+            "7",
+            "6"
+        ],
+        "answer": 0,
+        "explanation": "45 chia 5 bằng 9. Ví dụ: Em có 45 cái bánh chia đều cho 5 bạn, mỗi bạn được mấy cái? Đáp án: 45 : 5 = 9 cái bánh."
+    },
+    {
+        "question": "6 : 6 = ?",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "answer": 0,
+        "explanation": "6 chia 6 bằng 1. Ví dụ: Em có 6 cái bánh chia đều cho 6 bạn, mỗi bạn được mấy cái? Đáp án: 6 : 6 = 1 cái bánh."
+    },
+    {
+        "question": "12 : 6 = ?",
+        "options": [
+            "2",
+            "1",
+            "3",
+            "4"
+        ],
+        "answer": 0,
+        "explanation": "12 chia 6 bằng 2. Ví dụ: Em có 12 quả cam chia đều cho 6 bạn, mỗi bạn được mấy quả? Đáp án: 12 : 6 = 2 quả cam."
+    },
+    {
+        "question": "18 : 6 = ?",
+        "options": [
+            "3",
+            "2",
+            "1",
+            "4"
+        ],
+        "answer": 0,
+        "explanation": "18 chia 6 bằng 3. Ví dụ: Em có 18 cái kẹo chia đều cho 6 bạn, mỗi bạn được mấy cái? Đáp án: 18 : 6 = 3 cái kẹo."
+    },
+    {
+        "question": "24 : 6 = ?",
+        "options": [
+            "4",
+            "3",
+            "2",
+            "5"
+        ],
+        "answer": 0,
+        "explanation": "24 chia 6 bằng 4. Ví dụ: Em có 24 cái bánh chia đều cho 6 bạn, mỗi bạn được mấy cái? Đáp án: 24 : 6 = 4 cái bánh."
+    },
+    {
+        "question": "30 : 6 = ?",
+        "options": [
+            "5",
+            "4",
+            "3",
+            "6"
+        ],
+        "answer": 0,
+        "explanation": "30 chia 6 bằng 5. Ví dụ: Em có 30 viên bi chia đều cho 6 bạn, mỗi bạn được mấy viên? Đáp án: 30 : 6 = 5 viên bi."
+    },
+    {
+        "question": "36 : 6 = ?",
+        "options": [
+            "6",
+            "5",
+            "4",
+            "7"
+        ],
+        "answer": 0,
+        "explanation": "36 chia 6 bằng 6. Ví dụ: Em có 36 cái bánh chia đều cho 6 bạn, mỗi bạn được mấy cái? Đáp án: 36 : 6 = 6 cái bánh."
+    },
+    {
+        "question": "42 : 6 = ?",
+        "options": [
+            "7",
+            "6",
+            "5",
+            "8"
+        ],
+        "answer": 0,
+        "explanation": "42 chia 6 bằng 7. Ví dụ: Em có 42 cái kẹo chia đều cho 6 bạn, mỗi bạn được mấy cái? Đáp án: 42 : 6 = 7 cái kẹo."
+    },
+    {
+        "question": "48 : 6 = ?",
+        "options": [
+            "8",
+            "7",
+            "6",
+            "9"
+        ],
+        "answer": 0,
+        "explanation": "48 chia 6 bằng 8. Ví dụ: Em có 48 quả cam chia đều cho 6 bạn, mỗi bạn được mấy quả? Đáp án: 48 : 6 = 8 quả cam."
+    },
+    {
+        "question": "54 : 6 = ?",
+        "options": [
+            "9",
+            "8",
+            "7",
+            "6"
+        ],
+        "answer": 0,
+        "explanation": "54 chia 6 bằng 9. Ví dụ: Em có 54 cái bánh chia đều cho 6 bạn, mỗi bạn được mấy cái? Đáp án: 54 : 6 = 9 cái bánh."
+    },
+    {
+        "question": "7 : 7 = ?",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "answer": 0,
+        "explanation": "7 chia 7 bằng 1. Ví dụ: Em có 7 cái bánh chia đều cho 7 bạn, mỗi bạn được mấy cái? Đáp án: 7 : 7 = 1 cái bánh."
+    },
+    {
+        "question": "14 : 7 = ?",
+        "options": [
+            "2",
+            "1",
+            "3",
+            "4"
+        ],
+        "answer": 0,
+        "explanation": "14 chia 7 bằng 2. Ví dụ: Em có 14 quả cam chia đều cho 7 bạn, mỗi bạn được mấy quả? Đáp án: 14 : 7 = 2 quả cam."
+    },
+    {
+        "question": "21 : 7 = ?",
+        "options": [
+            "3",
+            "2",
+            "1",
+            "4"
+        ],
+        "answer": 0,
+        "explanation": "21 chia 7 bằng 3. Ví dụ: Em có 21 cái kẹo chia đều cho 7 bạn, mỗi bạn được mấy cái? Đáp án: 21 : 7 = 3 cái kẹo."
+    },
+    {
+        "question": "28 : 7 = ?",
+        "options": [
+            "4",
+            "3",
+            "2",
+            "5"
+        ],
+        "answer": 0,
+        "explanation": "28 chia 7 bằng 4. Ví dụ: Em có 28 cái bánh chia đều cho 7 bạn, mỗi bạn được mấy cái? Đáp án: 28 : 7 = 4 cái bánh."
+    },
+    {
+        "question": "35 : 7 = ?",
+        "options": [
+            "5",
+            "4",
+            "3",
+            "6"
+        ],
+        "answer": 0,
+        "explanation": "35 chia 7 bằng 5. Ví dụ: Em có 35 viên bi chia đều cho 7 bạn, mỗi bạn được mấy viên? Đáp án: 35 : 7 = 5 viên bi."
+    },
+    {
+        "question": "42 : 7 = ?",
+        "options": [
+            "6",
+            "5",
+            "4",
+            "7"
+        ],
+        "answer": 0,
+        "explanation": "42 chia 7 bằng 6. Ví dụ: Em có 42 cái bánh chia đều cho 7 bạn, mỗi bạn được mấy cái? Đáp án: 42 : 7 = 6 cái bánh."
+    },
+    {
+        "question": "49 : 7 = ?",
+        "options": [
+            "7",
+            "6",
+            "5",
+            "8"
+        ],
+        "answer": 0,
+        "explanation": "49 chia 7 bằng 7. Ví dụ: Em có 49 cái kẹo chia đều cho 7 bạn, mỗi bạn được mấy cái? Đáp án: 49 : 7 = 7 cái kẹo."
+    },
+    {
+        "question": "56 : 7 = ?",
+        "options": [
+            "8",
+            "7",
+            "6",
+            "9"
+        ],
+        "answer": 0,
+        "explanation": "56 chia 7 bằng 8. Ví dụ: Em có 56 quả cam chia đều cho 7 bạn, mỗi bạn được mấy quả? Đáp án: 56 : 7 = 8 quả cam."
+    },
+    {
+        "question": "63 : 7 = ?",
+        "options": [
+            "9",
+            "8",
+            "7",
+            "6"
+        ],
+        "answer": 0,
+        "explanation": "63 chia 7 bằng 9. Ví dụ: Em có 63 cái bánh chia đều cho 7 bạn, mỗi bạn được mấy cái? Đáp án: 63 : 7 = 9 cái bánh."
+    },
+    {
+        "question": "8 : 8 = ?",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "answer": 0,
+        "explanation": "8 chia 8 bằng 1. Ví dụ: Em có 8 cái bánh chia đều cho 8 bạn, mỗi bạn được mấy cái? Đáp án: 8 : 8 = 1 cái bánh."
+    },
+    {
+        "question": "16 : 8 = ?",
+        "options": [
+            "2",
+            "1",
+            "3",
+            "4"
+        ],
+        "answer": 0,
+        "explanation": "16 chia 8 bằng 2. Ví dụ: Em có 16 quả cam chia đều cho 8 bạn, mỗi bạn được mấy quả? Đáp án: 16 : 8 = 2 quả cam."
+    },
+    {
+        "question": "24 : 8 = ?",
+        "options": [
+            "3",
+            "2",
+            "1",
+            "4"
+        ],
+        "answer": 0,
+        "explanation": "24 chia 8 bằng 3. Ví dụ: Em có 24 cái kẹo chia đều cho 8 bạn, mỗi bạn được mấy cái? Đáp án: 24 : 8 = 3 cái kẹo."
+    },
+    {
+        "question": "32 : 8 = ?",
+        "options": [
+            "4",
+            "3",
+            "2",
+            "5"
+        ],
+        "answer": 0,
+        "explanation": "32 chia 8 bằng 4. Ví dụ: Em có 32 cái bánh chia đều cho 8 bạn, mỗi bạn được mấy cái? Đáp án: 32 : 8 = 4 cái bánh."
+    },
+    {
+        "question": "40 : 8 = ?",
+        "options": [
+            "5",
+            "4",
+            "3",
+            "6"
+        ],
+        "answer": 0,
+        "explanation": "40 chia 8 bằng 5. Ví dụ: Em có 40 viên bi chia đều cho 8 bạn, mỗi bạn được mấy viên? Đáp án: 40 : 8 = 5 viên bi."
+    },
+    {
+        "question": "48 : 8 = ?",
+        "options": [
+            "6",
+            "5",
+            "4",
+            "7"
+        ],
+        "answer": 0,
+        "explanation": "48 chia 8 bằng 6. Ví dụ: Em có 48 cái bánh chia đều cho 8 bạn, mỗi bạn được mấy cái? Đáp án: 48 : 8 = 6 cái bánh."
+    },
+    {
+        "question": "56 : 8 = ?",
+        "options": [
+            "7",
+            "6",
+            "5",
+            "8"
+        ],
+        "answer": 0,
+        "explanation": "56 chia 8 bằng 7. Ví dụ: Em có 56 cái kẹo chia đều cho 8 bạn, mỗi bạn được mấy cái? Đáp án: 56 : 8 = 7 cái kẹo."
+    },
+    {
+        "question": "64 : 8 = ?",
+        "options": [
+            "8",
+            "7",
+            "6",
+            "9"
+        ],
+        "answer": 0,
+        "explanation": "64 chia 8 bằng 8. Ví dụ: Em có 64 quả cam chia đều cho 8 bạn, mỗi bạn được mấy quả? Đáp án: 64 : 8 = 8 quả cam."
+    },
+    {
+        "question": "72 : 8 = ?",
+        "options": [
+            "9",
+            "8",
+            "7",
+            "6"
+        ],
+        "answer": 0,
+        "explanation": "72 chia 8 bằng 9. Ví dụ: Em có 72 cái bánh chia đều cho 8 bạn, mỗi bạn được mấy cái? Đáp án: 72 : 8 = 9 cái bánh."
+    },
+    {
+        "question": "9 : 9 = ?",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "answer": 0,
+        "explanation": "9 chia 9 bằng 1. Ví dụ: Em có 9 cái bánh chia đều cho 9 bạn, mỗi bạn được mấy cái? Đáp án: 9 : 9 = 1 cái bánh."
+    },
+    {
+        "question": "18 : 9 = ?",
+        "options": [
+            "2",
+            "1",
+            "3",
+            "4"
+        ],
+        "answer": 0,
+        "explanation": "18 chia 9 bằng 2. Ví dụ: Em có 18 quả cam chia đều cho 9 bạn, mỗi bạn được mấy quả? Đáp án: 18 : 9 = 2 quả cam."
+    },
+    {
+        "question": "27 : 9 = ?",
+        "options": [
+            "3",
+            "2",
+            "1",
+            "4"
+        ],
+        "answer": 0,
+        "explanation": "27 chia 9 bằng 3. Ví dụ: Em có 27 cái kẹo chia đều cho 9 bạn, mỗi bạn được mấy cái? Đáp án: 27 : 9 = 3 cái kẹo."
+    },
+    {
+        "question": "36 : 9 = ?",
+        "options": [
+            "4",
+            "3",
+            "2",
+            "5"
+        ],
+        "answer": 0,
+        "explanation": "36 chia 9 bằng 4. Ví dụ: Em có 36 cái bánh chia đều cho 9 bạn, mỗi bạn được mấy cái? Đáp án: 36 : 9 = 4 cái bánh."
+    },
+    {
+        "question": "45 : 9 = ?",
+        "options": [
+            "5",
+            "4",
+            "3",
+            "6"
+        ],
+        "answer": 0,
+        "explanation": "45 chia 9 bằng 5. Ví dụ: Em có 45 viên bi chia đều cho 9 bạn, mỗi bạn được mấy viên? Đáp án: 45 : 9 = 5 viên bi."
+    },
+    {
+        "question": "54 : 9 = ?",
+        "options": [
+            "6",
+            "5",
+            "4",
+            "7"
+        ],
+        "answer": 0,
+        "explanation": "54 chia 9 bằng 6. Ví dụ: Em có 54 cái bánh chia đều cho 9 bạn, mỗi bạn được mấy cái? Đáp án: 54 : 9 = 6 cái bánh."
+    },
+    {
+        "question": "63 : 9 = ?",
+        "options": [
+            "7",
+            "6",
+            "5",
+            "8"
+        ],
+        "answer": 0,
+        "explanation": "63 chia 9 bằng 7. Ví dụ: Em có 63 cái kẹo chia đều cho 9 bạn, mỗi bạn được mấy cái? Đáp án: 63 : 9 = 7 cái kẹo."
+    },
+    {
+        "question": "72 : 9 = ?",
+        "options": [
+            "8",
+            "7",
+            "6",
+            "9"
+        ],
+        "answer": 0,
+        "explanation": "72 chia 9 bằng 8. Ví dụ: Em có 72 quả cam chia đều cho 9 bạn, mỗi bạn được mấy quả? Đáp án: 72 : 9 = 8 quả cam."
+    },
+    {
+        "question": "81 : 9 = ?",
+        "options": [
+            "9",
+            "8",
+            "7",
+            "6"
+        ],
+        "answer": 0,
+        "explanation": "81 chia 9 bằng 9. Ví dụ: Em có 81 cái bánh chia đều cho 9 bạn, mỗi bạn được mấy cái? Đáp án: 81 : 9 = 9 cái bánh."
+    }
+]

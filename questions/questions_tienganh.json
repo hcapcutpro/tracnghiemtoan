@@ -1,5 +1,104 @@
 [
     {
+        "question": "Where is the kitchen?",
+        "options": [
+            "It’s here",
+            "It’s there",
+            "It’s in the house",
+            "It’s on the table"
+        ],
+        "answer": 1,
+        "explanation": "'Where is the kitchen?' nghĩa là 'Nhà bếp ở đâu?'. Câu trả lời đúng là 'It's there' = 'Nó ở kia'."
+    },
+    {
+        "question": "What is she doing?",
+        "options": [
+            "Listening",
+            "Writing",
+            "Drawing",
+            "Singing"
+        ],
+        "answer": 3,
+        "explanation": "'What is she doing?' nghĩa là 'Cô ấy đang làm gì?'. 'Singing' là đang hát – đúng với hình ảnh và bài học."
+    },
+    {
+        "question": "Would you like some milk?",
+        "options": [
+            "Yes, please",
+            "I have milk",
+            "I am milk",
+            "You like milk"
+        ],
+        "answer": 0,
+        "explanation": "Câu hỏi này có nghĩa là 'Bạn có muốn uống sữa không?'. Trả lời lịch sự: 'Yes, please' = 'Vâng, làm ơn.'"
+    },
+    {
+        "question": "She has a ________.",
+        "options": [
+            "bus",
+            "car",
+            "kite",
+            "doll"
+        ],
+        "answer": 3,
+        "explanation": "'She has a doll' nghĩa là 'Cô ấy có một con búp bê'. Doll = búp bê là đồ chơi của bạn gái."
+    },
+    {
+        "question": "What’s his job?",
+        "options": [
+            "He’s a farmer",
+            "He’s a playing",
+            "He’s teacher",
+            "He doctor"
+        ],
+        "answer": 0,
+        "explanation": "'What’s his job?' là 'Nghề của anh ấy là gì?'. 'He’s a farmer' nghĩa là 'Anh ấy là nông dân'."
+    },
+    {
+        "question": "Where are the books?",
+        "options": [
+            "They’re on the table",
+            "They’re here",
+            "It’s there",
+            "They are in"
+        ],
+        "answer": 0,
+        "explanation": "'Where are the books?' nghĩa là 'Những quyển sách ở đâu?'. Trả lời: 'Chúng ở trên bàn' = 'They’re on the table'."
+    },
+    {
+        "question": "Do you have any cats?",
+        "options": [
+            "Yes, I do",
+            "I do have",
+            "Yes, I am",
+            "Yes, I has"
+        ],
+        "answer": 0,
+        "explanation": "Câu hỏi: 'Bạn có con mèo nào không?' → Trả lời đúng là 'Yes, I do' = 'Có, mình có'."
+    },
+    {
+        "question": "There are two ______ in the room.",
+        "options": [
+            "kitchen",
+            "chairs",
+            "rice",
+            "toys"
+        ],
+        "answer": 1,
+        "explanation": "'Có hai cái ghế trong phòng' → 'There are two chairs in the room'. Chairs = những cái ghế."
+    },
+    {
+        "question": "How old is he?",
+        "options": [
+            "He’s nineteen",
+            "He’s teacher",
+            "He’s a cook",
+            "He is here"
+        ],
+        "answer": 0,
+        "explanation": "'How old is he?' nghĩa là 'Anh ấy bao nhiêu tuổi?'. Trả lời: 'He’s nineteen' = 'Anh ấy 19 tuổi'."
+    },
+    {
         "question": "What is the English word for 'con chó'?",
         "options": [
             "Dog",
