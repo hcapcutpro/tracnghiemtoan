@@ -12,6 +12,9 @@ let countdownSeconds = 0;
 let perQuestionTimer = null;
 let perQuestionSeconds = 0;
 
+// Add a flag to track if we're in a quiz
+let isQuizActive = false;
+
 const subjectFileMap = {
   toan_cb: "questions_toan_cb.json",
   toan_nc: "questions_toan_nc.json",
@@ -52,6 +55,7 @@ function selectSubject(subject) {
         currentIndex = 0;
         answers = Array(currentQuiz.length).fill(null);
         quizSubmitted = false;
+        isQuizActive = true; // Set flag when starting quiz
         document.getElementById("quiz-container").classList.remove("hidden");
         document.getElementById("result").classList.add("hidden");
         document
@@ -264,6 +268,7 @@ function updateCountdown() {
 
 function showResult() {
   clearInterval(timerInterval);
+  isQuizActive = false; // Reset flag when quiz is completed
   const correct = answers.filter(
     (ans, idx) => ans === currentQuiz[idx].answer
   ).length;
@@ -363,16 +368,97 @@ function resetQuiz() {
 }
 
 function confirmNavigation(message) {
-  return window.confirm(message);
+  // For iOS devices, we'll use a custom modal dialog
+  if (/iPad|iPhone|iPod/.test(navigator.userAgent)) {
+    // Create and show a custom modal
+    const modal = document.createElement("div");
+    modal.style.cssText = `
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 100vw;
+      height: 100vh;
+      background: rgba(0, 0, 0, 0.5);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 9999;
+      -webkit-overflow-scrolling: touch;
+    `;
+
+    const modalContent = document.createElement("div");
+    modalContent.style.cssText = `
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 90%;
+      width: 320px;
+      text-align: center;
+      margin: 20px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      position: relative;
+      z-index: 10000;
+    `;
+
+    modalContent.innerHTML = `
+      <p style="margin-bottom: 20px; font-size: 16px; line-height: 1.4;">${message}</p>
+      <div style="display: flex; justify-content: center; gap: 10px;">
+        <button id="confirm-yes" style="padding: 12px 24px; background: #4CAF50; color: white; border: none; border-radius: 5px; font-size: 16px; min-width: 100px; -webkit-tap-highlight-color: transparent;">Đồng ý</button>
+        <button id="confirm-no" style="padding: 12px 24px; background: #f44336; color: white; border: none; border-radius: 5px; font-size: 16px; min-width: 100px; -webkit-tap-highlight-color: transparent;">Không</button>
+      </div>
+    `;
+
+    // Prevent scrolling of the background
+    document.body.style.overflow = "hidden";
+    document.body.style.position = "fixed";
+    document.body.style.width = "100%";
+    document.body.style.top = `-${window.scrollY}px`;
+
+    modal.appendChild(modalContent);
+    document.body.appendChild(modal);
+
+    return new Promise((resolve) => {
+      const handleConfirm = (result) => {
+        document.body.removeChild(modal);
+        // Restore scrolling
+        document.body.style.overflow = "";
+        document.body.style.position = "";
+        document.body.style.width = "";
+        document.body.style.top = "";
+        window.scrollTo(0, parseInt(document.body.style.top || "0") * -1);
+        resolve(result);
+      };
+
+      document.getElementById("confirm-yes").onclick = () =>
+        handleConfirm(true);
+      document.getElementById("confirm-no").onclick = () =>
+        handleConfirm(false);
+
+      // Also handle touch events explicitly for iOS
+      document.getElementById("confirm-yes").ontouchend = (e) => {
+        e.preventDefault();
+        handleConfirm(true);
+      };
+      document.getElementById("confirm-no").ontouchend = (e) => {
+        e.preventDefault();
+        handleConfirm(false);
+      };
+    });
+  } else {
+    // For other devices, use the standard confirm
+    return window.confirm(message);
+  }
 }
 
-function backToHome() {
+async function backToHome() {
   // Check if quiz is in progress (not submitted and has answers)
   const isQuizInProgress =
     !quizSubmitted && answers.some((answer) => answer !== null);
 
   if (isQuizInProgress) {
-    const confirmed = confirmNavigation(
+    const confirmed = await confirmNavigation(
       "Bạn đang làm bài. Nếu thoát, tiến độ sẽ bị mất. Bạn có chắc muốn thoát không?"
     );
     if (!confirmed) {
@@ -380,20 +466,34 @@ function backToHome() {
     }
   }
 
+  isQuizActive = false; // Reset flag when leaving quiz
   document.getElementById("result").classList.add("hidden");
   document.getElementById("quiz-container").classList.add("hidden");
   document.getElementById("subject-selection-grid").classList.remove("hidden");
-  document.getElementById("subject").value = "";
 }
 
-// Add event listener for page unload
-window.addEventListener("beforeunload", function (e) {
-  // Check if quiz is in progress
-  const isQuizInProgress =
-    !quizSubmitted && answers.some((answer) => answer !== null);
+// Handle page visibility changes
+document.addEventListener("visibilitychange", async function () {
+  if (document.visibilityState === "hidden" && isQuizActive && !quizSubmitted) {
+    // If the page is being hidden (user switching tabs or closing) and quiz is active
+    const confirmed = await confirmNavigation(
+      "Bạn đang làm bài. Nếu thoát, tiến độ sẽ bị mất. Bạn có chắc muốn thoát không?"
+    );
+    if (!confirmed) {
+      // Prevent the page from being hidden
+      document.addEventListener("visibilitychange", function preventHide() {
+        document.removeEventListener("visibilitychange", preventHide);
+        if (document.visibilityState === "hidden") {
+          document.documentElement.style.display = "block";
+        }
+      });
+    }
+  }
+});
 
-  if (isQuizInProgress) {
-    // Standard way to show confirmation dialog when leaving page
+// Handle beforeunload for non-iOS devices
+window.addEventListener("beforeunload", function (e) {
+  if (isQuizActive && !quizSubmitted) {
     e.preventDefault();
     e.returnValue = "";
   }
