@@ -176,7 +176,7 @@
         "explanation": "'Doctor' nghĩa là bác sĩ. Đây là nghề nghiệp được học trong bài Jobs."
     },
     {
-        "question": "What is the English word for 'lamp'?",
+        "question": "What is the English word for 'đèn'?",
         "options": [
             "Lamp",
             "Dog",
@@ -187,7 +187,7 @@
         "explanation": "'Lamp' là đèn. Là đồ vật trong phòng ngủ hoặc bàn học."
     },
     {
-        "question": "What is the English word for 'rabbit'?",
+        "question": "What is the English word for 'con thỏ'?",
         "options": [
             "Rabbit",
             "Milk",
@@ -198,7 +198,7 @@
         "explanation": "'Rabbit' là con thỏ – một trong những con vật nuôi (pet) học trong Unit 16."
     },
     {
-        "question": "What is the English word for 'egg'?",
+        "question": "What is the English word for 'quả trứng'?",
         "options": [
             "Egg",
             "Milk",
@@ -209,7 +209,7 @@
         "explanation": "'Egg' nghĩa là trứng – là một loại thức ăn trong bữa ăn sáng."
     },
     {
-        "question": "What is the English word for 'juice'?",
+        "question": "What is the English word for 'nước ép'?",
         "options": [
             "Juice",
             "Rice",
@@ -220,7 +220,7 @@
         "explanation": "'Juice' là nước ép – là đồ uống thường dùng cho trẻ em."
     },
     {
-        "question": "What is the English word for 'skipping'?",
+        "question": "What is the English word for 'nhảy dây'?",
         "options": [
             "Skipping",
             "Sleeping",
@@ -231,7 +231,7 @@
         "explanation": "'Skipping' nghĩa là nhảy dây – là một hoạt động ngoài trời mà trẻ em rất hay chơi."
     },
     {
-        "question": "What is the English word for 'watching TV'?",
+        "question": "What is the English word for 'Xem Tivi'?",
         "options": [
             "Dancing",
             "Watching TV",
@@ -242,7 +242,7 @@
         "explanation": "'Watching TV' là xem ti vi – là hoạt động giải trí tại nhà. Được học trong bài về hoạt động hằng ngày."
     },
     {
-        "question": "Which word means 'to climb up something'? (Từ nào nghĩa là leo lên?)",
+        "question": "Which word means 'leo trèo'?",
         "options": [
             "Swinging",
             "Reading",
@@ -286,7 +286,7 @@
         "explanation": "'Egg' là trứng – là thức ăn. Các từ còn lại là đồ uống."
     },
     {
-        "question": "What is the English word for 'dining room'?",
+        "question": "What is the English word for 'Phòng ăn'?",
         "options": [
             "Kitchen",
             "Dining room",
@@ -297,7 +297,7 @@
         "explanation": "'Dining room' là phòng ăn – nơi gia đình ngồi ăn cơm."
     },
     {
-        "question": "What is the English word for 'door'?",
+        "question": "What is the English word for 'Cửa chính'?",
         "options": [
             "Window",
             "Wall",
@@ -319,7 +319,7 @@
         "explanation": "'Milk' là sữa – không phải phòng. Các từ còn lại là các phòng trong nhà."
     },
     {
-        "question": "What is the English word for 'writing'?",
+        "question": "What is the English word for 'Ghi chép'?",
         "options": [
             "Writing",
             "Drawing",
@@ -330,7 +330,7 @@
         "explanation": "'Writing' là viết – hoạt động học sinh thường làm trong lớp."
     },
     {
-        "question": "What is the English word for 'fish'?",
+        "question": "What is the English word for 'Con cá'?",
         "options": [
             "Dog",
             "Fish",
@@ -341,7 +341,7 @@
         "explanation": "'Fish' là con cá – là một từ chỉ con vật và cũng là một món ăn."
     },
     {
-        "question": "What is the English word for 'elephant'?",
+        "question": "What is the English word for 'Con voi'?",
         "options": [
             "Bird",
             "Fish",
@@ -404,7 +404,7 @@
             "Thin"
         ],
         "answer": 2,
-        "explanation": "'Big' nghĩa là to/lớn → trái nghĩa là 'Small' = nhỏ."
+        "explanation": "'Big' nghĩa là to/lớn → trái nghĩa(opposite) là 'Small' = nhỏ."
     },
     {
         "question": "Which one is a verb (động từ)?",
@@ -418,7 +418,7 @@
         "explanation": "'Eat' là động từ – hành động ăn. Các từ còn lại là danh từ (chỉ đồ ăn)."
     },
     {
-        "question": "What is the English word for 'train'?",
+        "question": "What is the English word for 'tàu lửa'?",
         "options": [
             "Truck",
             "Plane",
@@ -440,7 +440,7 @@
         "explanation": "'Running' là chạy – một hành động. Các từ khác là đồ vật hoặc danh từ."
     },
     {
-        "question": "What is the English word for 'bird'?",
+        "question": "What is the English word for 'con chim'?",
         "options": [
             "Cat",
             "Bird",
@@ -484,7 +484,7 @@
         "explanation": "'Tiger' là con hổ – là động vật hoang dã, không phải thú cưng."
     },
     {
-        "question": "What is the English word for 'skating'?",
+        "question": "What is the English word for 'trượt patin'?",
         "options": [
             "Skating",
             "Running",
@@ -495,7 +495,7 @@
         "explanation": "'Skating' là trượt patin – một hoạt động thể thao vui nhộn."
     },
     {
-        "question": "What is the English word for 'goldfish'?",
+        "question": "What is the English word for 'cá vàng'?",
         "options": [
             "Parrot",
             "Dog",
@@ -517,7 +517,7 @@
         "explanation": "'Cook' là động từ 'nấu ăn'. Ví dụ: 'My mother is cooking in the kitchen.'"
     },
     {
-        "question": "What is the English word for 'peacock'?",
+        "question": "What is the English word for 'con công'?",
         "options": [
             "Tiger",
             "Peacock",
@@ -539,7 +539,7 @@
         "explanation": "'Climbing' là leo trèo – ví dụ: 'The monkey is climbing the tree.'"
     },
     {
-        "question": "What is the English word for 'window'?",
+        "question": "What is the English word for 'cửa sổ'?",
         "options": [
             "Window",
             "Door",
@@ -572,7 +572,7 @@
         "explanation": "'Drink' là uống. Ví dụ: 'I drink milk every morning.'"
     },
     {
-        "question": "What is the English word for 'swinging'?",
+        "question": "What is the English word for 'chơi xích đu'?",
         "options": [
             "Swinging",
             "Flying",
@@ -583,7 +583,7 @@
         "explanation": "'Swinging' là đu xích đu – một trò chơi ngoài trời rất vui."
     },
     {
-        "question": "What is the English word for 'meat'?",
+        "question": "What is the English word for 'thịt'?",
         "options": [
             "Fish",
             "Rice",
@@ -594,7 +594,7 @@
         "explanation": "'Meat' là thịt – một loại thức ăn trong bữa ăn hằng ngày."
     },
     {
-        "question": "What is the English word for 'plane'?",
+        "question": "What is the English word for 'máy bay'?",
         "options": [
             "Train",
             "Ship",
@@ -627,7 +627,7 @@
         "explanation": "'Lamp' là cái đèn – dùng để chiếu sáng khi trời tối."
     },
     {
-        "question": "What is the English word for 'walking'?",
+        "question": "What is the English word for 'đi bộ'?",
         "options": [
             "Running",
             "Walking",
@@ -660,7 +660,7 @@
         "explanation": "'Twelve' là số 12 – đứng ngay sau 'Eleven'."
     },
     {
-        "question": "What is the English word for 'beans'?",
+        "question": "What is the English word for 'hạt đậu'?",
         "options": [
             "Rice",
             "Egg",
@@ -671,7 +671,7 @@
         "explanation": "'Beans' là đậu – là một loại thức ăn tốt cho sức khỏe."
     },
     {
-        "question": "What is the English word for 'worker'?",
+        "question": "What is the English word for 'công nhân'?",
         "options": [
             "Worker",
             "Doctor",
@@ -693,7 +693,7 @@
         "explanation": "'Teddy bear' là gấu bông – đồ chơi mềm được nhiều trẻ em yêu thích."
     },
     {
-        "question": "What is the English word for 'truck'?",
+        "question": "What is the English word for 'xe tải'?",
         "options": [
             "Car",
             "Truck",
@@ -715,7 +715,7 @@
         "explanation": "'Parrot' là con vẹt – có thể bắt chước tiếng người và có lông rất đẹp."
     },
     {
-        "question": "What is the English word for 'cycling'?",
+        "question": "What is the English word for 'Đi xe đạp'?",
         "options": [
             "Running",
             "Cycling",
