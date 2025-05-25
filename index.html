@@ -78,6 +78,15 @@
             <div class="timer" id="timer">30:00</div>
           </div>
 
+          <div class="navigation">
+            <button id="prev-btn" onclick="prevQuestion()">Previous</button>
+            <button id="next-btn" onclick="nextQuestion()">Next</button>
+            <button id="submit-btn" class="hidden" onclick="submitQuiz()">
+              Submit
+            </button>
+            <button id="cancel-btn" onclick="backToHome()">Back To Home</button>
+          </div>
+
           <div class="question-container">
             <div class="progress">
               Question <span id="current-question">1</span>/<span
@@ -87,15 +96,6 @@
             </div>
             <h2 id="question-text"></h2>
             <div id="options" class="options"></div>
-          </div>
-
-          <div class="navigation">
-            <button id="prev-btn" onclick="prevQuestion()">Previous</button>
-            <button id="next-btn" onclick="nextQuestion()">Next</button>
-            <button id="submit-btn" class="hidden" onclick="submitQuiz()">
-              Submit
-            </button>
-            <button id="cancel-btn" onclick="backToHome()">Back To Home</button>
           </div>
         </div>
         <div id="result" class="result hidden">
