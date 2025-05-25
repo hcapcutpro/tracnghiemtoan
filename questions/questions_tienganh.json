@@ -1,25 +1,14 @@
 [
     {
-        "question": "Where is the kitchen?",
-        "options": [
-            "It’s here",
-            "It’s there",
-            "It’s in the house",
-            "It’s on the table"
-        ],
-        "answer": 1,
-        "explanation": "'Where is the kitchen?' nghĩa là 'Nhà bếp ở đâu?'. Câu trả lời đúng là 'It's there' = 'Nó ở kia'."
-    },
-    {
         "question": "What is she doing?",
         "options": [
-            "Listening",
-            "Writing",
-            "Drawing",
+            "Father",
+            "Door",
+            "Bed",
             "Singing"
         ],
         "answer": 3,
-        "explanation": "'What is she doing?' nghĩa là 'Cô ấy đang làm gì?'. 'Singing' là đang hát – đúng với hình ảnh và bài học."
+        "explanation": "'What is she doing?' nghĩa là 'Cô ấy đang làm gì?'. 'Singing' là đang hát"
     },
     {
         "question": "Would you like some milk?",
