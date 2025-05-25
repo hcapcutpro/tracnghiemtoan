@@ -3,14 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ôn tập kiến thức lớp 3</title>
+    <title>Kiểm tra kiến thức tiểu học</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <div class="container">
       <header>
         <h1>
-          Ôn Thi, Chúc Đình Nhân đạt kết quả cao trong kỳ thi sắp tới nha!
+          Kiểm tra kiến thức tiểu học
+<!--           Ôn Thi, Chúc Đình Nhân đạt kết quả cao trong kỳ thi sắp tới nha! -->
         </h1>
       </header>
 
@@ -46,7 +47,7 @@
               class="subject-card tienganh"
               onclick="selectSubject('tienganh')"
             >
-              🇬🇧<br /><br />Ôn tập <br />Tiếng Anh
+              🇬🇧<br /><br />Review <br />English
             </button>
 <!--             <button
               class="subject-card tonghop"
@@ -79,7 +80,7 @@
 
           <div class="question-container">
             <div class="progress">
-              Câu <span id="current-question">1</span>/<span
+              Question <span id="current-question">1</span>/<span
                 id="total-questions"
                 >30</span
               >
@@ -89,32 +90,32 @@
           </div>
 
           <div class="navigation">
-            <button id="prev-btn" onclick="prevQuestion()">Câu trước</button>
-            <button id="next-btn" onclick="nextQuestion()">Câu tiếp</button>
+            <button id="prev-btn" onclick="prevQuestion()">Previous</button>
+            <button id="next-btn" onclick="nextQuestion()">Next</button>
             <button id="submit-btn" class="hidden" onclick="submitQuiz()">
-              Xác nhận
+              Submit
             </button>
-            <button id="cancel-btn" onclick="backToHome()">Huỷ làm bài</button>
+            <button id="cancel-btn" onclick="backToHome()">Back To Home</button>
           </div>
         </div>
         <div id="result" class="result hidden">
-          <h2>Kết quả</h2>
+          <h2>Result</h2>
           <p>
-            Số câu đúng:
+            Correct Answers:
             <span id="correct-answers">0</span>/<span
               id="total-questions-result"
               >0</span
             >
           </p>
-          <p>Tỷ lệ đúng: <span id="percentage">0</span>%</p>
+          <p>Correct Percentage: <span id="percentage">0</span>%</p>
           <p>
-            Thời gian làm bài:
+            Time taken:
             <span id="time-taken">00:00</span>
           </p>
           <p class="feedback"></p>
           <div id="explanations"></div>
-          <button onclick="resetQuiz()">Làm lại</button>
-          <button onclick="backToHome()">Quay lại chọn môn</button>
+          <button onclick="resetQuiz()">Try Again</button>
+          <button onclick="backToHome()">Back To Home</button>
         </div>
       </main>
     </div>
